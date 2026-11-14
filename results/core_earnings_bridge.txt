@@ -8,8 +8,9 @@ start: Q3 without Longview, management's one-offs added back 9,600k (my narrower
   new first lien loans, assumed mid-quarter                      +376k
   SLFP common distributions (estimate)                         +1,526k
   lower base fee on a smaller book                               +220k
-run-rate quarter without Longview: pre-incentive 11,050k, fee 497k, NII 10,554k = $0.214/share vs $0.25 declared for Q1 2027
+  fee income at Q3 2026 lending pace and the 2023-2025 fee rate     +875k
+run-rate quarter without Longview: pre-incentive 11,925k, fee 1,372k, NII 10,554k = $0.214/share vs $0.25 declared for Q1 2027
 gap to a $0.25 distribution: 1,747k a quarter, 6,987k a year
 Longview cash 99,241k: buyback room at 1.35x net leverage = 55,310k = 9,082k shares at $6.09, the rest 43,931k repays Tranche A
-  NAV/share after buyback $14.81 (from $13.20); quarterly NII $0.247/share
-  if instead all of it goes back into loans: NII $0.223/share
+  NAV/share after buyback $14.81 (from $13.20); quarterly NII $0.265/share
+  if instead all of it goes back into loans: NII $0.238/share

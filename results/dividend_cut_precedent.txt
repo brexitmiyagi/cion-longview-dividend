@@ -1,0 +1,17 @@
+  CION  2026-01-07: cut 17%, yield before 14.8%, stock -0.5%, against BIZD -0.9%
+  CGBD  2025-05-06: cut 15%, yield before 13.2%, stock -4.2%, against BIZD -4.6%
+  CGBD  2026-05-11: cut 13%, yield before 13.9%, stock -2.3%, against BIZD -0.6%
+  MFIC  2026-02-26: cut 18%, yield before 13.9%, stock -11.4%, against BIZD -6.4%
+  MSDL  2026-02-26: cut 10%, yield before 12.8%, stock -5.2%, against BIZD +0.1%
+  OFS   2025-10-30: cut 50%, yield before 19.5%, stock -14.6%, against BIZD -14.1%
+  TCPC  2024-02-29: cut 23%, yield before 15.8%, stock -5.5%, against BIZD -5.8%
+  GBDC  2026-02-04: cut 15%, yield before 12.2%, stock -3.2%, against BIZD -1.4%
+  SLRC  2026-05-05: cut 24%, yield before 10.3%, stock -12.5%, against BIZD -12.3%
+  NMFC  2026-05-04: cut 22%, yield before 14.9%, stock -2.2%, against BIZD -2.7%
+  TPVG  2024-08-07: cut 25%, yield before 19.6%, stock -8.3%, against BIZD -8.2%
+  PSEC  2024-11-08: cut 25%, yield before 13.8%, stock -16.3%, against BIZD -16.3%
+  PSEC  2026-05-07: cut 22%, yield before 19.4%, stock -11.2%, against BIZD -8.6%
+  CION  2026-11-05: cut 17%, yield before 17.0%, stock -10.8%, against BIZD -9.9%
+14 cuts: median move against BIZD -6.1%; fell more than BIZD in 13 of 14
+  yield of 13% or more before the cut (11): median -6.4%; under 13% (3): median -1.4%
+CION's own: 2026-01-07 cut 17%, -0.9% against BIZD; 2026-11-05 cut 17%, -9.9% against BIZD

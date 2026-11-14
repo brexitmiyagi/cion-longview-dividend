@@ -1,0 +1,14 @@
+year | non-affiliated | owned companies | total | new lending | non-affiliated fees per $ of new lending
+  2023: 7,871k | 3,823k | 11,694k | 350,203k | 2.25%
+  2024: 9,865k | 8,030k | 17,895k | 464,054k | 2.13%
+  2025: 9,447k | 10,625k | 20,072k | 263,997k | 3.58%
+  2026 (9M): 4,960k | -2,311k | 2,649k | 167,110k | 2.97%
+2023-2025: non-affiliated fees 2,265k a quarter on average, 2.52% of new lending
+Q3 2026 new lending 34,724k; at the 2023-2025 fee rate that's 875k a quarter
+fee income a quarter -> my 2027 NII:
+  none (Q3 2026 ran at about zero): 0k -> $0.85
+  new lending at the Q3 2026 pace, 2023-2025 fee rate (my base case): 875k -> $0.91
+  2023-2025 average, third-party borrowers only: 2,265k -> $1.01
+  first half 2026, all sources: 2,892k -> $1.06
+  2025 average, including fees from companies CION owns: 5,018k -> $1.21
+fee income needed for the $1.13 consensus: about 3,881k a quarter, 154m of new lending a quarter at the 2023-2025 fee rate

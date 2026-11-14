@@ -1,19 +1,19 @@
-run-rate pre-incentive NII without Longview (core_earnings_bridge.py): 11,050k = $0.225/share
+run-rate pre-incentive NII without Longview (core_earnings_bridge.py): 11,925k = $0.242/share
 
 quarter  | distribution | consensus | mine, cash not redeployed | mine, redeployed | coverage (not / redeployed)
-  Q4 2026  $0.30         $0.27      $0.229                     $0.229            0.76x / 0.76x
-  Q1 2027  $0.25         $0.28      $0.229                     $0.229            0.92x / 0.92x
-  Q2 2027  $0.25         $0.28      $0.214                     $0.226            0.86x / 0.90x
-  Q3 2027  $0.25         $0.29      $0.214                     $0.247            0.86x / 0.99x
-  four quarters: distributions $1.05; mine $0.89 not redeployed, $0.93 redeployed
+  Q4 2026  $0.30         $0.27      $0.244                     $0.244            0.81x / 0.81x
+  Q1 2027  $0.25         $0.28      $0.244                     $0.244            0.98x / 0.98x
+  Q2 2027  $0.25         $0.28      $0.217                     $0.239            0.87x / 0.95x
+  Q3 2027  $0.25         $0.29      $0.217                     $0.265            0.87x / 1.06x
+  four quarters: distributions $1.05; mine $0.92 not redeployed, $0.99 redeployed
 
 Longview dividend before closing (Q4 2026 and Q1 2027):
   none (0k a quarter): $0.214/share
-  H1 2026 average (2,618k a quarter): $0.229/share
-  Q3 2026 again (14,209k a quarter): $0.424/share
-what Longview would have to pay in Q4 for my numbers to reach the $0.27 consensus: about 5,054k
+  H1 2026 average (2,618k a quarter): $0.244/share
+  Q3 2026 again (14,209k a quarter): $0.438/share
+what Longview would have to pay in Q4 for my numbers to reach the $0.27 consensus: about 4,179k
 
-if fee income comes back to its first-half 2026 average (2,892k a quarter):
+if fee income comes back to its first-half 2026 average (2,017k a quarter):
   Q4 2026: $0.278 not redeployed, $0.278 redeployed
   Q1 2027: $0.278 not redeployed, $0.278 redeployed
   Q2 2027: $0.251 not redeployed, $0.276 redeployed
