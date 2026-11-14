@@ -1,0 +1,5 @@
+  bear, 41% of mark: proceeds 40,689k, gain on book cost 27,772k, against 66,847k of carryforwards: covered
+  base, 80% of mark: proceeds 79,393k, gain on book cost 66,476k, against 66,847k of carryforwards: covered
+  full mark: proceeds 99,241k, gain on book cost 86,324k, against 66,847k of carryforwards: 19,477k not covered
+  154% of mark: proceeds 152,831k, gain on book cost 139,914k, against 66,847k of carryforwards: 73,067k not covered
+  caveat: tax cost and book cost can differ, and other 2026-27 gains or losses also use the carryforwards

@@ -1,0 +1,8 @@
+CION's debt book on 30 Jun 2026, by borrower, fair value over cost:
+  borrowers whose loans went to SLFP: 19 borrowers, cost 339,792k, marked at 100.2% of cost; 0% of cost marked below 95%; 30% with a PIK feature; 0 ever marked below 90% since Sep 2024
+  everything else: 51 borrowers, cost 1,127,563k, marked at 86.1% of cost; 54% of cost marked below 95%; 50% with a PIK feature; 25 ever marked below 90% since Sep 2024
+SLFP's loans on 30 Sep 2026: par 177,439k, fair value 176,909k = 99.7% of par
+CION still holds other pieces of the same borrowers: cost 154,672k at 100.0% of cost
+SLFP capital: notes 125,000k (SOFR+4.75%, sold at 98.25), preferred 11,938k (11.5% cumulative), CION's common 47,750k
+  CION's common is first loss under 136,938k of senior capital: 3.7x assets per dollar of CION equity
+  CION's common marked at 47,523k on 30 Sep, -0.5% on what it was paid in
