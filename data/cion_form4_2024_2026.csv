@@ -1,0 +1,42 @@
+transaction_date,owner,title,code,shares,price,acquired_disposed,owned_after,source
+2024-03-20,BRESNER GREGG A.,President & CIO,P,4000,10.78,A,50099,https://www.sec.gov/Archives/edgar/data/1534254/000110465924037172/tm249445d1_4seq1.xml
+2024-03-25,Reisner Michael A,Co-Chairman & Co-CEO,P,469,10.65,A,43753.38,https://www.sec.gov/Archives/edgar/data/1534254/000110465924038873/tm249816-1_4seq1.xml
+2024-03-27,Gatto Mark,Co-Chairman & Co-CEO,P,1000,11.02,A,1000,https://www.sec.gov/Archives/edgar/data/1534254/000110465924040981/tm2410106-1_4seq1.xml
+2024-03-27,Gatto Mark,Co-Chairman & Co-CEO,P,50,11.02,A,50,https://www.sec.gov/Archives/edgar/data/1534254/000110465924040981/tm2410106-1_4seq1.xml
+2024-03-27,Gatto Mark,Co-Chairman & Co-CEO,P,50,11.02,A,50,https://www.sec.gov/Archives/edgar/data/1534254/000110465924040981/tm2410106-1_4seq1.xml
+2024-03-27,Gatto Mark,Co-Chairman & Co-CEO,P,50,11.02,A,50,https://www.sec.gov/Archives/edgar/data/1534254/000110465924040981/tm2410106-1_4seq1.xml
+2024-04-01,ROMAN STEPHEN,CCO & Secretary,P,450,11.05,A,9146.44,https://www.sec.gov/Archives/edgar/data/1534254/000110465924041754/tm2410352-1_4seq1.xml
+2024-04-05,Pinero Eric A.,Chief Legal Officer,P,450,11.11,A,7135.88,https://www.sec.gov/Archives/edgar/data/1534254/000110465924044243/tm2411228-1_4seq1.xml
+2024-05-13,Reisner Michael A,Co-Chairman & Co-CEO,P,407,12.27,A,44160.38,https://www.sec.gov/Archives/edgar/data/1534254/000110465924061100/tm2414485-1_4seq1.xml
+2024-05-17,BRESNER GREGG A.,President & CIO,P,2000,12.51,A,52099,https://www.sec.gov/Archives/edgar/data/1534254/000110465924062938/tm2414865-1_4seq1.xml
+2024-05-22,ROMAN STEPHEN,CCO & Secretary,P,400,12.41,A,9546.44,https://www.sec.gov/Archives/edgar/data/1534254/000110465924064120/tm2415282-1_4seq1.xml
+2024-05-28,Pinero Eric A.,Chief Legal Officer,P,403,12.42,A,7538.88,https://www.sec.gov/Archives/edgar/data/1534254/000110465924065977/tm2415762-1_4seq1.xml
+2024-06-25,BRESNER GREGG A.,President & CIO,W,2000,0,A,54099,https://www.sec.gov/Archives/edgar/data/1534254/000110465924075140/tm2418306-1_4seq1.xml
+2024-08-12,Arestia Charlie,See Remarks,P,450,11.94,A,450,https://www.sec.gov/Archives/edgar/data/1534254/000110465924089517/tm2421679-1_4seq1.xml
+2024-08-12,Breakstone Robert A,,P,1000,11.89,A,11879.98,https://www.sec.gov/Archives/edgar/data/1534254/000110465924088846/tm2421555-1_4seq1.xml
+2024-08-14,BRESNER GREGG A.,President & CIO,P,1000,12.05,A,55099,https://www.sec.gov/Archives/edgar/data/1534254/000110465924090419/tm2421869-1_4seq1.xml
+2024-08-15,BRESNER GREGG A.,President & CIO,P,2500,12.08,A,57599,https://www.sec.gov/Archives/edgar/data/1534254/000110465924090419/tm2421869-1_4seq1.xml
+2024-08-15,Pinero Eric A.,Chief Legal Officer,P,402,12.16,A,8163.06,https://www.sec.gov/Archives/edgar/data/1534254/000110465924089998/tm2421808-1_4seq1.xml
+2024-08-21,ROMAN STEPHEN,CCO & Secretary,P,450,12.18,A,10277.78,https://www.sec.gov/Archives/edgar/data/1534254/000110465924091600/tm2422369-1_4seq1.xml
+2024-08-26,Reisner Michael A,Co-Chairman & Co-CEO,P,400,12.33,A,44560.38,https://www.sec.gov/Archives/edgar/data/1534254/000110465924093217/tm2422779-1_4seq1.xml
+2024-11-12,Arestia Charlie,See Remarks,P,750,11.39,A,1213.43,https://www.sec.gov/Archives/edgar/data/1534254/000201622324000002/wk-form4_1731516426.xml
+2024-11-12,BRESNER GREGG A.,President & CIO,P,2000,11.41,A,59599,https://www.sec.gov/Archives/edgar/data/1534254/000162828024047996/wk-form4_1731627968.xml
+2024-11-15,Breakstone Robert A,,P,1000,11.34,A,13237.77,https://www.sec.gov/Archives/edgar/data/1534254/000162828024048201/wk-form4_1731946593.xml
+2024-11-21,ROMAN STEPHEN,CCO & Secretary,P,435,11.53,A,11019.62,https://www.sec.gov/Archives/edgar/data/1534254/000162828024048794/wk-form4_1732208274.xml
+2024-11-21,Reisner Michael A,Co-Chairman & Co-CEO,P,437,11.44,A,44997.38,https://www.sec.gov/Archives/edgar/data/1534254/000162828024048935/wk-form4_1732295285.xml
+2025-03-17,Breakstone Robert A,,P,500,11.05,A,14199.71,https://www.sec.gov/Archives/edgar/data/1534254/000162828025013436/wk-form4_1742326744.xml
+2025-03-17,ROMAN STEPHEN,CCO & Secretary,P,455,10.93,A,11809.45,https://www.sec.gov/Archives/edgar/data/1534254/000162828025013438/wk-form4_1742326829.xml
+2025-03-18,BRESNER GREGG A.,President & CIO,P,2000,10.72,A,61599,https://www.sec.gov/Archives/edgar/data/1534254/000162828025014035/wk-form4_1742484062.xml
+2025-03-18,FINLAY PETER I.,,P,250,10.76,A,2550,https://www.sec.gov/Archives/edgar/data/1534254/000162828025013758/wk-form4_1742407723.xml
+2025-03-18,Pinero Eric A.,Chief Legal Officer,P,465,10.72,A,9127.2,https://www.sec.gov/Archives/edgar/data/1534254/000162828025013433/wk-form4_1742326486.xml
+2025-03-19,BRESNER GREGG A.,President & CIO,P,1000,10.98,A,62599,https://www.sec.gov/Archives/edgar/data/1534254/000162828025014035/wk-form4_1742484062.xml
+2025-03-24,Breakstone Robert A,,P,500,10.75,A,14699.71,https://www.sec.gov/Archives/edgar/data/1534254/000162828025014668/wk-form4_1742927573.xml
+2025-03-28,Reisner Michael A,Co-Chairman & Co-CEO,P,490,10.45,A,45487.38,https://www.sec.gov/Archives/edgar/data/1534254/000162828025015577/wk-form4_1743436816.xml
+2025-03-31,BRESNER GREGG A.,President & CIO,P,1000,10.41,A,63599,https://www.sec.gov/Archives/edgar/data/1534254/000162828025016113/wk-form4_1743615601.xml
+2025-04-01,BRESNER GREGG A.,President & CIO,P,1000,10.48,A,64599,https://www.sec.gov/Archives/edgar/data/1534254/000162828025016113/wk-form4_1743615601.xml
+2025-05-12,Gatto Mark,Co-Chairman & Co-CEO,P,2070,9.66,A,3070,https://www.sec.gov/Archives/edgar/data/1534254/000162828025024992/wk-form4_1747159228.xml
+2025-05-12,Reisner Michael A,Co-Chairman & Co-CEO,P,515,9.69,A,46002.38,https://www.sec.gov/Archives/edgar/data/1534254/000162828025024949/wk-form4_1747148971.xml
+2025-05-16,Breakstone Robert A,,P,500,9.72,A,15781.6,https://www.sec.gov/Archives/edgar/data/1534254/000162828025026410/wk-form4_1747667763.xml
+2025-05-22,ROMAN STEPHEN,CCO & Secretary,P,600,9.48,A,12890.97,https://www.sec.gov/Archives/edgar/data/1534254/000162828025027203/wk-form4_1747937051.xml
+2025-05-27,FINLAY PETER I.,,P,200,9.66,A,2750,https://www.sec.gov/Archives/edgar/data/1534254/000162828025028072/wk-form4_1748446238.xml
+2025-08-12,Reisner Michael A,Co-Chairman & Co-CEO,P,472,10.57,A,46474.38,https://www.sec.gov/Archives/edgar/data/1534254/000155316625000003/wk-form4_1755112680.xml
