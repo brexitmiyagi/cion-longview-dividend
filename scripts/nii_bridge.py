@@ -30,10 +30,14 @@ G['core'] = core0; G['CASES']['base'].update(case0)
 
 print(f"Q1 2027, the last quarter with Longview dividends (H1 2026 average, {lvd:,.0f}k): ${q1:.3f}")
 print(f"  the Longview dividend alone is about ${lvd/sh0:.3f} a share before the incentive fee")
+# printed in cents to one decimal; each step is the difference between the rounded levels, so
+# the column adds up exactly as printed
 prev = None
 for lab, v in steps:
-    print(f"  {lab}: ${v:.3f}" + (f" ({v-prev:+.3f})" if prev is not None else ''))
-    prev = v
+    lv_c = round(v * 100, 1)
+    print(f"  {lab}: {lv_c:.1f} cents" + (f" ({lv_c - prev:+.1f})" if prev is not None else ''))
+    prev = lv_c
+prev = prev / 100
 c = cons['Q3 2027']
 print(f"  consensus for Q3 2027: ${c:.2f}; not explained by anything above: ${c-prev:+.3f}")
 print(f"  for 2027 as a whole: mine ${sum(x['nii_ps'] for x in run('base')[1:]):.2f}, consensus ${cons['FY 2027']:.2f}")

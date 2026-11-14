@@ -15,10 +15,13 @@
 # Dividends before closing: the first-half 2026 average. The cash goes half to work in Q2 2027 and
 # fully in Q3: buybacks up to 1.35x net leverage at $6.14, the rest repays SOFR+4.75% notes.
 #
+# Rates: SOFR follows the futures curve of 13 Nov 2026 (common.curve_add), rising from about 4.0%
+# in Q4 2026 to about 4.8% in Q4 2027. run(case, rate_add={}) gives the old flat-rate version.
+#
 # Distributions: $0.30 in Q4 2026, $0.25 after (what CION has declared and guided). The model
 # doesn't cut them; whether they get cut is the question it answers.
 import io, os, runpy, contextlib
-from common import inputs, rows, incentive_fee
+from common import inputs, rows, incentive_fee, curve_add, sofr_curve
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 I = inputs()
@@ -40,9 +43,10 @@ print(f"  by quarter ex-Longview: H1 2025 {h1:,.0f}k (Q1 alone between {float(L[
 print(f"  quarters at the bear pace ({loss_all:,.0f}k) or worse: Q1 2025 and " + ", ".join(q for q, v in known.items() if v <= loss_all) + "; the other three (Q2 2025, Q2 2026, Q3 2026) at the base pace or better")
 CASES = {'bear': dict(loss=loss_all, lv=0.41), 'base': dict(loss=loss26, lv=0.80), 'bull': dict(loss=loss26 / 2, lv=1.54)}
 Q = ['Q4 2026', 'Q1 2027', 'Q2 2027', 'Q3 2027', 'Q4 2027']
+CURVE = curve_add()
 DIST = {'Q4 2026': 0.30}
 
-def run(case, verbose=False):
+def run(case, verbose=False, rate_add=None):
     c = CASES[case]
     na = I['net_assets_2026_09_30']; sh = I['shares_outstanding_2026_09_30'] / 1000
     cash = 0.0; deployed_buy = deployed_rest = 0.0; lost = 0.0; out = []
@@ -58,6 +62,9 @@ def run(case, verbose=False):
                 na -= add_buy; sh -= add_buy / px; deployed_buy += add_buy; cash -= add_buy
             deployed_rest += max(add_rest, 0); cash -= max(add_rest, 0)
             pre += deployed_rest * (sofr + 0.0475) / 4 + cash * sofr / 4
+        ra = CURVE if rate_add is None else rate_add
+        if ra:
+            pre += ra[q]
         fee = incentive_fee(pre, na, I)
         nii = pre - fee
         d = DIST.get(q, 0.25) * sh
@@ -126,8 +133,21 @@ restate = 0.0                            # not in the base case any more
 print(f"NAV restated to other lenders' marks on the PIK bucket (alternative only): -{restate_alt:,.0f}k")
 print()
 print("12-month target: the market will be looking at the 30 Sep 2027 NAV (10-Q out early November 2027),")
-print("valued on Q3 2027 NII annualised, with PIK income counted at my recovery rate")
-tg = {}; detail = {}
+print("valued on Q3 2027 NII annualised, with PIK income counted at my recovery rate.")
+# One target, not two stories. The peer line says what CION is worth if the market pays it what
+# it pays other BDCs for the same earnings. CION trades well below the line today and I can't
+# name what closes that gap within a year, so the target weights the two equally: half on the
+# line, half on today's discount to the line carrying forward.
+resid = cion['pnav'] - (a1 + b1 * cion['roe'])
+W_LINE = 0.5
+pp = [x for x in S if x['t'] not in ('CION', 'HTGC', 'RAND')]
+Xp = np.array([[1, x['roe']] for x in pp]); yp = np.array([x['pnav'] for x in pp])
+s2 = ((yp - Xp @ np.array([a1, b1])) ** 2).sum() / (len(pp) - 2); XtXi = np.linalg.inv(Xp.T @ Xp)
+T80 = 1.345   # t with 14 degrees of freedom, 80% two-sided
+print(f"CION today: {cion['pnav']:.2f}x NAV against {a1+b1*cion['roe']:.2f}x on the line, a discount of {resid:+.2f}x; the line's residual standard error is {s2**0.5:.3f}x")
+tg = {}; detail = {}; VAL = {}
+def blend(m_line, nav_ps, w=W_LINE):
+    return (m_line + (1 - w) * resid) * nav_ps
 for case in CASES:
     r = [x for x in res[case] if x['q'] == 'Q3 2027'][0]
     nii_adj = r['nii'] - pik_q * (1 - PIKR[case])
@@ -135,38 +155,32 @@ for case in CASES:
     roe = nii_adj * 4 / nav_adj
     m = a1 + b1 * roe
     tg[case] = m * nav_adj / r['sh']
+    VAL[case] = blend(m, nav_adj / r['sh'])
     detail[case] = (nav_adj / r['sh'], roe, m)
-    print(f"  {case}: NAV ${r['nav_ps']:.2f}, restated ${nav_adj/r['sh']:.2f}; NII/NAV with PIK at {PIKR[case]:.0%} = {roe:.1%} -> {m:.2f}x = ${tg[case]:.2f}")
+    print(f"  {case}: NAV ${r['nav_ps']:.2f}; NII/NAV with PIK at {PIKR[case]:.0%} = {roe:.1%}; on the line {m:.2f}x = ${tg[case]:.2f}; discount persists {m+resid:.2f}x = ${(m+resid)*r['nav_ps']:.2f}; half and half ${VAL[case]:.2f}")
 r = res['base'][3]
 nii_adj = r['nii'] - pik_q * (1 - PIKR['base']); nav_adj = r['na'] - restate
+roe_b = nii_adj * 4 / nav_adj; m_b = a1 + b1 * roe_b
+x0 = np.array([1, roe_b]); se = (s2 * (1 + x0 @ XtXi @ x0)) ** 0.5
+print(f"  how loose the line is: 80% prediction interval for the base case {m_b-T80*se:.2f}x to {m_b+T80*se:.2f}x = ${(m_b-T80*se)*r['nav_ps']:.2f} to ${(m_b+T80*se)*r['nav_ps']:.2f}")
 print("  base on other choices:")
-print(f"    all 18 peers: ${(a0 + b0 * nii_adj * 4 / nav_adj) * nav_adj / r['sh']:.2f}")
-print(f"    PIK in full (my earlier method): ${(a1 + b1 * r['nii'] * 4 / r['na']) * r['nav_ps']:.2f}")
-resid = cion['pnav'] - (a1 + b1 * cion['roe'])
-print(f"    CION trades {resid:+.2f}x against the line today; if that stays: ${(a1 + b1 * nii_adj * 4 / nav_adj + resid) * nav_adj / r['sh']:.2f}")
-# Overlap check, now on the alternative that keeps the restatement: the restatement and the
-# credit losses both cut NAV and can overlap on the same loans.
-for lab, rs, extra_loss in (('with the restatement', restate_alt, 0.0), ('with the restatement but one year less of 2026-pace credit losses', restate_alt, -4 * CASES['base']['loss'])):
-    nav_v = r['na'] - rs + extra_loss
-    roe_v = nii_adj * 4 / nav_v
-    print(f"    {lab}: NAV ${nav_v/r['sh']:.2f}, NII/NAV {roe_v:.1%} -> ${(a1 + b1 * roe_v) * nav_v / r['sh']:.2f}")
-# How much rides on the 79%? In the target it only touches income: the NAV restatement comes from
-# other lenders' marks, not from the 79%. Base case rerun at 70% and 90%.
+for w in (0.25, 0.75, 1.0):
+    print(f"    weight on the line {w:.0%}: ${blend(m_b, r['nav_ps'], w):.2f}")
+print(f"    all 18 peers (half and half): ${(a0 + b0 * roe_b + (1 - W_LINE) * (cion['pnav'] - (a0 + b0 * cion['roe']))) * r['nav_ps']:.2f}")
+roe_full = r['nii'] * 4 / r['na']
+print(f"    PIK in full (half and half): ${blend(a1 + b1 * roe_full, r['nav_ps']):.2f}")
 sens = {}
 for rec in (0.70, 0.79, 0.90):
     roe_s = (r['nii'] - pik_q * (1 - rec)) * 4 / nav_adj
-    sens[rec] = (a1 + b1 * roe_s) * nav_adj / r['sh']
+    sens[rec] = blend(a1 + b1 * roe_s, nav_adj / r['sh'])
     print(f"    PIK income at {rec:.0%}: NII/NAV {roe_s:.1%} -> ${sens[rec]:.2f}")
-# The range I quote is the 70% to 90% recovery band.
-print(f"  base range: ${sens[0.70]:.2f} to ${sens[0.90]:.2f}, point target ${tg['base']:.2f}")
+print(f"  base range: ${sens[0.70]:.2f} to ${sens[0.90]:.2f}, point target ${VAL['base']:.2f}")
+target = VAL['base']
+rating = 'BUY' if target > px * 1.15 else 'SELL' if target < px * 0.85 else 'HOLD'
+print(f"TARGET: ${target:.2f} ({target/px-1:+.1%} vs ${px}); Buy above ${px*1.15:.2f}, Sell below ${px*0.85:.2f}")
 for rec, v in sens.items():
-    print(f"    at {rec:.0%}, price ${px} is {px/v-1:+.0%} from the target: Buy below ${v/1.15:.2f}, Sell above ${v/0.85:.2f} -> {'HOLD' if v/1.15 <= px <= v/0.85 else 'not HOLD'}")
-target = tg['base']
-print(f"TARGET: ${target:.2f} ({target/px-1:+.1%} vs ${px}); Buy line ${target/1.15:.2f}, Sell line ${target/0.85:.2f}")
-# The rule says Buy at the base case. My rating is Hold anyway, and I say so in the piece: CION
-# trades well below the peer line today (the "today's discount carried forward" line above), and
-# the dividend cut I expect has historically cost BDCs about 6% against BIZD (dividend_cut_precedent.py).
-print("RATING: HOLD (judgment over the Buy line; see the comment above)")
+    print(f"    at {rec:.0%}: ${v:.2f} ({v/px-1:+.0%}) -> {'BUY' if v > px*1.15 else 'SELL' if v < px*0.85 else 'HOLD'}")
+print(f"RATING: {rating} (the 15% rule, no override)")
 print()
 # reconciling with valuation.py's base write-down
 import io as _io, contextlib as _cl

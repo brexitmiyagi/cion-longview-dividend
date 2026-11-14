@@ -12,3 +12,8 @@ rev = float(T['pearl_2026e_revenue_musd']['zero_redemptions']); m = float(T['pea
 ev = float(T['pro_forma_enterprise_value_musd']['zero_redemptions'])
 print(f"Pearl 2026E: revenue {rev:.0f}m, EBITDA ~{rev*m:.1f}m; EV {ev:.0f}m = {ev/(rev*m):.0f}x 2026E EBITDA, {ev/rev:.1f}x 2026E revenue")
 print(f"K&F redemptions at the Nov 2026 extension vote: {float(T['kfii_shares_redeemed_nov_2026']['zero_redemptions']):,.0f} shares, ${T['kfii_redemption_amount_musd']['zero_redemptions']}m")
+# Per share, against the stock price. My bear case (valuation.py) values David's Bridal at 40% of
+# CION's marks, which is where I'd put it if the Pearl deal fails.
+from common import inputs
+I = inputs(); sh = I['shares_outstanding_2026_09_30'] / 1000; px = I['price_2026_11_13']
+print(f"David's Bridal marks: ${db_mark/sh:.2f} a share, {db_mark/sh/px:.0%} of the ${px} price; at 40% of marks CION loses {db_mark*0.6:,.0f}k = ${db_mark*0.6/sh:.2f} a share")

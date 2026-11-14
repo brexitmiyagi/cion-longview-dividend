@@ -11,7 +11,8 @@
 # to work in Q2 and fully in Q3 the way core_earnings_bridge.py lays out (buyback to 1.35x net
 # leverage, the rest repays the SOFR+4.75% Tranche A notes).
 import io, os, runpy, contextlib
-from common import inputs, rows, incentive_fee
+from common import inputs, rows, incentive_fee, curve_add
+# Rates: SOFR on the futures curve of 13 Nov 2026, as in nav_model.py (common.curve_add).
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 I = inputs()
@@ -32,7 +33,9 @@ dist = {'Q4 2026': 0.30, 'Q1 2027': 0.25, 'Q2 2027': 0.25, 'Q3 2027': 0.25}
 def nii(pre, na, sh):
     return (pre - incentive_fee(pre, na, I)) / sh
 
+CURVE = curve_add()
 def quarter(q, case='H1 2026 average', redeploy=False, extra=0.0):
+    extra = extra + CURVE[q]
     if q in ('Q4 2026', 'Q1 2027'):
         return nii(core + lv_div[case] + extra, na0, sh0)
     if not redeploy:
@@ -60,7 +63,7 @@ print(f"what Longview would have to pay in Q4 for my numbers to reach the ${cons
 lo, hi = 0.0, 40000.0
 for _ in range(60):
     m = (lo + hi) / 2
-    lo, hi = (m, hi) if nii(core + m, na0, sh0) < cons['Q4 2026'] else (lo, m)
+    lo, hi = (m, hi) if nii(core + m + CURVE['Q4 2026'], na0, sh0) < cons['Q4 2026'] else (lo, m)
 print(f"about {m:,.0f}k")
 print()
 print(f"if fee income comes back to its first-half 2026 average ({fees:,.0f}k a quarter):")

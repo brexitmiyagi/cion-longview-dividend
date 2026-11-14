@@ -27,3 +27,5 @@ for i in range(start, len(qs)):
     actual += fee; capped += new
     print(f"  {qs[i]}: trailing 12 quarters pre-incentive NII {sum(pre[j] for j in w):,.0f}k, net capital loss {net_loss:,.0f}k -> cap {cap:,.0f}k; fee paid {fee:,.0f}k, under the cap {new:,.0f}k")
 print(f"Q4 2025 to Q3 2026: CION paid {actual:,.0f}k; with a Blackstone/Oaktree-style lookback it would have paid {capped:,.0f}k")
+sh = I['shares_outstanding_2026_09_30'] / 1000
+print(f"  per share: {actual/sh*100:.1f} cents of NII over four quarters, against a 25 cent quarterly distribution from 2027")
