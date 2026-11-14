@@ -1,0 +1,14 @@
+series,month_or_tenor,value,unit,source
+fed_funds_futures,Nov 2026,96.122,price,"Yahoo Finance ZQX26.CBT close 13 Nov 2026 (CBOT 30-day fed funds futures)"
+fed_funds_futures,Dec 2026,95.925,price,Yahoo Finance ZQZ26.CBT close 13 Nov 2026
+fed_funds_futures,Jan 2027,95.82,price,Yahoo Finance ZQF27.CBT close 13 Nov 2026
+fed_funds_futures,Mar 2027,95.58,price,Yahoo Finance ZQH27.CBT close 13 Nov 2026
+fed_funds_futures,Jun 2027,95.325,price,Yahoo Finance ZQM27.CBT close 13 Nov 2026
+fed_funds_futures,Sep 2027,95.27,price,Yahoo Finance ZQU27.CBT close 13 Nov 2026
+fed_funds_futures,Dec 2027,95.25,price,Yahoo Finance ZQZ27.CBT close 13 Nov 2026
+effective_fed_funds,12 Nov 2026,3.88,percent,FRED EFFR (New York Fed)
+sofr,12 Nov 2026,3.90,percent,FRED SOFR (New York Fed)
+sofr_average,Q3 2026,3.67,percent,"FRED SOFR, average of daily values 1 Jul to 30 Sep 2026"
+treasury_cmt,3 Mo,4.32,percent,"US Treasury daily par yield curve, 13 Nov 2026"
+treasury_cmt,6 Mo,4.42,percent,same
+treasury_cmt,1 Yr,4.65,percent,same
