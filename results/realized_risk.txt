@@ -1,0 +1,13 @@
+from 2024-10-09 to 2026-11-13:
+  CION common: total return -27.5% (-14.3% a year), volatility 30.5% a year, worst fall -40.1% (2025-03-07 to 2026-07-30)
+  CICB: total return +12.5% (+5.8% a year), volatility 6.8% a year, worst fall -3.9% (2026-07-07 to 2026-07-30)
+  BIZD: total return -2.6% (-1.3% a year), volatility 18.9% a year, worst fall -22.6% (2025-02-19 to 2026-03-27)
+  CICB's worst fall was 10% of the common's; its volatility 22% of the common's
+  over the common's worst fall (2025-03-07 to 2026-07-30): CION common -40.1%
+  over the common's worst fall (2025-03-07 to 2026-07-30): CICB +9.0%
+  over the common's worst fall (2025-03-07 to 2026-07-30): BIZD -14.3%
+  7 Jan 2026 cut, 36 to 30 cents: CION common -0.5%, CICB -0.4%, BIZD +0.3%
+  5 Nov 2026 guide, 30 to 25 cents: CION common -10.8%, CICB -0.6%, BIZD -1.0%
+  2025: CION common total return -2.1%, worst fall -28.5%
+  2025: CICB total return +7.5%, worst fall -2.6%
+  2025: BIZD total return -4.9%, worst fall -19.6%

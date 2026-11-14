@@ -34,31 +34,25 @@ CION today: NII/NAV 8.1%, P/NAV 0.46; the line says 0.67x
 NAV restated to other lenders' marks on the PIK bucket (alternative only): -33,238k
 
 12-month target: the market will be looking at the 30 Sep 2027 NAV (10-Q out early November 2027),
-valued on Q3 2027 NII annualised, with PIK income counted at my recovery rate.
-CION today: 0.46x NAV against 0.67x on the line, a discount of -0.21x; the line's residual standard error is 0.136x
-  bear: NAV $9.59; NII/NAV with PIK at 55% = 4.3%; on the line 0.52x = $4.97; discount persists 0.31x = $3.00; half and half $3.98
-  base: NAV $12.45; NII/NAV with PIK at 79% = 6.4%; on the line 0.60x = $7.46; discount persists 0.39x = $4.90; half and half $6.18
-  bull: NAV $15.75; NII/NAV with PIK at 90% = 7.1%; on the line 0.63x = $9.92; discount persists 0.42x = $6.69; half and half $8.31
-  how loose the line is: 80% prediction interval for the base case 0.39x to 0.81x = $4.81 to $10.12
+valued on Q3 2027 NII annualised, the same reported basis the peer line uses.
+CION today: 0.46x NAV against 0.67x on the line, a gap of -0.21x; share of such gaps still there a year later 0.93 (80% range 0.79 to 1.00)
+  bear: NAV $9.59; NII/NAV 8.6%; on the line 0.69x = $6.61; with 93% of today's gap 0.50x = $4.77
+  base: NAV $12.45; NII/NAV 8.1%; on the line 0.67x = $8.29; with 93% of today's gap 0.47x = $5.91
+  bull: NAV $15.75; NII/NAV 7.9%; on the line 0.66x = $10.37; with 93% of today's gap 0.47x = $7.36
+  how loose the line is: 80% prediction interval for the base case 0.47x to 0.86x = $5.84 to $10.74
+  base range from the 80% range of the persistence: $5.73 to $6.27
   base on other choices:
-    weight on the line 25%: $5.54
-    weight on the line 75%: $6.82
-    weight on the line 100%: $7.46
-    all 18 peers (half and half): $5.75
-    PIK in full (half and half): $7.01
-    PIK income at 70%: NII/NAV 5.6% -> $5.83
-    PIK income at 79%: NII/NAV 6.4% -> $6.18
-    PIK income at 90%: NII/NAV 7.3% -> $6.62
-  base range: $5.83 to $6.62, point target $6.18
-TARGET: $6.18 (+1.5% vs $6.09); Buy above $7.00, Sell below $5.18
-    at 70%: $5.83 (-4%) -> HOLD
-    at 79%: $6.18 (+2%) -> HOLD
-    at 90%: $6.62 (+9%) -> HOLD
-RATING: HOLD (the 15% rule, no override)
+    half on the line, half on today's gap: $7.01 (my v20 draft also haircut PIK and got $6.18)
+    the line alone: $8.29
+    PIK haircut to 79% on top of the carried gap (counts the market's PIK view twice): $5.08
+    all 18 peers in the line, same persistence: $5.89
+TARGET: $5.91 (-3.0% vs $6.09); with $0.93 of distributions a 12-month total return of +12.3%
+  on price: Buy above $7.00, Sell below $5.18; on total return the base case is +12.3%, also under the +15% Buy line
+RATING: HOLD (the 15% rule, on price and on total return, no override)
 
 reconciliation: valuation.py's base writes NAV down 248,217k. Through Sep 2027 this model takes 38,061k of credit losses,
   19,848k on Longview and no restatement, 57,910k in all; the other 190,307k is
-  my bucket view, which values what's left at full rather than at a market multiple of about 0.60x
+  my bucket view, which values what's left at full rather than at a market multiple of about 0.67x
 
 estimates, base case vs Seeking Alpha consensus (two analysts):
   Q4 2026 NII: mine $0.25, consensus $0.27

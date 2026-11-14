@@ -1,0 +1,14 @@
+due in 2027:
+  2027-04-27  2022 Term Loan                            50,000k
+  2027-09-30  2024 Term Loan                            30,000k
+  2027-11-08  Tranche A Floating Rate 2027 Notes       100,000k
+  2027-11-08  Tranche B Floating Rate 2027 Notes       100,000k
+  2027-12-15  7.41% 2027 Notes                          47,500k
+  total 327,500k
+sources I can point at:
+  cash and short-term investments, 30 Sep 2026: 50,960k
+  undrawn on the UBS facility: 25,000k
+  Longview at 80% of its mark, less buybacks first: 24,083k
+  total 100,043k; left to refinance or pay from loan repayments: 227,457k (69%)
+loan repayments and sales, nine months of 2026 without the joint-venture sale: 361,784k, about 120,595k a quarter
+  the gap is about 1.9 quarters of that, if CION shrinks instead of refinancing

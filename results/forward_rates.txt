@@ -34,3 +34,7 @@ bull:
   Q4 2027: NII flat $0.283, on the curve $0.309; NAV/share $15.69
   2027 NII: flat $1.06, on the curve $1.14
 base on the curve, coverage after the sale: 0.95x to 1.00x
+fed funds futures, 13 Nov 2026 (effective fed funds 3.88% on 12 Nov): Dec 2026 4.08%, Mar 2027 4.42%, Jun 2027 4.67%, Sep 2027 4.73%, Dec 2027 4.75%
+  implied rise by Dec 2027: 87bp; SOFR futures: 89bp
+Treasury bills: 3 months 4.32%, 6 months 4.42%, 1 year 4.65%, against SOFR 3.90%
+SOFR averaged 3.67% in Q3 2026 against the 10-Q's 3.88% base: measuring from Q3 would add about 2.4 cents a year before the incentive fee, so my base is the cautious one

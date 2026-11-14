@@ -1,7 +1,8 @@
 CICB yield at $24.46: 8.63% (quarterly compounding)
-  bear (25%): common $3.98 + $0.87 distributions = -20.3%; CICB $23.75 + $1.875 coupons = +4.8%
-  base (50%): common $6.18 + $0.93 distributions = +16.9%; CICB $24.68 + $1.875 coupons = +8.6%
-  bull (25%): common $8.31 + $0.93 distributions = +51.7%; CICB $24.92 + $1.875 coupons = +9.5%
-weighted 25/50/25: common +16.3% (spread across cases 25.5%), CICB +7.9% (1.8%)
-return over a one-year Treasury (4.65%) per unit of that spread: common 0.46, CICB 1.75
-CICB matches the common on expected return once the bear case gets 51% (bull held at 25%)
+  bear (25%): common $4.77 + $0.87 distributions = -7.4%; CICB $23.75 + $1.875 coupons = +4.8%
+  base (50%): common $5.91 + $0.93 distributions = +12.3%; CICB $24.68 + $1.875 coupons = +8.6%
+  bull (25%): common $7.36 + $0.93 distributions = +36.2%; CICB $24.92 + $1.875 coupons = +9.5%
+weighted 25/50/25: common +13.4%, CICB +7.9%
+expected return over a one-year Treasury (4.65%) per unit of realised volatility: common 0.29 (30.5% vol), CICB 0.47 (6.8% vol)
+CICB matches the common on expected return once the bear case gets 60% (bull held at 25%)
+if CICB is called on 30 Dec 2026: $25.47 against $24.46, +4.1% in seven weeks, then reinvest

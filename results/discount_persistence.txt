@@ -1,0 +1,12 @@
+96 peer pairs, start quarters 2024-06-30 to 2025-09-30, each compared with four quarters later
+share of the gap to the line still there a year later: 0.93 (with an intercept: -0.000 + 0.93 x)
+BDCs at least 0.10x below the line (17 cases): median share still there a year later 0.94; the gap narrowed in 9 of 17
+80% range, resampling BDCs: 0.79 to 1.00
+CION's own gap to the line, each quarter: 2024-06-30 -0.17, 2024-09-30 -0.24, 2024-12-31 -0.16, 2025-03-31 -0.25, 2025-06-30 -0.17, 2025-09-30 -0.17, 2025-12-31 -0.20, 2026-03-31 -0.27, 2026-06-30 -0.19, 2026-09-30 -0.20
+  CION 2024-06-30: -0.17 -> -0.17 four quarters later
+  CION 2024-09-30: -0.24 -> -0.17 four quarters later
+  CION 2024-12-31: -0.16 -> -0.20 four quarters later
+  CION 2025-03-31: -0.25 -> -0.27 four quarters later
+  CION 2025-06-30: -0.17 -> -0.19 four quarters later
+  CION 2025-09-30: -0.17 -> -0.20 four quarters later
+implied weight on the line in a 12-month target: 7% (nav_model.py used 50%)
