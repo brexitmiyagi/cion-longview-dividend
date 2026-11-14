@@ -153,7 +153,7 @@ def value(m_line, nav_ps, keep=None):
     return (m_line + (KEEP if keep is None else keep) * resid) * nav_ps
 tg = {}; detail = {}; VAL = {}
 # The line can pay a worse case a higher multiple: in the bear case NAV falls faster than NII, so
-# NII/NAV rises. No market pays more for a BDC that just lost a third of its book, so the bear
+# NII/NAV rises. No market pays more for a BDC that just lost more than a quarter of its book, so the bear
 # multiple is capped at the base case's, and the bull multiple floored at it.
 _rb = [x for x in res['base'] if x['q'] == 'Q3 2027'][0]
 M_BASE = a1 + b1 * _rb['nii'] * 4 / _rb['na']
