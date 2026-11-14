@@ -41,6 +41,12 @@ steps = [
 slfp_common = (den * slfp_yield - I['slfp_notes'] * (max(sofr, 0.01) + 0.0475) - I['slfp_pref_liquidation'] * SLFP_PREF_RATE - den * SLFP_EXPENSES) / 4
 steps.append(('SLFP common distributions (estimate)', slfp_common))
 steps.append(('lower base fee on a smaller book', 5737 - 0.015 / 4 * I['investments_fv_ex_short_term']))
+# Fee income. Q3 2026's was about zero from third-party borrowers (-$0.2m) and management says it
+# will be selective about new lending until buybacks are done. I assume Q3's pace of new lending
+# ($34.7m) at CION's 2023-2025 fee rate on new lending (2.52%, fee_history.py), about $0.9m a quarter.
+FEE_RATE = 0.0252
+fee_base = 34724 * FEE_RATE
+steps.append(('fee income at Q3 2026 lending pace and the 2023-2025 fee rate', fee_base))
 run = start
 for n, v in steps:
     run += v

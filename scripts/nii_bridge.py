@@ -25,7 +25,7 @@ lvd = G['lv_div']
 base = q3(); steps.append(('my base case, Q3 2027', base))
 G['CASES']['base']['loss'] = 0.0; s = q3(); steps.append(('no credit losses at all from here', s))
 G['CASES']['base']['lv'] = 1.0; s2 = q3(); steps.append(("Longview sells at CION's full mark, not 80%", s2))
-G['core'] = core0 + fees; s3 = q3(); steps.append(('fee income back to its first-half 2026 average', s3))
+G['core'] = core0 - G['B']['fee_base'] + fees; s3 = q3(); steps.append(('fee income back to its first-half 2026 average', s3))
 G['core'] = core0; G['CASES']['base'].update(case0)
 
 print(f"Q1 2027, the last quarter with Longview dividends (H1 2026 average, {lvd:,.0f}k): ${q1:.3f}")

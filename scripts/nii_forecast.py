@@ -25,7 +25,7 @@ lv = 99241
 lv_div = {'none': 0.0,
           'H1 2026 average': (I['longview_dividend_q1_2026'] + I['longview_dividend_q2_2026']) / 2,
           'Q3 2026 again': I['longview_dividend_q3_2026']}
-fees = (I['fee_income_q1_2026'] + I['fee_income_q2_2026']) / 2
+fees = (I['fee_income_q1_2026'] + I['fee_income_q2_2026']) / 2 - B['fee_base']   # on top of the fee already in the run-rate
 cons = {r['period']: float(r['nii_per_share_consensus']) for r in rows('consensus_2026_11_13.csv')}
 dist = {'Q4 2026': 0.30, 'Q1 2027': 0.25, 'Q2 2027': 0.25, 'Q3 2027': 0.25}
 

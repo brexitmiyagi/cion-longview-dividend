@@ -163,6 +163,10 @@ for rec, v in sens.items():
     print(f"    at {rec:.0%}, price ${px} is {px/v-1:+.0%} from the target: Buy below ${v/1.15:.2f}, Sell above ${v/0.85:.2f} -> {'HOLD' if v/1.15 <= px <= v/0.85 else 'not HOLD'}")
 target = tg['base']
 print(f"TARGET: ${target:.2f} ({target/px-1:+.1%} vs ${px}); Buy line ${target/1.15:.2f}, Sell line ${target/0.85:.2f}")
+# The rule says Buy at the base case. My rating is Hold anyway, and I say so in the piece: CION
+# trades well below the peer line today (the "today's discount carried forward" line above), and
+# the dividend cut I expect has historically cost BDCs about 6% against BIZD (dividend_cut_precedent.py).
+print("RATING: HOLD (judgment over the Buy line; see the comment above)")
 print()
 # reconciling with valuation.py's base write-down
 import io as _io, contextlib as _cl
