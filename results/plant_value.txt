@@ -1,0 +1,41 @@
+what the plant did (EIA-923)
+  2025 (12 months): 4.63 million MWh, capacity factor 74%, coal heat rate 8,766 Btu/kWh (market monitor's new coal plant assumes 9,250)
+  2026 (8 months): 3.61 million MWh, capacity factor 87%, coal heat rate 8,487 Btu/kWh (market monitor's new coal plant assumes 9,250)
+
+avoidable fixed costs for coal: $327.13/MW-day = $119,402 per MW-year
+capacity revenue 2026/2027: $99,722 per MW-year
+capacity revenue 2027/2028: $101,016 per MW-year
+capacity revenue 2028/2029: $100,831 per MW-year
+
+Jan-Sep 2026 estimate: energy $128.4m + capacity $47.7m - fixed costs $63.4m = EBITDA ~$113m; the owners paid out ~$130m over the same nine months
+  (2025/26 coal accreditation not in my data; 83% used as a stand-in)
+
+A: 2025 energy margins: energy $107,089/MW-yr -> EBITDA $62.1m a year
+B: 2026 energy margins (Jan-Sep x 4/3): energy $241,095/MW-yr -> EBITDA $157.2m a year
+
+plant equity implied by marks (~15% stake, ~9.97m units in total):
+  CION 30 Jun 2026: $72.74/unit -> $725m = $1,022/kW
+  CION 30 Sep 2026: $66.35/unit -> $662m = $932/kW
+  Virtus 30 Jun 2026: $40.00/unit -> $399m = $562/kW
+  Virtus less Q3 dividend: $30.50/unit -> $304m = $428/kW
+  CION's own disclosed input on 30 Sep 2026: $938/kW
+
+value from the two cases (equity = enterprise value; the 2020 exit term loan left every fund filing by early 2023):
+  A at 4x: $248m = $350/kW; CION's ~15% = $37.2m = 38% of its 30 Sep mark
+  A at 5x: $310m = $437/kW; CION's ~15% = $46.5m = 47% of its 30 Sep mark
+  A at 6x: $372m = $524/kW; CION's ~15% = $55.9m = 56% of its 30 Sep mark
+  B at 4x: $629m = $886/kW; CION's ~15% = $94.3m = 95% of its 30 Sep mark
+  B at 5x: $786m = $1,107/kW; CION's ~15% = $117.9m = 119% of its 30 Sep mark
+  B at 6x: $943m = $1,328/kW; CION's ~15% = $141.5m = 143% of its 30 Sep mark
+base (average of A and B at 5x): $548m = $772/kW; CION's share $82.2m = 83% of its mark
+multiple of case A EBITDA implied by CION's $938/kW: 10.7x; of case B: 4.2x
+
+CION mark vs its own $ per kW input (equity at ~15% minus input x 710 MW):
+  2024-09-30: mark implies $328m, input x MW $314m, difference $14m
+  2024-12-31: mark implies $348m, input x MW $320m, difference $28m
+  2025-06-30: mark implies $468m, input x MW $312m, difference $155m
+  2025-09-30: mark implies $691m, input x MW $580m, difference $111m
+  2025-12-31: mark implies $704m, input x MW $710m, difference $-6m
+  2026-03-31: mark implies $710m, input x MW $710m, difference $0m
+  2026-06-30: mark implies $725m, input x MW $728m, difference $-2m
+  2026-09-30: mark implies $662m, input x MW $666m, difference $-4m

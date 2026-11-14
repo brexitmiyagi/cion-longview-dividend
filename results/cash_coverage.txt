@@ -1,0 +1,8 @@
+FY2023: NII 105,022k, PIK 31,739k (30% of NII); NII ex-PIK 73,283k vs distributions declared 87,867k = 0.83x
+FY2024: NII 95,860k, PIK 44,540k (46% of NII); NII ex-PIK 51,320k vs distributions declared 81,308k = 0.63x
+FY2025: NII 93,040k, PIK 52,178k (56% of NII); NII ex-PIK 40,862k vs distributions declared 75,361k = 0.54x; without Longview's 4,298k: 36,564k
+    wider cash basis (also minus accretion, plus debt-cost amortization): 22,733k = 0.30x
+9M2026: NII 39,361k, PIK 36,307k (92% of NII); NII ex-PIK 3,054k vs distributions declared 44,841k = 0.07x; without Longview's 19,444k: -16,390k
+    wider cash basis (also minus accretion, plus debt-cost amortization): 4,175k = 0.09x
+Q3 2026: NII 12,327k, PIK 11,756k (95% of NII); NII ex-PIK 571k vs distributions declared 14,761k = 0.04x; without Longview's 14,209k: -13,638k
+    wider cash basis (also minus accretion, plus debt-cost amortization): 2,133k = 0.14x

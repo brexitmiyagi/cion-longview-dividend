@@ -1,0 +1,40 @@
+ticker | issuer | matures | 13 Nov close | coupon | yield to maturity | yield to worst | asset coverage
+  SAZ    Saratoga Investment    2028-04-15  $ 25.07  8.500%   8.79%    n/m   172% (2026-08-31)
+  OXSQG  Oxford Square Capital  2028-07-31  $ 24.15  5.500%   7.76%   7.76%  192% (2026-09-30)
+  WHFCL  WhiteHorse Finance     2028-09-15  $ 25.20  7.875%   8.15%    n/m   177% (2026-09-30)
+  OFSSH  OFS Capital            2028-10-31  $ 23.25  4.950%   8.97%   8.97%  164% (2026-09-30)
+  PFXNZ  PhenixFIN              2028-11-01  $ 24.11  5.250%   7.30%   7.30%  207% (2026-06-30)
+  GECCI  Great Elm Capital      2029-04-30  $ 25.18  8.500%   8.32%    n/m   166% (2026-09-30)
+  CICB   CION Investment        2029-12-30  $ 24.46  7.500%   8.63%   8.63%  172% (2026-09-30)
+  GECCH  Great Elm Capital      2029-12-31  $ 25.09  8.125%   8.34%   8.34%  166% (2026-09-30)
+  OXSQH  Oxford Square Capital  2030-07-31  $ 24.58  7.750%   8.37%   8.37%  192% (2026-09-30)
+  CICC   CION Investment        2031-03-31  $ 24.45  7.500%   8.35%   8.35%  172% (2026-09-30)
+  HCXY   Hercules Capital       2033-10-30  $ 24.11  6.250%   6.94%   6.94%  203% (2026-09-30)
+
+CION's notes against other notes maturing 2029-2031 (yield to maturity):
+  OXSQH 2030-07-31 8.37%, coverage 192%
+  GECCI 2029-04-30 8.32%, above par and callable now, coverage 166%
+  GECCH 2029-12-31 8.34%, coverage 166%
+  CICB 8.63%: +28bp vs their average of 8.35%
+  CICC 8.35%: +1bp vs their average of 8.35%
+asset coverage, lowest first: OFS 164%, Great 166%, Saratoga 172%, CION 172%, WhiteHorse 177%, Oxford 192%, Hercules 203%, PhenixFIN 207%
+
+spread over the matched-maturity Treasury (yield converted to semiannual):
+  SAZ     1.4 years: 8.89% vs Treasury 4.75% =  414bp
+  OXSQG   1.7 years: 7.84% vs Treasury 4.81% =  302bp
+  WHFCL   1.8 years: 8.23% vs Treasury 4.84% =  339bp
+  OFSSH   2.0 years: 9.07% vs Treasury 4.87% =  420bp
+  PFXNZ   2.0 years: 7.37% vs Treasury 4.87% =  249bp
+  GECCI   2.5 years: 8.41% vs Treasury 4.90% =  351bp
+  CICB    3.1 years: 8.72% vs Treasury 4.92% =  380bp
+  GECCH   3.1 years: 8.43% vs Treasury 4.92% =  351bp
+  OXSQH   3.7 years: 8.46% vs Treasury 4.94% =  352bp
+  CICC    4.4 years: 8.44% vs Treasury 4.96% =  348bp
+  HCXY    7.0 years: 7.00% vs Treasury 5.05% =  195bp
+trading, last three months:
+  CICB: about $176k a day, no trades on 0 of 66 days
+  CICC: about $127k a day, no trades on 4 of 66 days
+  OXSQH: about $84k a day, no trades on 1 of 65 days
+  GECCH: about $41k a day, no trades on 23 of 65 days
+  GECCI: about $77k a day, no trades on 10 of 66 days
+rating: CION's 10-Q says several of its private notes are rated investment grade; it gives no rating for CICB or CICC

@@ -1,0 +1,76 @@
+borrowers paying PIK in at least four quarters, mark range and principal growth:
+  anthem sports entertainm   9 quarters, marks 47% to 91%, principal   47,596k ->   70,988k (+49%), last fair value   33,658k
+  instant web                9 quarters, marks 8% to 73%, principal   56,411k ->   69,909k (+24%), last fair value   40,219k
+  homer city generation lp   9 quarters, marks 62% to 100%, principal   17,700k ->   38,085k (+115%), last fair value   38,122k
+  lift brands                9 quarters, marks 99% to 101%, principal   36,810k ->   34,449k (-6%), last fair value   34,428k
+  inotiv                     6 quarters, marks 85% to 92%, principal   16,370k ->   20,466k (+25%), last fair value   17,652k
+  lav gear                   7 quarters, marks 79% to 98%, principal   32,534k ->   22,594k (-31%), last fair value   19,486k
+  avison young /avison you   5 quarters, marks 82% to 99%, principal   23,392k ->   30,836k (+32%), last fair value   30,623k
+  hilliard martinez gonzal   9 quarters, marks 81% to 99%, principal   26,698k ->   30,706k (+15%), last fair value   24,988k
+  community tree service     5 quarters, marks 100% to 100%, principal   11,634k ->   13,168k (+13%), last fair value   13,168k
+  american clinical soluti   7 quarters, marks 59% to 86%, principal   18,182k ->   33,141k (+82%), last fair value   23,513k
+  appalachian resource       5 quarters, marks 76% to 100%, principal   21,056k ->   23,881k (+13%), last fair value   23,881k
+  berlitz                    6 quarters, marks 61% to 88%, principal   21,923k ->   29,109k (+33%), last fair value   17,676k
+  fusefx                     9 quarters, marks 62% to 98%, principal   20,396k ->   22,870k (+12%), last fair value   14,099k
+  trammell                   9 quarters, marks 100% to 100%, principal   14,998k ->   19,486k (+30%), last fair value   19,486k
+  playboy enterprises        4 quarters, marks 96% to 100%, principal   20,240k ->   14,734k (-27%), last fair value   14,734k
+  celerity                   9 quarters, marks 99% to 100%, principal   16,608k ->   16,480k (-1%), last fair value   16,294k
+  trademark global           9 quarters, marks 48% to 82%, principal   17,603k ->   24,572k (+40%), last fair value   14,445k
+  invincible boat            5 quarters, marks 78% to 90%, principal   14,545k ->   15,583k (+7%), last fair value   12,202k
+  spinal usa / precision m   4 quarters, marks 44% to 56%, principal   22,259k ->   24,809k (+11%), last fair value   10,932k
+  ra outdoors                8 quarters, marks 66% to 88%, principal   14,333k ->   17,848k (+25%), last fair value   11,813k
+  rumbleon                   7 quarters, marks 97% to 100%, principal   11,276k ->   10,399k (-8%), last fair value   10,399k
+  kn                         7 quarters, marks 96% to 99%, principal    9,861k ->   10,230k (+4%), last fair value    9,820k
+  isagenix international     7 quarters, marks 47% to 99%, principal    9,173k ->   10,516k (+15%), last fair value    4,982k
+  tmk hawk                   9 quarters, marks 87% to 96%, principal    8,587k ->   10,097k (+18%), last fair value    8,898k
+  hw                         9 quarters, marks 53% to 94%, principal    7,922k ->   13,031k (+64%), last fair value    6,924k
+  statinmed                  9 quarters, marks 13% to 47%, principal   13,199k ->   25,524k (+93%), last fair value    5,822k
+  securus technologies       4 quarters, marks 38% to 91%, principal    7,220k ->    7,841k (+9%), last fair value    2,988k
+  robert c hilliard          9 quarters, marks 85% to 98%, principal    2,215k ->    2,839k (+28%), last fair value    2,413k
+  heritage power             5 quarters, marks 99% to 99%, principal    1,176k ->    1,243k (+6%), last fair value    1,226k
+  williams industrial serv   9 quarters, marks 14% to 46%, principal    1,850k ->    1,593k (-14%), last fair value      224k
+
+held at 99%+ of principal in every PIK quarter, and still held:
+  community tree service: 5 quarters, principal +13%, 13,168k
+  trammell: 9 quarters, principal +30%, 19,486k
+
+appalachian resource
+  2024-09-30: principal   16,137k, fair value   14,815k, mark 92%, PIK rate 0.00%
+  2024-12-31: principal   16,137k, fair value   13,094k, mark 81%, PIK rate 0.00%
+  2025-03-31: principal   16,137k, fair value   10,974k, mark 68%, PIK rate 0.00%
+  2025-06-30: principal   16,137k, fair value   10,350k, mark 64%, PIK rate 0.00%
+  2025-09-30: principal   21,056k, fair value   16,444k, mark 78%, PIK rate 14.26%
+  2025-12-31: principal   21,630k, fair value   16,637k, mark 77%, PIK rate 13.82%
+  2026-03-31: principal   21,989k, fair value   16,786k, mark 76%, PIK rate 13.77%
+  2026-06-30: principal   22,871k, fair value   22,871k, mark 100%, PIK rate 13.72%
+  2026-09-30: principal   23,881k, fair value   23,881k, mark 100%, PIK rate 14.00%
+homer city generation lp
+  2024-09-30: principal   17,700k, fair value   11,025k, mark 62%, PIK rate 15.00%
+  2024-12-31: principal   28,881k, fair value   27,378k, mark 95%, PIK rate 17.00%
+  2025-03-31: principal   30,029k, fair value   28,833k, mark 96%, PIK rate 17.00%
+  2025-06-30: principal   31,237k, fair value   30,033k, mark 96%, PIK rate 17.00%
+  2025-09-30: principal   32,511k, fair value   31,739k, mark 98%, PIK rate 17.00%
+  2025-12-31: principal   33,833k, fair value   33,255k, mark 98%, PIK rate 17.00%
+  2026-03-31: principal   35,179k, fair value   34,581k, mark 98%, PIK rate 17.00%
+  2026-06-30: principal   36,595k, fair value   36,010k, mark 98%, PIK rate 17.00%
+  2026-09-30: principal   38,085k, fair value   38,122k, mark 100%, PIK rate 17.00%
+trammell
+  2024-09-30: principal   14,998k, fair value   14,998k, mark 100%, PIK rate 20.46%
+  2024-12-31: principal   15,777k, fair value   15,777k, mark 100%, PIK rate 19.97%
+  2025-03-31: principal   16,566k, fair value   16,566k, mark 100%, PIK rate 19.94%
+  2025-06-30: principal   17,403k, fair value   17,403k, mark 100%, PIK rate 19.94%
+  2025-09-30: principal   18,293k, fair value   18,293k, mark 100%, PIK rate 19.78%
+  2025-12-31: principal   17,714k, fair value   17,714k, mark 100%, PIK rate 19.33%
+  2026-03-31: principal   17,963k, fair value   17,963k, mark 100%, PIK rate 19.28%
+  2026-06-30: principal   18,557k, fair value   18,557k, mark 100%, PIK rate 19.23%
+  2026-09-30: principal   19,486k, fair value   19,486k, mark 100%, PIK rate 19.30%
+cion/eagletree partners
+  2024-09-30: principal   37,885k, fair value   37,885k, mark 100%, PIK rate 0.00%
+  2024-12-31: principal   36,037k, fair value   36,037k, mark 100%, PIK rate 0.00%
+  2025-03-31: principal   36,037k, fair value   36,037k, mark 100%, PIK rate 0.00%
+  2025-06-30: principal   36,037k, fair value   36,037k, mark 100%, PIK rate 0.00%
+  2025-09-30: principal   36,037k, fair value   36,037k, mark 100%, PIK rate 0.00%
+  2025-12-31: principal   36,037k, fair value   36,037k, mark 100%, PIK rate 0.00%
+  2026-03-31: principal   36,037k, fair value   36,037k, mark 100%, PIK rate 14.00%
+  2026-06-30: principal   36,037k, fair value   36,037k, mark 100%, PIK rate 14.00%
+  2026-09-30: principal   36,037k, fair value   36,037k, mark 100%, PIK rate 14.00%

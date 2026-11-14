@@ -1,0 +1,22 @@
+run-rate pre-incentive NII without Longview (core_earnings_bridge.py): 11,050k = $0.225/share
+
+quarter  | distribution | consensus | mine, cash not redeployed | mine, redeployed | coverage (not / redeployed)
+  Q4 2026  $0.30         $0.27      $0.229                     $0.229            0.76x / 0.76x
+  Q1 2027  $0.25         $0.28      $0.229                     $0.229            0.92x / 0.92x
+  Q2 2027  $0.25         $0.28      $0.214                     $0.226            0.86x / 0.90x
+  Q3 2027  $0.25         $0.29      $0.214                     $0.247            0.86x / 0.99x
+  four quarters: distributions $1.05; mine $0.89 not redeployed, $0.93 redeployed
+
+Longview dividend before closing (Q4 2026 and Q1 2027):
+  none (0k a quarter): $0.214/share
+  H1 2026 average (2,618k a quarter): $0.229/share
+  Q3 2026 again (14,209k a quarter): $0.424/share
+what Longview would have to pay in Q4 for my numbers to reach the $0.27 consensus: about 5,054k
+
+if fee income comes back to its first-half 2026 average (2,892k a quarter):
+  Q4 2026: $0.278 not redeployed, $0.278 redeployed
+  Q1 2027: $0.278 not redeployed, $0.278 redeployed
+  Q2 2027: $0.251 not redeployed, $0.276 redeployed
+  Q3 2027: $0.251 not redeployed, $0.307 redeployed
+
+consensus for FY2027 is $1.13, $0.282 a quarter; my Q3 2027 redeployed with fees back is $0.307

@@ -1,0 +1,83 @@
+rows dropped as likely tagging errors:
+  RAND CAPITAL CORPORATION                      FY 2024: NII 3.7m vs distributions 13.0m
+  OXFORD SQUARE CAPITAL CORP.                   9M 2026-09: NII 14.2m vs distributions 31.5m
+  Investcorp Credit Management BDC, Inc.        FY 2025: NII 2.4m vs distributions 7.5m
+  Investcorp Credit Management BDC, Inc.        9M 2025-09: NII 2.1m vs distributions 5.5m
+  NexPoint Capital, Inc.                        9M 2024-09: NII 0.2m vs distributions 2.4m
+  BAIN CAPITAL SPECIALTY FINANCE, INC.          FY 2025: NII 125.3m vs distributions 29.2m
+  Silver Capital Holdings LLC                   FY 2024: NII 47.1m vs distributions 5.4m
+  VENTURE LENDING & LEASING IX, INC.            FY 2024: NII 20.0m vs distributions 1.8m
+  BC Partners Lending Corporation               FY 2022: NII 9.3m vs distributions 2.4m
+  BC Partners Lending Corporation               FY 2023: NII 16.3m vs distributions 5.2m
+  STEELE CREEK CAPITAL CORPORATION              FY 2021: NII 0.7m vs distributions 2.7m
+  BLACKROCK DIRECT LENDING CORP.                9M 2026-09: NII 13.7m vs distributions 44.3m
+  Stellus Private Credit BDC                    FY 2022: NII 12.3m vs distributions 4.3m
+  Eagle Point Trinity Senior Secured Lending Co FY 2025: NII 4.0m vs distributions 1.0m
+  ARES CORE INFRASTRUCTURE FUND                 9M 2025-09: NII 2.5m vs distributions 12.3m
+  Crestline Lending Solutions, LLC              FY 2025: NII 23.1m vs distributions 8.8m
+
+full years, constant panel of 46 BDCs (all) that filed all of 2022-2025
+  2022: NII $6.30bn, PIK $1.18bn (19% of NII), distributions $5.61bn; NII covers 1.12x, NII ex-PIK covers 0.91x; short on NII 12, short ex-PIK 25
+  2023: NII $8.82bn, PIK $1.65bn (19% of NII), distributions $7.65bn; NII covers 1.15x, NII ex-PIK covers 0.94x; short on NII 8, short ex-PIK 31
+  2024: NII $10.79bn, PIK $2.06bn (19% of NII), distributions $9.72bn; NII covers 1.11x, NII ex-PIK covers 0.90x; short on NII 13, short ex-PIK 37
+  2025: NII $11.65bn, PIK $2.06bn (18% of NII), distributions $11.84bn; NII covers 0.98x, NII ex-PIK covers 0.81x; short on NII 25, short ex-PIK 41
+
+full years, constant panel of 22 BDCs (listed) that filed all of 2022-2025
+  2022: NII $4.71bn, PIK $0.98bn (21% of NII), distributions $4.20bn; NII covers 1.12x, NII ex-PIK covers 0.89x; short on NII 4, short ex-PIK 12
+  2023: NII $5.85bn, PIK $1.28bn (22% of NII), distributions $4.99bn; NII covers 1.17x, NII ex-PIK covers 0.92x; short on NII 1, short ex-PIK 14
+  2024: NII $6.20bn, PIK $1.57bn (25% of NII), distributions $5.53bn; NII covers 1.12x, NII ex-PIK covers 0.84x; short on NII 5, short ex-PIK 17
+  2025: NII $6.01bn, PIK $1.56bn (26% of NII), distributions $6.02bn; NII covers 1.00x, NII ex-PIK covers 0.74x; short on NII 12, short ex-PIK 22
+
+full years, constant panel of 24 BDCs (non-traded) that filed all of 2022-2025
+  2022: NII $1.58bn, PIK $0.20bn (12% of NII), distributions $1.41bn; NII covers 1.12x, NII ex-PIK covers 0.98x; short on NII 8, short ex-PIK 13
+  2023: NII $2.97bn, PIK $0.37bn (12% of NII), distributions $2.67bn; NII covers 1.11x, NII ex-PIK covers 0.98x; short on NII 7, short ex-PIK 17
+  2024: NII $4.59bn, PIK $0.49bn (11% of NII), distributions $4.19bn; NII covers 1.09x, NII ex-PIK covers 0.98x; short on NII 8, short ex-PIK 20
+  2025: NII $5.64bn, PIK $0.50bn (9% of NII), distributions $5.82bn; NII covers 0.97x, NII ex-PIK covers 0.88x; short on NII 13, short ex-PIK 19
+
+2023 to 2025, median BDC in that panel: NII +4%, distributions +23%; coverage fell at 33 of 46
+
+2023 listed: 30 BDCs; 6% of distributions went back out as new shares (n=20), NII ex-PIK covers the cash part 0.98x; median undistributed income at year end = 4.9 months of distributions (n=21)
+2023 non-traded: 57 BDCs; 36% of distributions went back out as new shares (n=34), NII ex-PIK covers the cash part 1.52x; median undistributed income at year end = 0.9 months of distributions (n=39)
+2024 listed: 28 BDCs; 7% of distributions went back out as new shares (n=19), NII ex-PIK covers the cash part 0.92x; median undistributed income at year end = 7.8 months of distributions (n=19)
+2024 non-traded: 64 BDCs; 34% of distributions went back out as new shares (n=39), NII ex-PIK covers the cash part 1.37x; median undistributed income at year end = 0.7 months of distributions (n=45)
+2025 listed: 26 BDCs; 6% of distributions went back out as new shares (n=17), NII ex-PIK covers the cash part 0.81x; median undistributed income at year end = 5.5 months of distributions (n=19)
+2025 non-traded: 61 BDCs; 37% of distributions went back out as new shares (n=36), NII ex-PIK covers the cash part 1.39x; median undistributed income at year end = 0.3 months of distributions (n=41)
+
+nine months to September 2026, 37 BDCs: NII covers 1.00x, ex-PIK 0.81x, PIK 19% of NII
+  CION Investment Corporation              CION       NII     39.4m  PIK    36.3m  paid    44.8m  NII cover 0.88  ex-PIK 0.07  distributions vs 9M 2025 -21%
+  BLUE OWL CAPITAL CORPORATION II          non-traded NII     24.2m  PIK    10.3m  paid    38.7m  NII cover 0.63  ex-PIK 0.36  distributions vs 9M 2025 -44%
+  OFS Capital Corporation                  OFS        NII      4.2m  PIK     1.7m  paid     6.8m  NII cover 0.61  ex-PIK 0.36  distributions vs 9M 2025 -50%
+  RAND CAPITAL CORPORATION                 RAND       NII      1.9m  PIK     0.5m  paid     2.6m  NII cover 0.73  ex-PIK 0.55  distributions vs 9M 2025 -0%
+  BLUE OWL TECHNOLOGY FINANCE CORP.        OTF        NII    444.4m  PIK   120.2m  paid   548.9m  NII cover 0.81  ex-PIK 0.59  distributions vs 9M 2025 +30%
+  FS KKR Capital Corp.                     FSK        NII    368.0m  PIK   126.0m  paid   373.0m  NII cover 0.99  ex-PIK 0.65  distributions vs 9M 2025 -37%
+  BAIN CAPITAL SPECIALTY FINANCE, INC.     BCSF       NII     86.0m  PIK    28.7m  paid    81.7m  NII cover 1.05  ex-PIK 0.70  distributions vs 9M 2025 -7%
+  ARES CAPITAL CORPORATION                 ARCC       NII   1105.0m  PIK   362.0m  paid  1036.0m  NII cover 1.07  ex-PIK 0.72  distributions vs 9M 2025 +3%
+  Horizon Technology Finance Corp          HRZN       NII     29.4m  PIK     3.7m  paid    35.3m  NII cover 0.83  ex-PIK 0.73  distributions vs 9M 2025 -16%
+  Carlyle Secured Lending, Inc.            CGBD       NII     75.7m  PIK    19.1m  paid    76.3m  NII cover 0.99  ex-PIK 0.74  distributions vs 9M 2025 -7%
+  BLUE OWL CAPITAL CORPORATION             OBDC       NII    508.6m  PIK   121.2m  paid   498.3m  NII cover 1.02  ex-PIK 0.78  distributions vs 9M 2025 -18%
+  Barings BDC, Inc.                        BBDC       NII     84.7m  PIK    19.6m  paid    81.7m  NII cover 1.04  ex-PIK 0.80  distributions vs 9M 2025 -17%
+  Ares Strategic Income Fund               non-traded NII    712.2m  PIK   108.2m  paid   740.2m  NII cover 0.96  ex-PIK 0.82  distributions vs 9M 2025 +30%
+  North Haven Private Income Fund LLC      non-traded NII    199.6m  PIK    22.9m  paid   208.3m  NII cover 0.96  ex-PIK 0.85  distributions vs 9M 2025 -12%
+  APOLLO DEBT SOLUTIONS BDC                non-traded NII    901.3m  PIK    55.4m  paid   971.4m  NII cover 0.93  ex-PIK 0.87  distributions vs 9M 2025 +8%
+  HERCULES CAPITAL, INC.                   HTGC       NII    268.4m  PIK    35.8m  paid   262.7m  NII cover 1.02  ex-PIK 0.89  distributions vs 9M 2025 +5%
+  NUVEEN CHURCHILL DIRECT LENDING CORP.    NCDL       NII     59.0m  PIK     8.2m  paid    57.3m  NII cover 1.03  ex-PIK 0.89  distributions vs 9M 2025 -21%
+  T Series Middle Market Loan Fund LLC     non-traded NII     95.3m  PIK     8.7m  paid    95.3m  NII cover 1.00  ex-PIK 0.91  distributions vs 9M 2025 +5%
+  Morgan Stanley Direct Lending Fund       MSDL       NII    121.3m  PIK    17.1m  paid   114.1m  NII cover 1.06  ex-PIK 0.91  distributions vs 9M 2025 -13%
+  BLUE OWL TECHNOLOGY INCOME CORP.         non-traded NII    179.0m  PIK     5.9m  paid   187.6m  NII cover 0.95  ex-PIK 0.92  distributions vs 9M 2025 -15%
+  North Haven Private Income Fund A LLC    non-traded NII     21.5m  PIK     1.3m  paid    21.5m  NII cover 1.00  ex-PIK 0.94  distributions vs 9M 2025 +23%
+  26North BDC, Inc.                        non-traded NII     61.9m  PIK     4.7m  paid    60.5m  NII cover 1.02  ex-PIK 0.94  distributions vs 9M 2025 +87%
+  New Mountain Guardian IV BDC, L.L.C.     non-traded NII     80.7m  PIK     4.2m  paid    80.6m  NII cover 1.00  ex-PIK 0.95  distributions vs 9M 2025 +20%
+  Palmer Square Capital BDC Inc.           PSBD       NII     34.7m  PIK     1.4m  paid    35.0m  NII cover 0.99  ex-PIK 0.95  distributions vs 9M 2025 -12%
+  BLACKROCK TCP CAPITAL CORP.              TCPC       NII     50.0m  PIK     9.1m  paid    42.8m  NII cover 1.17  ex-PIK 0.95  distributions vs 9M 2025 -42%
+  MONROE CAPITAL INCOME PLUS CORPORATION   non-traded NII    191.2m  PIK    19.5m  paid   180.1m  NII cover 1.06  ex-PIK 0.95  distributions vs 9M 2025 -1%
+  AGL PRIVATE CREDIT INCOME FUND           non-traded NII     43.2m  PIK     1.8m  paid    41.7m  NII cover 1.04  ex-PIK 0.99  distributions vs 9M 2025 +72%
+  Barings Private Credit Corp              non-traded NII    236.2m  PIK    24.7m  paid   206.2m  NII cover 1.15  ex-PIK 1.03  distributions vs 9M 2025 +14%
+  Fortress Private Lending Fund            non-traded NII     72.5m  PIK     0.4m  paid    69.8m  NII cover 1.04  ex-PIK 1.03  distributions vs 9M 2025 +618%
+  Overland Advantage                       non-traded NII     55.6m  PIK     2.4m  paid    51.2m  NII cover 1.09  ex-PIK 1.04  distributions vs 9M 2025 +69%
+  Silver Capital Holdings LLC              non-traded NII     11.9m  PIK     1.7m  paid     9.8m  NII cover 1.22  ex-PIK 1.05  distributions vs 9M 2025 -36%
+  MidCap Financial Investment Corp         MFIC       NII     94.6m  PIK    11.2m  paid    79.2m  NII cover 1.20  ex-PIK 1.05  distributions vs 9M 2025 -26%
+  MIDCAP APOLLO INSTITUTIONAL PRIVATE LEND non-traded NII     33.5m  PIK     1.8m  paid    22.4m  NII cover 1.50  ex-PIK 1.41  distributions vs 9M 2025 -40%
+  Brightwood Capital Corporation I         non-traded NII     38.8m  PIK     2.0m  paid    24.6m  NII cover 1.58  ex-PIK 1.50  distributions vs 9M 2025 -11%
+  Phillip Street Middle Market Lending Fun non-traded NII     38.2m  PIK     1.4m  paid    24.2m  NII cover 1.58  ex-PIK 1.52  distributions vs 9M 2025 +23%
+  West Bay BDC LLC                         non-traded NII     19.7m  PIK     0.9m  paid    11.4m  NII cover 1.73  ex-PIK 1.65  distributions vs 9M 2025 +826%
+  Barings Capital Investment Corp          non-traded NII     62.2m  PIK     9.9m  paid    29.9m  NII cover 2.08  ex-PIK 1.75  distributions vs 9M 2025 +1%

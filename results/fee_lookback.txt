@@ -1,0 +1,5 @@
+  2025-12-31: trailing 12 quarters pre-incentive NII 356,237k, net capital loss 185,337k -> cap -28,558k; fee paid 3,882k, under the cap 0k
+  2026-03-31: trailing 12 quarters pre-incentive NII 335,720k, net capital loss 160,329k -> cap -21,437k; fee paid 2,728k, under the cap 0k
+  2026-06-30: trailing 12 quarters pre-incentive NII 324,401k, net capital loss 147,997k -> cap -16,294k; fee paid 3,006k, under the cap 0k
+  2026-09-30: trailing 12 quarters pre-incentive NII 303,138k, net capital loss 181,357k -> cap -19,491k; fee paid 2,615k, under the cap 0k
+Q4 2025 to Q3 2026: CION paid 12,231k; with a Blackstone/Oaktree-style lookback it would have paid 0k

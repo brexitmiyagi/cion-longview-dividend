@@ -1,0 +1,13 @@
+Longview dividends to CION ($k): FY2025 4298.0 | Q1 2026 2,991, Q2 2026 2,244, Q3 2026 14,209
+Q3 Longview dividend 14,209k = $0.289/share; all affiliated dividends in Q3 14,272k
+Q3 distributions paid 14,800k; Longview covered 96% of them
+Longview mark 30 Jun 108,798k -> 30 Sep 99,241k (-9,557k); total return in Q3 = 4,652k
+Longview mark = 15.3% of net assets, $2.02/share, 6.7% of the portfolio; cost 12917k, mark is 7.7x cost
+Cash dividends since start of 2025: 23,742k
+pre-incentive NII 14,942k; hurdle 10,851k; fee recomputed 2,617k vs reported 2,615k
+Q3 NII without Longview: 733k = $0.015/share (below the hurdle, so no incentive fee)
+one-offs management named: debt cost write-off 1,487k + legacy fee reversal 2,894k + extra legal fees 998k = 5,379k
+Q3 NII without Longview, one-offs added back: 6,112k = $0.124/share (hurdle 10,851k, so still no incentive fee)
+management's count: $0.15 of items plus the write-off; the Thrill One reversal by residual is about 3,488k
+Q3 NII without Longview on management's count: 9,600k = $0.195/share (hurdle 10,851k)
+PIK share of Q3 investment income: 23.6%

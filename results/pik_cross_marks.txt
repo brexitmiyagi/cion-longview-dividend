@@ -1,0 +1,20 @@
+loan | CION mark | other lenders | CION's mark at their average
+  Anthem Sports & Entertainment, 10.00% PIK term loan B: 67.5% (20,232k) | BCP Investment Corp (BCIC) 49.4% | 14,807k (-5,425k)
+  Anthem Sports & Entertainment, S+550 PIK delayed draw term loan: 95.9% (13,090k) | BCP Investment Corp (BCIC) 100.0% | 13,650k (+560k)
+  Avison Young, S+625 term loan due 3/12/2028: 65.0% (5,148k) | Monroe Capital Income Plus 24.3% | 1,925k (-3,223k)
+  Avison Young, S+750 term loan due 3/12/2029: 15.0% (814k) | Monroe Capital Income Plus 5.7% | 309k (-505k)
+  Avison Young, S+800 term loan due 3/12/2029: 6.6% (45k) | Monroe Capital Income Plus 2.3% | 16k (-29k)
+  RA Outdoors, first lien term loan: 79.3% (10,283k) | Barings BDC 54.2%; Main Street Capital (2028 tranche) 77.0% | 8,506k (-1,777k)
+  Invincible Boat, first lien term loan due 12/31/2031: 81.4% (11,707k) | Main Street Capital 62.2%; MSC Income Fund 62.2% | 8,946k (-2,761k)
+  LAV Gear, S+250 cash plus 3.44% PIK term loan: 84.4% (13,990k) | Varagon Capital 90.0%; MidCap Apollo Institutional Private Lending 77.6% | 13,891k (-99k)
+  Live Comfortably, S+1000 term loan with PIK: 87.5% (19,038k) | TCW Direct Lending VII 92.1%; BCP Investment Corp (BCIC) 90.7% | 19,887k (+849k)
+  Inotiv, S+950 first lien term loan with PIK: 100.0% (17,753k) | Silver Point Specialty Lending 99.7% | 17,700k (-53k)
+  Lift Brands, S+750 first lien term loan: 100.0% (17,677k) | WhiteHorse Finance 100.0% | 17,677k (+0k)
+
+shared loans: CION carries 129,777k; at other lenders' average marks 117,312k (-12,465k = $-0.25/share, -9.6%)
+  at the lowest other mark on each loan 114,654k (-15,123k = $-0.31/share)
+of which in my PIK bucket: 106,093k, other lenders' marks are 91.8% of CION's
+largest PIK loans with no other public holder: 7 loans, 200,200k
+PIK bucket 405,336k: shared part at other lenders' marks (92%), the rest at my old 75% base -> blended base recovery 79.4%
+  shared PIK loans are 26% of the bucket; the unshared largest seven alone are 49%
+pays no cash at all: 91% of the unshared largest seven by value, 69% of the shared PIK loans

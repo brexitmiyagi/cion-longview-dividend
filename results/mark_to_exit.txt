@@ -1,0 +1,42 @@
+median quarterly accretion 2,160k, used as the normal level
+quarter  | realized | reversed on exits | extra accretion | exits vs prior marks | sales and repayments
+  Q1 2025     +2,294k       -202k      -364k     +1,728k     66,310k
+  Q2 2025    -32,376k    +20,935k      +253k    -11,188k    118,200k
+  Q3 2025     -9,605k    -10,686k   +17,285k     -3,006k    225,392k
+  Q1 2026       +238k        -85k      -500k       -347k     37,436k
+  Q2 2026    -17,967k    +18,245k      +714k       +992k    165,968k
+  Q3 2026     -8,631k     +2,569k      -253k     -6,315k    299,212k
+six quarters: realized -66,047k; exits did -18,136k to NAV against their prior-quarter marks (-0.37/share, 27% of the realized loss was not in the marks a quarter earlier)
+  as a share of what left the book: exits at about 98.1% of prior marks
+  sensitivity: normal accretion 1,500k a quarter -> -14,176k
+  sensitivity: normal accretion 3,000k a quarter -> -23,176k
+
+nine months, against the marks at the start of the year: share of realized losses that weren't in those marks
+  CION  9M 2026: realized -26,360, exits did -18,113 to NAV (-3.3% of exits), 69% of the realized loss was new
+  CION  9M 2025: realized -39,687, exits did -49,344 to NAV (-12.0% of exits), 124% of the realized loss was new; with the Q3 2025 accretion treated as exit proceeds -32,170 (81%)
+  FSK   9M 2026: realized -381, exits did -219 to NAV (-7.9% of exits), 57% of the realized loss was new
+  FSK   9M 2025: realized -209, exits did -68 to NAV (-1.4% of exits), 33% of the realized loss was new
+  OBDC  9M 2026: realized -126,770, exits did -24,531 to NAV (-0.8% of exits), 19% of the realized loss was new
+  OBDC  9M 2025: realized -85,591, exits did +4,899 to NAV (+0.2% of exits), 0% of the realized loss was new
+  OFS   9M 2026: realized -24,001, exits did -667 to NAV (-0.8% of exits), 3% of the realized loss was new
+  OFS   9M 2025: realized -10,414, exits did -3,652 to NAV (-6.8% of exits), 35% of the realized loss was new
+  BBDC  9M 2026: realized -6,855, exits did +247 to NAV (+0.1% of exits), 0% of the realized loss was new
+  BBDC  9M 2025: realized -25,821, exits did +1,046 to NAV (+0.2% of exits), 0% of the realized loss was new
+
+CION full year 2025 (10-K): realized -39,569k, exits did -45,348k to NAV (-9.0% of exits), 115% of the realized loss was new; with accretion above four normal quarters treated as exit proceeds -28,336k (-5.6%, 72%)
+
+9M 2026: 20 listed BDCs. Exits against start-of-year marks, worst first:
+   BXSL -14.0%, MSDL -8.2%, FSK -7.9%, CCAP -7.2%, NCDL -4.9%, TSLX -4.9%, WHF -4.8%, NMFC -4.7%, CION -3.3%, MAIN -3.3%, CGBD -1.7%, BCSF -1.6%, OBDC -0.8%, OFS -0.8%, SLRC -0.3%, TRIN -0.1%, BBDC +0.1%, ARCC +0.3%, TPVG +0.5%, MFIC +1.8%
+   CION is 9 of 20; median -2.5%
+   share of realized loss not in the marks (18 with a real realized loss), highest first:
+   BXSL 107%, MSDL 98%, MAIN 89%, NCDL 89%, CGBD 85%, CION 69%, WHF 64%, FSK 57%, NMFC 43%, CCAP 41%, TSLX 39%, BCSF 34%, OBDC 19%, TRIN 7%, OFS 3%, BBDC -4%, TPVG -5%, MFIC -43%
+   CION is 6 of 18; median 42%
+9M 2025: 18 listed BDCs. Exits against start-of-year marks, worst first:
+   CION -12.0%, OFS -6.8%, CCAP -3.2%, WHF -2.2%, NCDL -2.1%, FSK -1.4%, TSLX -1.3%, CGBD -0.8%, MSDL -0.6%, MFIC -0.5%, SLRC -0.3%, BXSL -0.2%, OBDC +0.2%, BBDC +0.2%, ARCC +0.9%, NMFC +1.0%, TPVG +2.2%, MAIN +3.6%
+   CION is 1 of 18; median -0.5%
+   share of realized loss not in the marks (12 with a real realized loss), highest first:
+   CION 124%, NCDL 78%, CCAP 55%, TSLX 36%, OFS 35%, FSK 33%, CGBD 26%, WHF 16%, MFIC 15%, BBDC -4%, OBDC -6%, MAIN -269%
+   CION is 1 of 12; median 29%
+
+CION 2025 restructurings: 121,306k of 409,902k nine-month exits
+  Q2 2025 (30,200k restructured): realized -32,376k, of which 20,935k (65%) reversed markdowns already in the prior quarter's marks

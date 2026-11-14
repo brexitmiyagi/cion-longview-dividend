@@ -1,0 +1,47 @@
+2025: hub $60.09, Longview heat rate 8,766, WV coal $2.87/MMBtu -> margin $29.88/MWh x 4.63m MWh = $138m at the hub
+market monitor APS coal energy net revenue 2025 x 710 MW = $76.0m, so location/dispatch factor k = 0.550
+test, Jan-Sep 2026: hub $89.42 -> my energy margin $137.8m vs market monitor $128.4m (+7%)
+  Jan-Sep 2026 EBITDA on my numbers $122m; owners paid out about $130m
+
+EIA's forecast for the PJM Western hub: 2025 $60.09, 2026 $87.97, 2027 $90.00
+
+base: power fades to the 2025 level by 2030, capacity $250/MW-day after May 2029, retire end-2040, 10%:
+    2027: power $ 90.0  energy $ 170.3m  capacity $ 73.1m  fixed $ 86.9m  cash $ 156.5m
+    2028: power $ 80.0  energy $ 143.1m  capacity $ 72.4m  fixed $ 89.1m  cash $ 126.4m
+    2029: power $ 70.1  energy $ 115.8m  capacity $ 62.0m  fixed $ 91.3m  cash $  86.5m
+    2030: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $ 93.6m  cash $  50.0m
+    2031: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $ 95.9m  cash $  47.7m
+    2032: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $ 98.3m  cash $  45.3m
+    2033: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $100.8m  cash $  42.8m
+    2034: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $103.3m  cash $  40.3m
+    2035: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $105.9m  cash $  37.7m
+    2036: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $108.5m  cash $  35.1m
+    2037: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $111.2m  cash $  32.4m
+    2038: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $114.0m  cash $  29.6m
+    2039: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $116.9m  cash $  26.7m
+    2040: power $ 60.1  energy $  88.5m  capacity $ 55.1m  fixed $119.8m  cash $  23.8m
+  base: $531m = $748/kW; CION ~15% = $79.6m = 80% of its mark
+
+sensitivities (one change at a time from the base):
+  power stays at the 2027 forecast: $1,016m = $1,431/kW; CION ~15% = $152.4m = 154% of its mark
+  power fades to the 2025 level by 2030: $531m = $748/kW; CION ~15% = $79.6m = 80% of its mark
+  power fades to the 2023-24 level by 2030: $282m = $397/kW; CION ~15% = $42.3m = 43% of its mark
+  capacity after May 2029 $325: $623m = $877/kW; CION ~15% = $93.4m = 94% of its mark
+  capacity after May 2029 $150: $408m = $575/kW; CION ~15% = $61.2m = 62% of its mark
+  capacity after May 2029 $100: $352m = $496/kW; CION ~15% = $52.9m = 53% of its mark
+  retire end-2035: $480m = $676/kW; CION ~15% = $72.0m = 73% of its mark
+  retire end-2045: $547m = $770/kW; CION ~15% = $82.0m = 83% of its mark
+  discount rate 8%: $567m = $798/kW; CION ~15% = $85.0m = 86% of its mark
+  discount rate 12%: $500m = $704/kW; CION ~15% = $75.0m = 76% of its mark
+  coal accreditation 80%: $504m = $709/kW; CION ~15% = $75.5m = 76% of its mark
+  coal accreditation 86%: $536m = $755/kW; CION ~15% = $80.4m = 81% of its mark
+  capacity factor 74%: $469m = $660/kW; CION ~15% = $70.3m = 71% of its mark
+  capacity factor 87%: $604m = $850/kW; CION ~15% = $90.5m = 91% of its mark
+
+stake sensitivity (affects what CION owns, and every per-unit to per-kW conversion):
+  14%: CION's share of base $74.3m (75% of mark); Virtus $40.00 = $602/kW; CION $66.35 = $998/kW
+  15%: CION's share of base $79.6m (80% of mark); Virtus $40.00 = $562/kW; CION $66.35 = $932/kW
+  16%: CION's share of base $84.9m (86% of mark); Virtus $40.00 = $527/kW; CION $66.35 = $874/kW
+
+  low (power to 2023-24 levels, capacity $150, retire 2035): $272m = $383/kW; CION ~15% = $40.8m = 41% of its mark
+  high (power stays at 2027 forecast, capacity $325, retire 2045): $1,227m = $1,728/kW; CION ~15% = $184.0m = 185% of its mark

@@ -1,0 +1,21 @@
+quarter     | PIK income | fee reported | fee rebuilt | fee without PIK | fee that depends on PIK
+  2024-03-31      9,531k      6,914k      6,917k      5,249k      1,668k (24%)
+  2024-06-30     10,178k      4,871k      4,874k      3,093k      1,781k (37%)
+  2024-09-30      9,795k      4,586k      4,584k      2,400k      2,184k (48%)
+  2024-12-31     15,036k      3,963k      3,986k          0k      3,986k (100%)
+  2025-03-31     12,053k      4,084k      4,086k          0k      4,086k (100%)
+  2025-06-30     10,489k      3,589k      3,593k          0k      3,593k (100%)
+  2025-09-30     17,955k      8,181k      8,166k      5,024k      3,142k (38%)
+  2025-12-31     11,681k      3,882k      3,884k          0k      3,884k (100%)
+  2026-03-31     11,494k      2,728k      2,746k          0k      2,746k (100%)
+  2026-06-30     13,057k      3,006k      3,008k          0k      3,008k (100%)
+  2026-09-30     11,756k      2,615k      2,601k          0k      2,601k (100%)
+Q1 2024 to Q3 2026: incentive fees 48,419k, of which 32,679k (67%) would not have been earned without PIK income;
+  PIK income booked over the same period 133,025k
+quarters since Q4 2024 where the whole fee depends on PIK: 7 of 8
+the advisory agreement, per the 2025 10-K: CIM is not under any obligation to reimburse the Company for any part
+  of the subordinated incentive fee on income CIM received that was based on accrued income that the Company never actually received
+at 79% recovery, fees paid on the 21% of PIK income I don't expect to be collected: 6,081k (13% of all income fees, Q1 2024 to Q3 2026)
+  at 70% recovery: 9,902k (20% of income fees)
+  at 90% recovery: 2,328k (5% of income fees)
+scale at 79%: 2,211k a year, 4.5 cents a share a year, 2.7% of NII over the period (228,286k)

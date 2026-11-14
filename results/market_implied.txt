@@ -1,0 +1,8 @@
+price $6.09 / NAV $13.2 = 0.46x; market cap 299,644k
+distribution yield at $0.25 a quarter: 16.4%
+David's Bridal: 193,042k at 30 Sep (29.7% of NAV), 166,734k at 30 Jun; equity 30,025k -> 41,853k (+39%)
+Longview + David's Bridal = 292,283k = 45.0% of NAV = $5.94/share; market cap / those two = 1.03
+market-implied value of the whole portfolio: 1,121,434k vs marks 1,471,255k = 76.2%
+with Longview and David's Bridal at their marks, the rest (1,178,972k) is priced at 829,151k = 70.3% of its marks
+what Longview alone is, per share, against the price: $2.02 = 33% of $6.09
+the write-down the price implies: 349,821k = $7.11 a share

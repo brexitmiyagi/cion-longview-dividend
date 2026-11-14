@@ -1,0 +1,24 @@
+  CION  P/NAV 0.46   NII ex-PIK cover 0.07   PIK 25% of investment income
+  OFS   P/NAV 0.50   NII ex-PIK cover 0.36   PIK 8% of investment income
+  RAND  P/NAV 0.55   NII ex-PIK cover 0.55   PIK 12% of investment income
+  OTF   P/NAV 0.57   NII ex-PIK cover 0.59   PIK 12% of investment income
+  FSK   P/NAV 0.64   NII ex-PIK cover 0.65   PIK 14% of investment income
+  HRZN  P/NAV 0.67   NII ex-PIK cover 0.73   PIK 5% of investment income
+  BCSF  P/NAV 0.67   NII ex-PIK cover 0.70   PIK 15% of investment income
+  NCDL  P/NAV 0.69   NII ex-PIK cover 0.89   PIK 6% of investment income
+  CGBD  P/NAV 0.71   NII ex-PIK cover 0.74   PIK 10% of investment income
+  TCPC  P/NAV 0.73   NII ex-PIK cover 0.95   PIK 8% of investment income
+  PSBD  P/NAV 0.73   NII ex-PIK cover 0.95   PIK 2% of investment income
+  MSDL  P/NAV 0.74   NII ex-PIK cover 0.91   PIK 6% of investment income
+  OBDC  P/NAV 0.77   NII ex-PIK cover 0.78   PIK 10% of investment income
+  BBDC  P/NAV 0.79   NII ex-PIK cover 0.80   PIK 10% of investment income
+  MFIC  P/NAV 0.79   NII ex-PIK cover 1.05   PIK 6% of investment income
+  BXSL  P/NAV 0.94   NII ex-PIK cover 0.84   PIK 6% of investment income
+  ARCC  P/NAV 0.99   NII ex-PIK cover 0.72   PIK 16% of investment income
+  TSLX  P/NAV 1.09   NII ex-PIK cover 0.82   PIK 7% of investment income
+  HTGC  P/NAV 1.29   NII ex-PIK cover 0.89   PIK 8% of investment income
+
+18 peers, median P/NAV 0.73
+P/NAV on PIK share of investment income: slope -0.51, R-squared 0.01; at CION's 0.25 the fit says 0.69x = $9.12 (CION's value is outside the peers' range, so this is an extrapolation)
+P/NAV on NII ex-PIK coverage: slope 0.59, R-squared 0.24; at CION's 0.07 the fit says 0.36x = $4.72 (CION's value is outside the peers' range, so this is an extrapolation)
+nearest peer on ex-PIK coverage: OFS at 0.36x trades at 0.50x NAV; CION at 0.07x trades at 0.46x

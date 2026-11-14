@@ -1,0 +1,25 @@
+reported net debt/equity: (897,000 - 50,960) / 649,465 = 1.30x
+look-through net debt/equity incl. SLFP notes and preferred: 1.51x (30 June reported: 1.52x)
+SLFP: 180,300k par sold for 180,000k = 99.8% of par
+  of which 47,750k was paid in SLFP common equity, not cash (10-Q cash flow statement), so cash in was 132,250k (73%)
+
+Debt repaid in Q3 (all-in at 30 Sep SOFR of 4.11%):
+  JPM Credit Facility              200,000k  6.66%  repaid 2026-09-25  (secured; maturity was 2027-06-15; plus 0.20% admin fee on commitment)
+  Series A Notes (TASE)            114,844k  7.93%  repaid 2026-08-31  (repaid at maturity)
+  SLFP notes (new, off balance sheet)      125,000k  8.86%
+
+Debt outstanding 30 Sep 2026, cheapest first:
+  UBS Credit Facility                    100,000k  6.86%  due 2028-02-13
+  7.41% 2027 Notes                        47,500k  7.41%  due 2027-12-15
+  7.50% 2029 Notes                         2,000k  7.50%  due 2029-09-30
+  7.50% Public 2029 Notes (CICB)         172,500k  7.50%  due 2029-12-30
+  7.50% Public 2031 Notes (CICC)         135,000k  7.50%  due 2031-03-31
+  2022 Term Loan                          50,000k  7.61%  due 2027-04-27
+  7.70% 2029 Notes                       125,000k  7.70%  due 2029-12-15
+  2024 Term Loan                          30,000k  7.91%  due 2027-09-30
+  8.00% 2031 Notes                        35,000k  8.00%  due 2031-07-15
+  Tranche B Floating Rate 2027 Notes     100,000k  8.01%  due 2027-11-08
+  Tranche A Floating Rate 2027 Notes     100,000k  8.86%  due 2027-11-08
+  total 897,000k, weighted all-in 7.70% (company reports 7.6% for the quarter)
+due in 2027: 327,500k = 37% of debt; cash and short-term investments 50,960k; undrawn 25,000k
+yield on total investments at cost 8.27% vs weighted debt cost 7.70%: spread 0.57%

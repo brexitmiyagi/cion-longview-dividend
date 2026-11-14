@@ -1,0 +1,19 @@
+2023-12-31:     653,989 units, cost   2,704k, mark   21,726k = $ 33.22/unit
+2024-06-30:   1,466,791 units, cost  12,461k, mark   47,385k = $ 32.31/unit
+2024-09-30:   1,491,731 units, cost  12,835k, mark   49,272k = $ 33.03/unit
+2024-12-31:   1,491,731 units, cost  12,835k, mark   52,166k = $ 34.97/unit
+2025-06-30:   1,491,731 units, cost  12,835k, mark   70,155k = $ 47.03/unit
+2025-09-30:   1,491,731 units, cost  12,835k, mark  103,705k = $ 69.52/unit
+2025-12-31:   1,495,714 units, cost  12,917k, mark  105,657k = $ 70.64/unit
+2026-06-30:   1,495,714 units, cost  12,917k, mark  108,798k = $ 72.74/unit
+2026-09-30:   1,495,714 units, cost  12,917k, mark   99,241k = $ 66.35/unit
+2024 purchase (from Eaton Vance-managed funds per the FERC filing): +837,742 units for 10,131k = $12.09/unit, while CION marked its existing units at $33.22 (Dec 2023)
+those units at the 30 Sep 2026 mark: 55,584k
+2026-06-30: CION mark 108,798k / ~15% stake = ~725m for all of Mountain State's equity = ~$1,022/kW on 710 MW
+2026-09-30: CION mark 99,241k / ~15% stake = ~662m for all of Mountain State's equity = ~$932/kW on 710 MW
+Q3 2026: CION's 14,209k dividend / ~15% = ~95m paid out by the plant's owner in one quarter
+2024/2025: $28.92/MW-day x 710 MW x 83% = ~$6.2m a year of capacity revenue (2026/27 coal ELCC of 83% used as a stand-in)
+2025/2026: $269.92/MW-day x 710 MW x 83% = ~$58.1m a year of capacity revenue (2026/27 coal ELCC of 83% used as a stand-in)
+2026/2027: $329.17/MW-day x 710 MW x 83% = ~$70.8m a year of capacity revenue
+2027/2028: $333.44/MW-day x 710 MW x 83% = ~$71.7m a year of capacity revenue (2026/27 coal ELCC of 83% used as a stand-in)
+2028/2029: $325.00/MW-day x 710 MW x 85% = ~$71.6m a year of capacity revenue

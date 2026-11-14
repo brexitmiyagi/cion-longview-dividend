@@ -1,0 +1,5 @@
+CION at $0.25 a quarter on $6.09: 16.4%
+peers, trailing nine months annualised: HRZN 19.5%, OFS 18.4%, OTF 17.0%, TCPC 16.6%, PSBD 15.8%, FSK 15.5%, BCSF 15.2%, CGBD 13.4%, MSDL 13.1%, NCDL 13.1%, BXSL 12.9%, MFIC 12.6%, OBDC 12.4%, BBDC 12.1%, RAND 12.1%, HTGC 11.6%, ARCC 10.0%, TSLX 9.8%
+peer median 13.1%; CION ranks 5 of 19
+  if CION paid $0.21 a quarter, the yield at today's price would be 13.8%
+  if CION paid $0.20 a quarter, the yield at today's price would be 13.1%

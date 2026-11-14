@@ -1,0 +1,5 @@
+asset coverage at book: (649,465 + 897,000) / 897,000 = 172% (10-Q: 172%)
+NAV could fall 200,965k (31%) before coverage hits 150%
+asset coverage if NAV were the market cap (299,644k): 133%
+CICB: $24.46 for $25 par, 7.5% coupon, due 2029-12-30: yield to maturity ~8.63%
+CICC: $24.45 for $25 par, 7.5% coupon, due 2031-03-31: yield to maturity ~8.35%

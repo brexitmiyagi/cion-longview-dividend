@@ -1,0 +1,12 @@
+2024-09-30: 20 shared borrowers, 3 exited, 17 still held a year later
+  CION more than 10 points above the others (7): next-12-month change in CION's mark, mean -8.0 pts, median -5.7
+  the rest (10): mean -3.3 pts, median -0.0
+  correlation of the gap with the later change: -0.58
+2025-09-30: 15 shared borrowers, 3 exited, 12 still held a year later
+  CION more than 10 points above the others (5): next-12-month change in CION's mark, mean -3.7 pts, median -4.0
+  the rest (7): mean -19.8 pts, median -8.5
+  correlation of the gap with the later change: +0.46
+both: 35 shared borrowers, 6 exited, 29 still held a year later
+  CION more than 10 points above the others (12): next-12-month change in CION's mark, mean -6.2 pts, median -4.1
+  the rest (17): mean -10.1 pts, median -2.1
+  correlation of the gap with the later change: +0.01

@@ -1,0 +1,35 @@
+portfolio at fair value 1,471,255k (release: 1,471,255k)
+  Debt paying cash         101 positions  cost   516,800k  mark   481,123k  (93% of cost, 32.7% of portfolio)
+  Debt with PIK             43 positions  cost   473,310k  mark   405,336k  (86% of cost, 27.6% of portfolio)
+  Other equity              53 positions  cost   278,401k  mark   221,000k  (79% of cost, 15.0% of portfolio)
+  David's Bridal             8 positions  cost   202,057k  mark   193,042k  (96% of cost, 13.1% of portfolio)
+  Longview                   1 positions  cost    12,917k  mark    99,241k  (768% of cost, 6.7% of portfolio)
+  Joint venture common       1 positions  cost    49,180k  mark    47,523k  (97% of cost, 3.2% of portfolio)
+  Debt on non-accrual        8 positions  cost    75,762k  mark    23,990k  (32% of cost, 1.6% of portfolio)
+loans past maturity still carried (footnote x): 7, mark 74,458k
+loans to plaintiff law firms (Hilliard, Trammell): 46,887k, all PIK
+if Longview, David's Bridal and the cash-pay loans are worth their marks (773,406k), the market prices the other 697,849k at 348,028k = 50% of marks
+PIK debt paying no cash at all (no cash rate in the PIK table): 285,838k = 44% of NAV, 19.4% of the portfolio
+Homer City Generation PIK notes: 38,122k
+
+bear: $1.62/share (-73%); write-downs vs 30 Sep NAV 569,864k = 5.0x CION's 2025 net losses of 113,671k
+base: $8.16/share (+34%); write-downs vs 30 Sep NAV 248,217k = 2.2x CION's 2025 net losses of 113,671k
+bull: $13.02/share (+114%); write-downs vs 30 Sep NAV 9,043k = 0.1x CION's 2025 net losses of 113,671k
+weighted (35/45/20): $6.84/share, +12.3% vs $6.09; even weights $7.60
+Buy line $5.95, Sell line $8.05
+plus 12 months of distributions if $0.25 holds ($1.00): $7.84 (+29% total)
+sensitivity: 10 points on Debt with PIK = $0.82/share
+sensitivity: 10 points on David's Bridal = $0.39/share
+sensitivity: 10 points on Other equity = $0.45/share
+moving each bucket from base to bear, one at a time:
+  Debt with PIK: $1.98/share
+  David's Bridal: $1.73/share
+  Other equity: $1.12/share
+  Longview: $0.79/share
+  Debt paying cash: $0.39/share
+  Joint venture common: $0.34/share
+  Debt on non-accrual: $0.20/share
+weighted by the last seven quarters (4/1/2): $5.81
+bear: assets left for debt ~976,601k; after the secured facility, unsecured debt covered 1.10x
+base: assets left for debt ~1,298,248k; after the secured facility, unsecured debt covered 1.50x
+bull: assets left for debt ~1,537,422k; after the secured facility, unsecured debt covered 1.80x

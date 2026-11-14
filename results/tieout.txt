@@ -1,0 +1,38 @@
+tie-out OK: Longview Q3 dividend 14209.0 | incentive fee 2617 | debt 897000.0 | NAV/share 13.2 | SLFP loans 176909.0 | distributions 14761
+portfolio at fair value 1,471,255k (release: 1,471,255k)
+  Debt paying cash         101 positions  cost   516,800k  mark   481,123k  (93% of cost, 32.7% of portfolio)
+  Debt with PIK             43 positions  cost   473,310k  mark   405,336k  (86% of cost, 27.6% of portfolio)
+  Other equity              53 positions  cost   278,401k  mark   221,000k  (79% of cost, 15.0% of portfolio)
+  David's Bridal             8 positions  cost   202,057k  mark   193,042k  (96% of cost, 13.1% of portfolio)
+  Longview                   1 positions  cost    12,917k  mark    99,241k  (768% of cost, 6.7% of portfolio)
+  Joint venture common       1 positions  cost    49,180k  mark    47,523k  (97% of cost, 3.2% of portfolio)
+  Debt on non-accrual        8 positions  cost    75,762k  mark    23,990k  (32% of cost, 1.6% of portfolio)
+loans past maturity still carried (footnote x): 7, mark 74,458k
+loans to plaintiff law firms (Hilliard, Trammell): 46,887k, all PIK
+if Longview, David's Bridal and the cash-pay loans are worth their marks (773,406k), the market prices the other 697,849k at 348,028k = 50% of marks
+PIK debt paying no cash at all (no cash rate in the PIK table): 285,838k = 44% of NAV, 19.4% of the portfolio
+Homer City Generation PIK notes: 38,122k
+tie-out OK: schedule buckets sum to 1471255 | Longview mark consistent
+loan | CION mark | other lenders | CION's mark at their average
+  Anthem Sports & Entertainment, 10.00% PIK term loan B: 67.5% (20,232k) | BCP Investment Corp (BCIC) 49.4% | 14,807k (-5,425k)
+  Anthem Sports & Entertainment, S+550 PIK delayed draw term loan: 95.9% (13,090k) | BCP Investment Corp (BCIC) 100.0% | 13,650k (+560k)
+  Avison Young, S+625 term loan due 3/12/2028: 65.0% (5,148k) | Monroe Capital Income Plus 24.3% | 1,925k (-3,223k)
+  Avison Young, S+750 term loan due 3/12/2029: 15.0% (814k) | Monroe Capital Income Plus 5.7% | 309k (-505k)
+  Avison Young, S+800 term loan due 3/12/2029: 6.6% (45k) | Monroe Capital Income Plus 2.3% | 16k (-29k)
+  RA Outdoors, first lien term loan: 79.3% (10,283k) | Barings BDC 54.2%; Main Street Capital (2028 tranche) 77.0% | 8,506k (-1,777k)
+  Invincible Boat, first lien term loan due 12/31/2031: 81.4% (11,707k) | Main Street Capital 62.2%; MSC Income Fund 62.2% | 8,946k (-2,761k)
+  LAV Gear, S+250 cash plus 3.44% PIK term loan: 84.4% (13,990k) | Varagon Capital 90.0%; MidCap Apollo Institutional Private Lending 77.6% | 13,891k (-99k)
+  Live Comfortably, S+1000 term loan with PIK: 87.5% (19,038k) | TCW Direct Lending VII 92.1%; BCP Investment Corp (BCIC) 90.7% | 19,887k (+849k)
+  Inotiv, S+950 first lien term loan with PIK: 100.0% (17,753k) | Silver Point Specialty Lending 99.7% | 17,700k (-53k)
+  Lift Brands, S+750 first lien term loan: 100.0% (17,677k) | WhiteHorse Finance 100.0% | 17,677k (+0k)
+
+shared loans: CION carries 129,777k; at other lenders' average marks 117,312k (-12,465k = $-0.25/share, -9.6%)
+  at the lowest other mark on each loan 114,654k (-15,123k = $-0.31/share)
+of which in my PIK bucket: 106,093k, other lenders' marks are 91.8% of CION's
+largest PIK loans with no other public holder: 7 loans, 200,200k
+PIK bucket 405,336k: shared part at other lenders' marks (92%), the rest at my old 75% base -> blended base recovery 79.4%
+  shared PIK loans are 26% of the bucket; the unshared largest seven alone are 49%
+pays no cash at all: 91% of the unshared largest seven by value, 69% of the shared PIK loans
+PIK cross-marks tie to the schedule
+Level 3 rollforward and quarterly credit losses tie to the statements
+incentive fee rebuilds within $30k in every quarter, Q1 2024 to Q3 2026
