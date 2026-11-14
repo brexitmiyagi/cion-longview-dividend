@@ -36,9 +36,12 @@ NAV restated to other lenders' marks on the PIK bucket (alternative only): -33,2
 12-month target: the market will be looking at the 30 Sep 2027 NAV (10-Q out early November 2027),
 valued on Q3 2027 NII annualised, the same reported basis the peer line uses.
 CION today: 0.46x NAV against 0.67x on the line, a gap of -0.21x; share of such gaps still there a year later 0.93 (80% range 0.79 to 1.00)
-  bear: NAV $9.59; NII/NAV 8.6%; on the line 0.69x = $6.61; with 93% of today's gap 0.50x = $4.77
+  bear: the line alone would give 0.69x on NII/NAV of 8.6%; held at the base case's 0.67x
+  bear: NAV $9.59; NII/NAV 8.6%; on the line 0.67x = $6.39; with 93% of today's gap 0.47x = $4.55
   base: NAV $12.45; NII/NAV 8.1%; on the line 0.67x = $8.29; with 93% of today's gap 0.47x = $5.91
-  bull: NAV $15.75; NII/NAV 7.9%; on the line 0.66x = $10.37; with 93% of today's gap 0.47x = $7.36
+  bull: the line alone would give 0.66x on NII/NAV of 7.9%; held at the base case's 0.67x
+  bull: NAV $15.75; NII/NAV 7.9%; on the line 0.67x = $10.49; with 93% of today's gap 0.47x = $7.48
+  bear at today's 0.46x NAV instead: $4.43
   how loose the line is: 80% prediction interval for the base case 0.47x to 0.86x = $5.84 to $10.74
   base range from the 80% range of the persistence: $5.73 to $6.27
   base on other choices:
