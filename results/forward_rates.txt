@@ -1,0 +1,36 @@
+SOFR futures, 13 Nov 2026 (CME last; Yahoo close as a check):
+  SR3U6 from 2026-09-16: 96.075 = 3.925%
+  SR3Z6 from 2026-12-16: 95.71 = 4.290%, Yahoo 95.695
+  SR3H7 from 2027-03-17: 95.435 = 4.565%, Yahoo 95.40
+  SR3M7 from 2027-06-16: 95.265 = 4.735%, Yahoo 95.23
+  SR3U7 from 2027-09-15: 95.205 = 4.795%, Yahoo 95.18
+  SR3Z7 from 2027-12-15: 95.22 = 4.780%, Yahoo 95.20
+  SR3H8 from 2028-03-15: 95.255 = 4.745%
+quarterly SOFR on the curve, shift from the 10-Q's 3.88%, and what it adds to NII before fees:
+  Q4 2026: 3.99%  +11bp  +146k
+  Q1 2027: 4.34%  +46bp  +634k
+  Q2 2027: 4.59%  +71bp  +992k
+  Q3 2027: 4.74%  +86bp  +1,203k
+  Q4 2027: 4.79%  +91bp  +1,269k
+bear:
+  Q4 2026: NII flat $0.244, on the curve $0.246; NAV/share $12.58
+  Q1 2027: NII flat $0.234, on the curve $0.245; NAV/share $10.81
+  Q2 2027: NII flat $0.192, on the curve $0.209; NAV/share $10.21
+  Q3 2027: NII flat $0.187, on the curve $0.207; NAV/share $9.59
+  Q4 2027: NII flat $0.178, on the curve $0.199; NAV/share $8.97
+  2027 NII: flat $0.79, on the curve $0.86
+base:
+  Q4 2026: NII flat $0.244, on the curve $0.246; NAV/share $12.95
+  Q1 2027: NII flat $0.241, on the curve $0.251; NAV/share $12.36
+  Q2 2027: NII flat $0.219, on the curve $0.237; NAV/share $12.39
+  Q3 2027: NII flat $0.229, on the curve $0.251; NAV/share $12.45
+  Q4 2027: NII flat $0.225, on the curve $0.248; NAV/share $12.24
+  2027 NII: flat $0.91, on the curve $0.99
+bull:
+  Q4 2026: NII flat $0.244, on the curve $0.246; NAV/share $13.05
+  Q1 2027: NII flat $0.242, on the curve $0.253; NAV/share $14.04
+  Q2 2027: NII flat $0.252, on the curve $0.270; NAV/share $14.79
+  Q3 2027: NII flat $0.285, on the curve $0.310; NAV/share $15.75
+  Q4 2027: NII flat $0.283, on the curve $0.309; NAV/share $15.69
+  2027 NII: flat $1.06, on the curve $1.14
+base on the curve, coverage after the sale: 0.95x to 1.00x

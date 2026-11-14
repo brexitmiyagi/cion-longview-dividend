@@ -1,22 +1,22 @@
 run-rate pre-incentive NII without Longview (core_earnings_bridge.py): 11,925k = $0.242/share
 
 quarter  | distribution | consensus | mine, cash not redeployed | mine, redeployed | coverage (not / redeployed)
-  Q4 2026  $0.30         $0.27      $0.244                     $0.244            0.81x / 0.81x
-  Q1 2027  $0.25         $0.28      $0.244                     $0.244            0.98x / 0.98x
-  Q2 2027  $0.25         $0.28      $0.217                     $0.239            0.87x / 0.95x
-  Q3 2027  $0.25         $0.29      $0.217                     $0.265            0.87x / 1.06x
-  four quarters: distributions $1.05; mine $0.92 not redeployed, $0.99 redeployed
+  Q4 2026  $0.30         $0.27      $0.246                     $0.246            0.82x / 0.82x
+  Q1 2027  $0.25         $0.28      $0.254                     $0.254            1.02x / 1.02x
+  Q2 2027  $0.25         $0.28      $0.234                     $0.257            0.93x / 1.03x
+  Q3 2027  $0.25         $0.29      $0.237                     $0.290            0.95x / 1.16x
+  four quarters: distributions $1.05; mine $0.97 not redeployed, $1.05 redeployed
 
 Longview dividend before closing (Q4 2026 and Q1 2027):
   none (0k a quarter): $0.214/share
-  H1 2026 average (2,618k a quarter): $0.244/share
-  Q3 2026 again (14,209k a quarter): $0.438/share
-what Longview would have to pay in Q4 for my numbers to reach the $0.27 consensus: about 4,179k
+  H1 2026 average (2,618k a quarter): $0.246/share
+  Q3 2026 again (14,209k a quarter): $0.441/share
+what Longview would have to pay in Q4 for my numbers to reach the $0.27 consensus: about 4,033k
 
 if fee income comes back to its first-half 2026 average (2,017k a quarter):
-  Q4 2026: $0.278 not redeployed, $0.278 redeployed
-  Q1 2027: $0.278 not redeployed, $0.278 redeployed
-  Q2 2027: $0.251 not redeployed, $0.276 redeployed
-  Q3 2027: $0.251 not redeployed, $0.307 redeployed
+  Q4 2026: $0.280 not redeployed, $0.280 redeployed
+  Q1 2027: $0.288 not redeployed, $0.288 redeployed
+  Q2 2027: $0.267 not redeployed, $0.294 redeployed
+  Q3 2027: $0.271 not redeployed, $0.331 redeployed
 
-consensus for FY2027 is $1.13, $0.282 a quarter; my Q3 2027 redeployed with fees back is $0.307
+consensus for FY2027 is $1.13, $0.282 a quarter; my Q3 2027 redeployed with fees back is $0.331

@@ -1,0 +1,17 @@
+non-accruals, release: 4.85% of the portfolio at cost, 1.63% at fair value
+  schedule check: 8 positions, cost 75,762k (4.71%), fair value 23,990k (1.63%), marked at 32% of cost
+    Anthem Sports & Entertainment Inc.: cost 3,663k, fair value 0k
+    HW Acquisition, LLC: cost 5,685k, fair value 0k
+    NewsCycle Solutions, Inc.: cost 11,064k, fair value 6,422k
+    STATinMED, LLC: cost 11,709k, fair value 0k
+    Trademark Global, LLC: cost 19,288k, fair value 12,535k
+    Williams Industrial Services Group, Inc.: cost 1,493k, fair value 178k
+    Williams Industrial Services Group, Inc.: cost 0k, fair value 46k
+    Lucky Bucks Holdings LLC: cost 22,860k, fair value 4,809k
+debt 897,000k, net assets 649,465k: gross debt/equity 1.38x, net of cash and short-term investments 1.30x
+asset coverage 172% against the 150% floor; NAV could fall 200,965k (31%) before coverage hits 150%
+maturities:
+  2027: 327,500k = 2022 Term Loan 50,000k, 2024 Term Loan 30,000k, Tranche A Floating Rate 2027 Notes 100,000k, Tranche B Floating Rate 2027 Notes 100,000k, 7.41% 2027 Notes 47,500k
+  2028: 100,000k = UBS Credit Facility 100,000k
+  2029: 299,500k = 7.50% 2029 Notes 2,000k, 7.70% 2029 Notes 125,000k, 7.50% Public 2029 Notes (CICB) 172,500k
+  2031: 170,000k = 7.50% Public 2031 Notes (CICC) 135,000k, 8.00% 2031 Notes 35,000k

@@ -1,0 +1,7 @@
+CICB yield at $24.46: 8.63% (quarterly compounding)
+  bear (25%): common $3.98 + $0.87 distributions = -20.3%; CICB $23.75 + $1.875 coupons = +4.8%
+  base (50%): common $6.18 + $0.93 distributions = +16.9%; CICB $24.68 + $1.875 coupons = +8.6%
+  bull (25%): common $8.31 + $0.93 distributions = +51.7%; CICB $24.92 + $1.875 coupons = +9.5%
+weighted 25/50/25: common +16.3% (spread across cases 25.5%), CICB +7.9% (1.8%)
+return over a one-year Treasury (4.65%) per unit of that spread: common 0.46, CICB 1.75
+CICB matches the common on expected return once the bear case gets 51% (bull held at 25%)

@@ -1,8 +1,8 @@
-Q1 2027, the last quarter with Longview dividends (H1 2026 average, 2,618k): $0.241
+Q1 2027, the last quarter with Longview dividends (H1 2026 average, 2,618k): $0.251
   the Longview dividend alone is about $0.053 a share before the incentive fee
-  my base case, Q3 2027: $0.229
-  no credit losses at all from here: $0.244 (+0.016)
-  Longview sells at CION's full mark, not 80%: $0.264 (+0.020)
-  fee income back to its first-half 2026 average: $0.307 (+0.043)
-  consensus for Q3 2027: $0.29; not explained by anything above: $-0.017
-  for 2027 as a whole: mine $0.91, consensus $1.13
+  my base case, Q3 2027: 25.1 cents
+  no credit losses at all from here: 26.7 cents (+1.6)
+  Longview sells at CION's full mark, not 80%: 28.9 cents (+2.2)
+  fee income back to its first-half 2026 average: 33.2 cents (+4.3)
+  consensus for Q3 2027: $0.29; not explained by anything above: $-0.042
+  for 2027 as a whole: mine $0.99, consensus $1.13
