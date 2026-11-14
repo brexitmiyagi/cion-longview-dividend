@@ -1,0 +1,8 @@
+contract,globex,reference_quarter_start,last_2026_11_13,yahoo_close_2026_11_13,source
+Sep 2026,SR3U6,2026-09-16,96.075,,"CME Group Three-Month SOFR futures quotes page, last trade 13 Nov 2026 16:39 CT (https://www.cmegroup.com/markets/interest-rates/stirs/three-month-sofr.quotes.html)"
+Dec 2026,SR3Z6,2026-12-16,95.71,95.695,"CME (last); Yahoo Finance SR3Z26.CME daily close"
+Mar 2027,SR3H7,2027-03-17,95.435,95.40,same
+Jun 2027,SR3M7,2027-06-16,95.265,95.23,same
+Sep 2027,SR3U7,2027-09-15,95.205,95.18,same
+Dec 2027,SR3Z7,2027-12-15,95.22,95.20,same
+Mar 2028,SR3H8,2028-03-15,95.255,,CME (last)
