@@ -133,54 +133,53 @@ restate = 0.0                            # not in the base case any more
 print(f"NAV restated to other lenders' marks on the PIK bucket (alternative only): -{restate_alt:,.0f}k")
 print()
 print("12-month target: the market will be looking at the 30 Sep 2027 NAV (10-Q out early November 2027),")
-print("valued on Q3 2027 NII annualised, with PIK income counted at my recovery rate.")
-# One target, not two stories. The peer line says what CION is worth if the market pays it what
-# it pays other BDCs for the same earnings. CION trades well below the line today and I can't
-# name what closes that gap within a year, so the target weights the two equally: half on the
-# line, half on today's discount to the line carrying forward.
+print("valued on Q3 2027 NII annualised, the same reported basis the peer line uses.")
+# One target, set by data. The peer line says what CION is worth if the market pays it what it
+# pays other BDCs for the same earnings. CION trades well below the line. discount_persistence.py
+# checks how much of such a gap is still there a year later across the 16 peers since 2024: about
+# 93%. So the target carries that share of today's gap forward. NII stays on the reported basis
+# (PIK in full), because today's gap is measured on that basis and already holds the market's view
+# of CION's PIK; haircutting PIK as well would count that view twice (printed below anyway).
+with contextlib.redirect_stdout(io.StringIO()):
+    DP = runpy.run_path(os.path.join(HERE, 'discount_persistence.py'))
+KEEP, KEEP_LO, KEEP_HI = DP['slope'], DP['lo'], DP['hi']
 resid = cion['pnav'] - (a1 + b1 * cion['roe'])
-W_LINE = 0.5
 pp = [x for x in S if x['t'] not in ('CION', 'HTGC', 'RAND')]
 Xp = np.array([[1, x['roe']] for x in pp]); yp = np.array([x['pnav'] for x in pp])
 s2 = ((yp - Xp @ np.array([a1, b1])) ** 2).sum() / (len(pp) - 2); XtXi = np.linalg.inv(Xp.T @ Xp)
 T80 = 1.345   # t with 14 degrees of freedom, 80% two-sided
-print(f"CION today: {cion['pnav']:.2f}x NAV against {a1+b1*cion['roe']:.2f}x on the line, a discount of {resid:+.2f}x; the line's residual standard error is {s2**0.5:.3f}x")
+print(f"CION today: {cion['pnav']:.2f}x NAV against {a1+b1*cion['roe']:.2f}x on the line, a gap of {resid:+.2f}x; share of such gaps still there a year later {KEEP:.2f} (80% range {KEEP_LO:.2f} to {KEEP_HI:.2f})")
+def value(m_line, nav_ps, keep=None):
+    return (m_line + (KEEP if keep is None else keep) * resid) * nav_ps
 tg = {}; detail = {}; VAL = {}
-def blend(m_line, nav_ps, w=W_LINE):
-    return (m_line + (1 - w) * resid) * nav_ps
 for case in CASES:
     r = [x for x in res[case] if x['q'] == 'Q3 2027'][0]
-    nii_adj = r['nii'] - pik_q * (1 - PIKR[case])
-    nav_adj = r['na'] - restate
-    roe = nii_adj * 4 / nav_adj
+    roe = r['nii'] * 4 / r['na']
     m = a1 + b1 * roe
-    tg[case] = m * nav_adj / r['sh']
-    VAL[case] = blend(m, nav_adj / r['sh'])
-    detail[case] = (nav_adj / r['sh'], roe, m)
-    print(f"  {case}: NAV ${r['nav_ps']:.2f}; NII/NAV with PIK at {PIKR[case]:.0%} = {roe:.1%}; on the line {m:.2f}x = ${tg[case]:.2f}; discount persists {m+resid:.2f}x = ${(m+resid)*r['nav_ps']:.2f}; half and half ${VAL[case]:.2f}")
+    tg[case] = m * r['nav_ps']
+    VAL[case] = value(m, r['nav_ps'])
+    detail[case] = (r['nav_ps'], roe, m)
+    print(f"  {case}: NAV ${r['nav_ps']:.2f}; NII/NAV {roe:.1%}; on the line {m:.2f}x = ${tg[case]:.2f}; with {KEEP:.0%} of today's gap {m+KEEP*resid:.2f}x = ${VAL[case]:.2f}")
 r = res['base'][3]
-nii_adj = r['nii'] - pik_q * (1 - PIKR['base']); nav_adj = r['na'] - restate
-roe_b = nii_adj * 4 / nav_adj; m_b = a1 + b1 * roe_b
+nav_adj = r['na'] - restate
+roe_b = r['nii'] * 4 / r['na']; m_b = a1 + b1 * roe_b
 x0 = np.array([1, roe_b]); se = (s2 * (1 + x0 @ XtXi @ x0)) ** 0.5
 print(f"  how loose the line is: 80% prediction interval for the base case {m_b-T80*se:.2f}x to {m_b+T80*se:.2f}x = ${(m_b-T80*se)*r['nav_ps']:.2f} to ${(m_b+T80*se)*r['nav_ps']:.2f}")
+lo_v, hi_v = value(m_b, r['nav_ps'], KEEP_HI), value(m_b, r['nav_ps'], KEEP_LO)
+print(f"  base range from the 80% range of the persistence: ${lo_v:.2f} to ${hi_v:.2f}")
 print("  base on other choices:")
-for w in (0.25, 0.75, 1.0):
-    print(f"    weight on the line {w:.0%}: ${blend(m_b, r['nav_ps'], w):.2f}")
-print(f"    all 18 peers (half and half): ${(a0 + b0 * roe_b + (1 - W_LINE) * (cion['pnav'] - (a0 + b0 * cion['roe']))) * r['nav_ps']:.2f}")
-roe_full = r['nii'] * 4 / r['na']
-print(f"    PIK in full (half and half): ${blend(a1 + b1 * roe_full, r['nav_ps']):.2f}")
-sens = {}
-for rec in (0.70, 0.79, 0.90):
-    roe_s = (r['nii'] - pik_q * (1 - rec)) * 4 / nav_adj
-    sens[rec] = blend(a1 + b1 * roe_s, nav_adj / r['sh'])
-    print(f"    PIK income at {rec:.0%}: NII/NAV {roe_s:.1%} -> ${sens[rec]:.2f}")
-print(f"  base range: ${sens[0.70]:.2f} to ${sens[0.90]:.2f}, point target ${VAL['base']:.2f}")
+print(f"    half on the line, half on today's gap: ${value(m_b, r['nav_ps'], 0.5):.2f} (my v20 draft also haircut PIK and got $6.18)")
+print(f"    the line alone: ${tg['base']:.2f}")
+roe_p = (r['nii'] - pik_q * (1 - PIKR['base'])) * 4 / r['na']
+print(f"    PIK haircut to 79% on top of the carried gap (counts the market's PIK view twice): ${value(a1 + b1 * roe_p, r['nav_ps']):.2f}")
+print(f"    all 18 peers in the line, same persistence: ${(a0 + b0 * roe_b + KEEP * (cion['pnav'] - (a0 + b0 * cion['roe']))) * r['nav_ps']:.2f}")
 target = VAL['base']
+dist12 = 0.10 + 10 * 0.25 / 3   # December 2026 declared, then ten months of the 2027 base
+tr = (target + dist12) / px - 1
 rating = 'BUY' if target > px * 1.15 else 'SELL' if target < px * 0.85 else 'HOLD'
-print(f"TARGET: ${target:.2f} ({target/px-1:+.1%} vs ${px}); Buy above ${px*1.15:.2f}, Sell below ${px*0.85:.2f}")
-for rec, v in sens.items():
-    print(f"    at {rec:.0%}: ${v:.2f} ({v/px-1:+.0%}) -> {'BUY' if v > px*1.15 else 'SELL' if v < px*0.85 else 'HOLD'}")
-print(f"RATING: {rating} (the 15% rule, no override)")
+print(f"TARGET: ${target:.2f} ({target/px-1:+.1%} vs ${px}); with ${dist12:.2f} of distributions a 12-month total return of {tr:+.1%}")
+print(f"  on price: Buy above ${px*1.15:.2f}, Sell below ${px*0.85:.2f}; on total return the base case is {tr:+.1%}, also under the +15% Buy line")
+print(f"RATING: {rating} (the 15% rule, on price and on total return, no override)")
 print()
 # reconciling with valuation.py's base write-down
 import io as _io, contextlib as _cl

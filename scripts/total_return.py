@@ -50,13 +50,19 @@ for case in ('bear', 'base', 'bull'):
     rows_[case] = (c_tr, n_tr)
     print(f"  {case} ({W[case]:.0%}): common ${VAL[case]:.2f} + ${DIST[case]:.2f} distributions = {c_tr:+.1%}; CICB ${p1:.2f} + ${coupon:.3f} coupons = {n_tr:+.1%}")
 ec = sum(W[k] * v[0] for k, v in rows_.items()); en = sum(W[k] * v[1] for k, v in rows_.items())
-sc = sum(W[k] * (v[0] - ec) ** 2 for k, v in rows_.items()) ** 0.5
-sn = sum(W[k] * (v[1] - en) ** 2 for k, v in rows_.items()) ** 0.5
-print(f"weighted 25/50/25: common {ec:+.1%} (spread across cases {sc:.1%}), CICB {en:+.1%} ({sn:.1%})")
-print(f"return over a one-year Treasury ({tb:.2%}) per unit of that spread: common {(ec-tb)/sc:.2f}, CICB {(en-tb)/sn:.2f}")
-# bear weight at which CICB's expected return matches the common's, bull held at 25%
+print(f"weighted 25/50/25: common {ec:+.1%}, CICB {en:+.1%}")
+# Risk from what the two have actually done, not from my scenarios: realised volatility since
+# CICB listed (realized_risk.py), against my expected returns.
+with contextlib.redirect_stdout(io.StringIO()):
+    RR = runpy.run_path(os.path.join(HERE, 'realized_risk.py'))
+vc, vn = RR['ST']['CION common']['vol'], RR['ST']['CICB']['vol']
+print(f"expected return over a one-year Treasury ({tb:.2%}) per unit of realised volatility: common {(ec-tb)/vc:.2f} ({vc:.1%} vol), CICB {(en-tb)/vn:.2f} ({vn:.1%} vol)")
 for pb in [x / 100 for x in range(0, 76)]:
     w = {'bear': pb, 'bull': 0.25, 'base': 0.75 - pb}
     if sum(w[k] * (rows_[k][1] - rows_[k][0]) for k in w) >= 0:
         print(f"CICB matches the common on expected return once the bear case gets {pb:.0%} (bull held at 25%)")
         break
+# If CION calls CICB at par on 30 Dec 2026 (it can, from that date), a holder gets par plus the
+# December coupon, then has to reinvest.
+called = (par + par * cpn / 4) / price - 1
+print(f"if CICB is called on 30 Dec 2026: ${par + par*cpn/4:.2f} against ${price}, {called:+.1%} in seven weeks, then reinvest")

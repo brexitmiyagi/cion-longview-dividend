@@ -53,3 +53,18 @@ b = out['base']
 cov = [x['nii_ps'] / x['dist_ps'] for x in b[2:]]
 print(f"base on the curve, coverage after the sale: {min(cov):.2f}x to {max(cov):.2f}x")
 
+
+# Is the curve on its own? Fed funds futures and Treasury bills on the same day point the same
+# way: the market expects the Fed to raise rates by about 3/4 to 1 point through 2027.
+X = {(r['series'], r['month_or_tenor']): float(r['value']) for r in rows('rates_crosscheck_2026_11_13.csv')}
+eff = X[('effective_fed_funds', '12 Nov 2026')]
+print(f"fed funds futures, 13 Nov 2026 (effective fed funds {eff:.2f}% on 12 Nov): " + ", ".join(
+    f"{m} {100-X[('fed_funds_futures', m)]:.2f}%" for m in ('Dec 2026', 'Mar 2027', 'Jun 2027', 'Sep 2027', 'Dec 2027')))
+print(f"  implied rise by Dec 2027: {(100-X[('fed_funds_futures','Dec 2027')]-eff)*100:.0f}bp; SOFR futures: {(PATH['Q4 2027']-0.0390)*1e4:.0f}bp")
+print(f"Treasury bills: 3 months {X[('treasury_cmt','3 Mo')]:.2f}%, 6 months {X[('treasury_cmt','6 Mo')]:.2f}%, 1 year {X[('treasury_cmt','1 Yr')]:.2f}%, against SOFR {X[('sofr','12 Nov 2026')]:.2f}%")
+# The base for the shift: the 10-Q's rate table starts from 3.88%. The run-rate is built from Q3
+# income, when SOFR averaged 3.67%, so measuring from 3.88% leaves out about 20bp of the lift.
+q3 = X[('sofr_average', 'Q3 2026')] / 100
+from common import nii_change_k
+sh = I['shares_outstanding_2026_09_30'] / 1000
+print(f"SOFR averaged {q3:.2%} in Q3 2026 against the 10-Q's 3.88% base: measuring from Q3 would add about {nii_change_k((0.0388-q3)*1e4)/sh*100:.1f} cents a year before the incentive fee, so my base is the cautious one")
