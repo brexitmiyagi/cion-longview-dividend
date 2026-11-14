@@ -50,6 +50,10 @@ You need Python 3, nothing else. From anywhere:
     python3 scripts/realized_risk.py
     python3 scripts/discount_persistence.py
     python3 scripts/refinancing_2027.py
+    python3 scripts/jv_forensics.py
+    python3 scripts/investment_ratings.py
+    python3 scripts/insiders_and_buybacks.py
+    python3 scripts/longview_tax.py
 
 bdc_screen.py runs off data/bdc_panel.csv. If you want to rebuild that file from SEC yourself, put your own contact in the User-Agent line of pull_bdc_panel.py and run it. It takes a while because it pulls a few hundred company fact files.
 
@@ -68,6 +72,10 @@ My output from a clean run is in results/.
 - discount_persistence.py tests how much of a BDC's gap to the peer price-to-NAV line is still there a year later (data/bdc_discount_panel.csv, 96 peer pairs from Q2 2024 to Q3 2025 against four quarters later): 93%, 79% to 100% resampling by BDC. Of 17 cases at least 0.10x below the line, the gap narrowed in 9. The four-quarter windows overlap, so the pairs aren't independent. CION has been 0.16x to 0.27x below the line every quarter since mid-2024.
 - pull_discount_panel.py rebuilds data/bdc_discount_panel.csv from SEC XBRL company facts and Yahoo prices. It needs network access and your own User-Agent.
 - refinancing_2027.py sets the $327.5 million due in 2027 against cash and short-term investments ($51.0 million), the undrawn UBS facility ($25.0 million) and Longview cash left after buybacks in the base case ($24.1 million): about $227 million, 69%, left to refinance or pay from loan repayments, which ran about $121 million a quarter in 2026 without the joint-venture sale.
+- jv_forensics.py compares the 19 borrowers whose loans CION sold to Senior Loan Fund Partners on 17 Sep 2026 with the rest of CION's debt book, on CION's own 30 June marks (fair value over cost, by borrower): 100.2% against 86.1%; none below 95% against 54% of cost; none ever below 90% since Sep 2024 against 25 of 51 borrowers. SLFP's loans were 99.7% of par on 30 Sep. CION still holds $154.7 million (cost) of other pieces of the same borrowers at 100.0%. CION's $47.75 million of JV common sits under $125.0 million of notes and $11.9 million of preferred, 3.7x.
+- investment_ratings.py tabulates CION's 1-to-5 investment grades for eleven quarter-ends, Mar 2024 to Sep 2026 (data/cion_investment_ratings.csv, from each 10-Q and 10-K). Grades 3 to 5 were $290.9 million on 30 Sep 2026, 19.8% of the portfolio, the highest in the series (10.5% to 16.1% before). In Q3 they rose $26.3 million while the portfolio fell $173.9 million.
+- insiders_and_buybacks.py reads every Form 4 under CION's CIK since 2024 (data/cion_form4_2024_2026.csv): 40 open-market purchases, about $363,000 in all, no sales, the last on 12 Aug 2025 at $10.57, none since. Buybacks from XBRL (data/cion_buybacks_ytd.csv): $11.5m in 2023, $11.3m in 2024, $17.2m in 2025, $17.7m in the first half of 2026, none in Q3. My base case spends about $55 million in mid-2027.
+- longview_tax.py sets the gain on selling Longview (book cost $12.9 million) against CION's $66.8 million of long-term capital loss carryforwards: covered at up to about 80% of the mark, $19.5 million over at the full mark.
 - leverage_and_debt.py gives reported net leverage (1.30x), leverage with the joint venture's notes and preferred added back (1.51x), the debt ranked by cost, and the $327.5 million due in 2027.
 - market_implied.py gives price to NAV (0.46x) and what the market cap covers (Longview plus David's Bridal at their marks). It also gives the write-down the share price implies for the whole book: $349.8 million against the marks, $7.11 a share, against valuation.py's base write-down of $248.2 million (bear $569.9 million).
 - cash_coverage.py gives CION's NII ex-PIK against distributions declared: 0.83x in 2023, 0.63x in 2024, 0.54x in 2025 and 0.07x in the first nine months of 2026 ($3.1 million against $44.8 million), minus $16.4 million without Longview. PIK was 92% of 2026 NII. It also prints a wider cash basis that takes out discount accretion too.
@@ -134,6 +142,9 @@ My output from a clean run is in results/.
 - Fed funds futures (Yahoo Finance ZQZ26.CBT and later contracts) and Treasury bill yields (US Treasury daily par yield curve, 13 Nov 2026): data/rates_crosscheck_2026_11_13.csv
 - Daily closes and ex-dates for CION, CICB and BIZD (Yahoo Finance, checked against Nasdaq historical quotes on the key dates): data/daily_prices_2024_2026.csv
 - CION Q3 2026 earnings call (5 Nov 2026), transcript on Seeking Alpha: https://seekingalpha.com/article/4963279-cion-investment-corporation-cion-q3-2026-earnings-call-transcript
+- Form 4 filings under CION (CIK 1534254), listed with URLs in data/cion_form4_2024_2026.csv
+- AEP and Longview: WV Gazette-Mail and WV MetroNews reports of the July 2026 agreement (buyer AEP Generation Resources; price undisclosed; includes the Mountain State Clean Energy gas plant site and permits)
+- Homer City redevelopment: Kiewit and GE Vernova announcement coverage, April 2025 (energytech.com)
 - CION 8-K, base distributions for Q1 2026 (7 Jan 2026): https://www.sec.gov/Archives/edgar/data/1534254/000110465926001616/tm262186d1_ex99-1.htm
 
 - CION 10-Q for Q3 2026: https://www.sec.gov/Archives/edgar/data/1534254/000153425426000013/cion-20260930.htm
@@ -169,6 +180,7 @@ My output from a clean run is in results/.
 
 - The mark-to-exit test is an aggregate, not loan by loan, because the 10-Q doesn't give proceeds by loan. Restructured loans come back as new securities and count as still held (Blackstone Secured Lending's 2026 is the clearest case), Q4 2025 can't be split out of the 10-K on its own so I use the full year instead, and early repayments of discounted loans move income and unrealized at the same time, which I handle with an estimate of normal accretion. It also only sees what CION exited, not the loans still on the book.
 - nav_model.py holds the rest of the book flat apart from the credit losses I assume, keeps the distribution at 25 cents, and assumes AEP closes at the end of Q1 2027. The peer line has an R-squared of 0.23, and the persistence test covers only two years and 16 BDCs. Both are printed with their ranges.
+- jv_forensics.py matches SLFP's borrowers to my borrower panel by name; the panel aggregates all of CION's positions in a borrower, so a borrower's mark mixes tranches. The investment grades are CION's own and measure risk against cost at purchase, not against today's mark.
 - The 20-BDC exit test only covers BDCs whose September 10-Q I could read cleanly. Calendar-year filers only, so Golub, Oaktree, PennantPark and a few others with September year-ends are out, and some calendar-year BDCs tag the table in ways I couldn't parse reliably (Hercules, Prospect, Goldman Sachs BDC, Capital Southwest, BlackRock TCP and others). Exits aren't defined the same way everywhere: some include distributions from structured holdings, some include restructurings.
 - cross_mark_followup.py matches borrowers by company name, not tranche, so some pairs compare different loans. Isagenix and Avison Young look like that. It's 35 pairs over two years, which is small.
 - The quarterly credit losses can't split Longview's mark out of Q1 and Q2 2025 separately, only for the half year.
@@ -211,3 +223,4 @@ None so far.
 - 14 Nov 2026: the base case now follows the SOFR futures curve instead of holding SOFR flat (2027 NII $0.99, was $0.91), and the target weights the peer line and today's discount to it equally instead of using the line alone (target $6.18, was $7.10). The earlier numbers are still printed: forward_rates.py for flat rates, nav_model.py with 100% weight on the line.
 - 14 Nov 2026 (later): the target now carries forward the 93% of the gap to the peer line that discount_persistence.py finds peers still carry a year later, with NII on the reported basis, instead of a 50/50 judgment weight with a PIK haircut. Target $5.91 (was $6.18). The risk comparison between the common and CICB now uses realised volatility (realized_risk.py) instead of the spread across my scenarios.
 - 14 Nov 2026 (v22): bear and bull cases held at the base case's price-to-NAV multiple (bear $4.55, was $4.77; bull $7.48, was $7.36). Target unchanged at $5.91.
+- 14 Nov 2026 (v23): added jv_forensics.py, investment_ratings.py, insiders_and_buybacks.py and longview_tax.py. No change to the target.
