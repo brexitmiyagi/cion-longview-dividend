@@ -1,0 +1,7 @@
+quarter,net_realized_k,net_change_unrealized_k,unrealized_change_still_held_k,accretion_of_discount_k,sales_and_repayments_k,source
+Q1 2025,2294,-64291,-64089,1796,66310,"https://www.sec.gov/Archives/edgar/data/1534254/000153425425000009/cion-20250331.htm (Level 3 rollforward, three months, Total column)"
+Q2 2025,-32376,41468,20533,2413,118200,"https://www.sec.gov/Archives/edgar/data/1534254/000153425425000012/cion-20250630.htm (Level 3 rollforward, three months, Total column)"
+Q3 2025,-9605,10566,21252,19445,225392,"https://www.sec.gov/Archives/edgar/data/1534254/000153425425000015/cion-20250930.htm (Level 3 rollforward, three months, Total column)"
+Q1 2026,238,-30458,-30373,1660,37436,"https://www.sec.gov/Archives/edgar/data/1534254/000153425426000006/cion-20260331.htm (Level 3 rollforward, three months, Total column)"
+Q2 2026,-17967,36383,18138,2874,165968,"https://www.sec.gov/Archives/edgar/data/1534254/000153425426000010/cion-20260630.htm (Level 3 rollforward, three months, Total column)"
+Q3 2026,-8631,-6347,-8916,1907,299212,"https://www.sec.gov/Archives/edgar/data/1534254/000153425426000013/cion-20260930.htm (Level 3 rollforward, three months, Total column)"

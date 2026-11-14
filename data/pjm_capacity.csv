@@ -1,0 +1,6 @@
+delivery_year,rto_price_mw_day,coal_elcc,source
+2024/2025,28.92,,PJM release 30 Jul 2024
+2025/2026,269.92,,PJM release 22 Jul 2025
+2026/2027,329.17,0.83,PJM release 22 Jul 2025; PJM 2026/27 BRA ELCC class ratings
+2027/2028,333.44,,PJM release 17 Dec 2025 (cleared at the cap)
+2028/2029,325.00,0.85,PJM release 14 Jul 2026; PJM 2028/29 BRA ELCC class ratings

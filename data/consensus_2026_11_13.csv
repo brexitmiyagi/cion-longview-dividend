@@ -1,0 +1,8 @@
+period,nii_per_share_consensus,revision_1m_pct,revision_3m_pct,analysts,low,high,source
+Q4 2026,0.27,,,2,0.25,0.29,"Seeking Alpha CION earnings estimates (quarterly), read 14 Nov 2026 (page as of 13 Nov close)"
+Q1 2027,0.28,,,2,0.25,0.30,same
+Q2 2027,0.28,,,2,0.25,0.31,same
+Q3 2027,0.29,,,2,0.25,0.32,same
+Q4 2027,0.29,,,2,0.25,0.32,same
+FY 2026,1.06,-6.19,1.92,2,1.04,1.08,"Seeking Alpha CION earnings estimates (annual) and earnings revisions, read 14 Nov 2026"
+FY 2027,1.13,-1.75,2.74,2,1.00,1.25,same

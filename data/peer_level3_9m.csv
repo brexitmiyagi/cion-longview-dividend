@@ -1,0 +1,11 @@
+lender,period,units,net_realized,net_change_unrealized,unrealized_change_still_held,accretion,exits,source
+CION,9M 2026,usd_k,-26360,-422,-8669,6441,541784,https://www.sec.gov/Archives/edgar/data/1534254/000153425426000013/cion-20260930.htm
+CION,9M 2025,usd_k,-39687,-12257,-2600,23654,409902,https://www.sec.gov/Archives/edgar/data/1534254/000153425425000015/cion-20250930.htm
+FSK,9M 2026,usd_m,-381,-265,-427,16,2783,https://www.sec.gov/Archives/edgar/data/1422183/000162828026070499/fsk-20260930.htm
+FSK,9M 2025,usd_m,-209,-57,-198,33,4708,https://www.sec.gov/Archives/edgar/data/1422183/000162828026070499/fsk-20260930.htm
+OBDC,9M 2026,usd_k,-126770,-179362,-281601,48998,2909912,https://www.sec.gov/Archives/edgar/data/1655888/000165588826000069/obdc-20260930.htm
+OBDC,9M 2025,usd_k,-85591,29489,-61001,79832,2719251,https://www.sec.gov/Archives/edgar/data/1655888/000165588826000069/obdc-20260930.htm
+OFS,9M 2026,usd_k,-24001,5004,-18330,379,84008,https://www.sec.gov/Archives/edgar/data/1487918/000148791826000091/ofs-20260930.htm
+OFS,9M 2025,usd_k,-10414,-19586,-26348,641,53381,https://www.sec.gov/Archives/edgar/data/1487918/000148791826000091/ofs-20260930.htm
+BBDC,9M 2026,usd_k,-6855,-21298,-28400,7562,399090,https://www.sec.gov/Archives/edgar/data/1379785/000137978526000040/bbdc-20260930.htm
+BBDC,9M 2025,usd_k,-25821,46667,19800,8206,437786,https://www.sec.gov/Archives/edgar/data/1379785/000137978526000040/bbdc-20260930.htm

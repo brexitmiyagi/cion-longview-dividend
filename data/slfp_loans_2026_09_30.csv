@@ -1,0 +1,27 @@
+borrower,rate,sofr_floor_pct,maturity,par_k,cost_k,fair_value_k
+"American Health Staffing Group, Inc.",Prime+525,,11/19/2028,12770,12770,12770
+"Anchor QEA, Inc.",S+525,1.00,3/25/2032,9966,9941,9941
+"APS Acquisition Holdings, LLC",S+575,1.00,7/11/2029,4279,4253,4252
+"APS Acquisition Holdings, LLC",S+575,1.00,7/11/2029,2089,2076,2076
+"BDS Solutions Intermediateco, LLC",S+675,2.00,2/7/2027,11431,11431,11431
+"BDS Solutions Intermediateco, LLC",S+675,2.00,2/7/2027,818,819,818
+"Community Tree Service, LLC",S+950,1.00,6/17/2027,11546,11546,11546
+"CrossLink Professional Tax Solutions, LLC",S+500,1.00,6/30/2028,5517,5517,5517
+Dependable Acquisition Inc.,S+650,2.50,3/9/2032,9125,9125,9125
+"Gold Medal Holdings, Inc.",S+575,1.00,9/17/2028,7091,7083,7082
+"Gold Medal Holdings, Inc.",S+575,1.00,9/17/2028,2484,2481,2481
+"ICA Foam Holdings, LLC",S+600,1.00,12/5/2026,10574,10520,10508
+"Lift Brands, Inc.",S+750,1.00,9/30/2026,3282,3282,3294
+Metrc Inc.,S+550,1.00,9/30/2031,8390,8328,8327
+Newbury Franklin Industrials LLC,S+700,2.00,12/11/2029,4901,4849,4846
+Newbury Franklin Industrials LLC,S+700,2.00,12/11/2029,899,889,889
+"Playboy Enterprises, Inc.",S+625,0.50,5/25/2028,13468,13468,13468
+"SHF Holdings, Inc.",S+550,1.00,1/22/2030,9899,9899,9899
+"Stengel Hill Architecture, LLC",S+675,1.00,8/16/2028,9928,9843,9842
+"Straine Dental Management, LLC",S+742,2.00,11/25/2030,11700,11598,11597
+"Tactical Air Support, Inc.",S+850,1.00,12/22/2028,10800,10787,10786
+"Tactical Air Support, Inc.",S+850,1.00,12/22/2028,1875,1873,1873
+"WorkGenius, Inc.",S+700,0.50,6/7/2027,4002,3995,4002
+"WorkGenius, Inc.",S+700,0.50,6/7/2027,3920,3924,3920
+"WorkGenius, Inc.",S+700,0.50,6/7/2027,2918,2920,2918
+"Xenon Arc, Inc.",S+600,0.75,12/20/2028,3767,3711,3701

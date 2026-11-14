@@ -1,0 +1,12 @@
+facility,type,spread_or_coupon,floating,amount_k,maturity
+UBS Credit Facility,secured,0.0275,1,100000,2028-02-13
+2022 Term Loan,unsecured,0.035,1,50000,2027-04-27
+2024 Term Loan,unsecured,0.038,1,30000,2027-09-30
+Tranche A Floating Rate 2027 Notes,unsecured,0.0475,1,100000,2027-11-08
+Tranche B Floating Rate 2027 Notes,unsecured,0.039,1,100000,2027-11-08
+7.41% 2027 Notes,unsecured,0.0741,0,47500,2027-12-15
+7.50% 2029 Notes,unsecured,0.075,0,2000,2029-09-30
+7.70% 2029 Notes,unsecured,0.077,0,125000,2029-12-15
+7.50% Public 2029 Notes (CICB),unsecured,0.075,0,172500,2029-12-30
+7.50% Public 2031 Notes (CICC),unsecured,0.075,0,135000,2031-03-31
+8.00% 2031 Notes,unsecured,0.08,0,35000,2031-07-15

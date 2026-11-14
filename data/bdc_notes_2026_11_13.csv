@@ -1,0 +1,12 @@
+ticker,issuer,coupon,maturity,first_call,price_2026_11_13,asset_coverage,coverage_date,source
+CICB,CION Investment,0.075,2029-12-30,2026-12-30,24.46,1.72,2026-09-30,https://www.sec.gov/Archives/edgar/data/1534254/000153425426000013/cion-20260930.htm
+CICC,CION Investment,0.075,2031-03-31,2028-03-31,24.45,1.72,2026-09-30,https://www.sec.gov/Archives/edgar/data/1534254/000153425426000013/cion-20260930.htm
+OXSQG,Oxford Square Capital,0.055,2028-07-31,2024-05-31,24.15,1.92,2026-09-30,https://www.sec.gov/Archives/edgar/data/1259429/000121390026115688/ea0309227-01_10q.htm
+OXSQH,Oxford Square Capital,0.0775,2030-07-31,2027-07-31,24.58,1.92,2026-09-30,https://www.sec.gov/Archives/edgar/data/1259429/000121390026115688/ea0309227-01_10q.htm
+OFSSH,OFS Capital,0.0495,2028-10-31,now,23.25,1.64,2026-09-30,https://www.sec.gov/Archives/edgar/data/1487918/000148791826000091/ofs-20260930.htm
+GECCI,Great Elm Capital,0.085,2029-04-30,now,25.18,1.663,2026-09-30,https://www.sec.gov/Archives/edgar/data/1675033/000119312526443697/gecc-20260930.htm
+GECCH,Great Elm Capital,0.08125,2029-12-31,2026-12-31,25.09,1.663,2026-09-30,https://www.sec.gov/Archives/edgar/data/1675033/000119312526443697/gecc-20260930.htm
+SAZ,Saratoga Investment,0.085,2028-04-15,now,25.07,1.719,2026-08-31,https://www.sec.gov/Archives/edgar/data/1377936/000121390026107187/ea0306042-10q_saratoga.htm
+PFXNZ,PhenixFIN,0.0525,2028-11-01,,24.11,2.07,2026-06-30,https://www.sec.gov/Archives/edgar/data/1490349/000121390026085667/ea0298856-10q_phenixfin.htm
+WHFCL,WhiteHorse Finance,0.07875,2028-09-15,now,25.20,1.773,2026-09-30,https://www.sec.gov/Archives/edgar/data/1552198/000110465926124203/whf-20260930x10q.htm
+HCXY,Hercules Capital,0.0625,2033-10-30,now,24.11,2.032,2026-09-30,https://www.sec.gov/Archives/edgar/data/1280784/000128078426000054/htgc-20260930.htm

@@ -1,0 +1,9 @@
+item,value,unit,source
+aps_new_cp_energy_net_revenue_2025,107089,usd_per_installed_mw,Monitoring Analytics 2025 State of the Market Report Section 7 Table 7-12 (APS zone)
+aps_new_cp_energy_net_revenue_2025_jan_sep,73419,usd_per_installed_mw,Monitoring Analytics 2026 Q3 State of the Market Report Table 7-7 (APS zone 2025 column)
+aps_new_cp_energy_net_revenue_2026_jan_sep,180821,usd_per_installed_mw,Monitoring Analytics 2026 Q3 State of the Market Report Table 7-7 (APS zone 2026 column)
+existing_coal_energy_as_net_revenue_2025_q1,40623,usd_per_mw_year,Monitoring Analytics 2025 SOM Section 7 Table 7-39
+existing_coal_energy_as_net_revenue_2025_median,55394,usd_per_mw_year,Monitoring Analytics 2025 SOM Section 7 Table 7-39
+existing_coal_energy_as_net_revenue_2025_q3,134680,usd_per_mw_year,Monitoring Analytics 2025 SOM Section 7 Table 7-39
+coal_avoidable_cost,327.13,usd_per_mw_day,Monitoring Analytics 2025 SOM Section 7 Table 7-38 (includes major maintenance)
+new_cp_heat_rate,9250,btu_per_kwh,Monitoring Analytics 2025 SOM Section 7 Table 7-3

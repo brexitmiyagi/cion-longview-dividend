@@ -1,0 +1,9 @@
+change_bp,net_interest_income_change_k,pct_change,source
+-300,-13509,-23.4,"CION 10-Q Q3 2026, Item 3 (twelve months, portfolio and borrowings as of 30 Sep 2026, base rate 3.88%): https://www.sec.gov/Archives/edgar/data/1534254/000153425426000013/cion-20260930.htm"
+-200,-10305,-17.9,same
+-100,-5504,-9.5,same
+-50,-2783,-4.8,same
+50,2783,4.8,same
+100,5565,9.7,same
+200,11131,19.3,same
+300,16696,29.0,same

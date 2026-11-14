@@ -1,0 +1,3 @@
+ticker,coupon,par,price_2026_11_13,maturity,source
+CICB,0.075,25,24.46,2029-12-30,NYSE close 13 Nov 2026 (Yahoo daily close; Nasdaq historical close 24.46)
+CICC,0.075,25,24.45,2031-03-31,NYSE close 13 Nov 2026 (Yahoo daily close; Nasdaq historical close 24.45)

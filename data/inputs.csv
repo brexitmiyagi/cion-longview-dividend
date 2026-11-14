@@ -1,0 +1,57 @@
+item,value,unit,source
+nav_per_share_2026_09_30,13.20,usd,CION 10-Q Q3 2026 balance sheet
+nav_per_share_2026_06_30,13.57,usd,CION 10-Q Q2 2026 balance sheet
+net_assets_2026_09_30,649465,usd_k,CION 10-Q Q3 2026 balance sheet
+net_assets_2026_06_30,667776,usd_k,CION 10-Q Q2 2026 balance sheet
+shares_outstanding_2026_09_30,49202704,shares,CION 10-Q Q3 2026 balance sheet
+price_2026_11_13,6.09,usd,"NYSE close 13 Nov 2026, the day CION went ex a $0.10 distribution (Nasdaq historical and Yahoo daily close)"
+investments_fv_ex_short_term,1471255,usd_k,CION Q3 2026 release (ex short-term investments)
+investments_cost_incl_short_term,1638824,usd_k,CION 10-Q Q3 2026 schedule of investments
+short_term_investments,30397,usd_k,CION 10-Q Q3 2026 schedule of investments
+cash,20563,usd_k,CION 10-Q Q3 2026 balance sheet
+interest_fees_receivable,29923,usd_k,CION 10-Q Q3 2026 balance sheet
+receivable_investments_sold,984,usd_k,CION 10-Q Q3 2026 balance sheet
+prepaid_other,1628,usd_k,CION 10-Q Q3 2026 balance sheet
+total_liabilities,905285,usd_k,CION 10-Q Q3 2026 balance sheet
+debt_principal,897000,usd_k,CION 10-Q Q3 2026 Note 8
+q3_total_investment_income,48305,usd_k,CION 10-Q Q3 2026 statement of operations
+q3_pik_income,11376,usd_k,CION 10-Q Q3 2026 statement of operations (7782 non-affiliated + 3594 affiliated)
+q3_affiliated_dividend_income,14272,usd_k,CION 10-Q Q3 2026 statement of operations
+q3_nii_after_tax,12327,usd_k,CION 10-Q Q3 2026 statement of operations
+q3_incentive_fee,2615,usd_k,CION 10-Q Q3 2026 statement of operations
+q3_distributions_paid,14800,usd_k,CION Q3 2026 release ($14.8 million)
+q3_debt_cost_writeoff,1487,usd_k,CION 10-Q Q3 2026 MD&A (JPM unamortized costs expensed)
+q3_legacy_fee_reversal,2894,usd_k,CION 10-Q Q3 2026 affiliated table (STATinMED fee income -2894)
+q3_professional_fees,1555,usd_k,CION 10-Q Q3 2026 MD&A
+q3_2025_professional_fees,557,usd_k,CION 10-Q Q3 2026 MD&A
+hurdle_rate_quarterly,0.01625,ratio,CION 10-Q Q3 2026 and 10-K 2025 (1.625% of net assets per quarter)
+catchup_rate_quarterly,0.0197,ratio,CION 10-K 2025 (100% catch-up up to 1.970% per quarter)
+incentive_rate,0.175,ratio,CION 10-K 2025 (17.5%)
+nonaccrual_pct_cost,0.0485,ratio,CION Q3 2026 release
+nonaccrual_pct_fv,0.0163,ratio,CION Q3 2026 release
+q4_2026_distribution_per_share,0.30,usd,CION Q3 2026 call (unchanged at $0.30)
+q1_2027_distribution_per_share,0.25,usd,CION Q3 2026 release
+buyback_authorization_remaining,56935,usd_k,CION 10-Q Q3 2026 Note 3 (6935 at 30 Jun plus 50000 added 30 Jul; none used in Q3)
+sofr_3m_2026_09_30,0.0411,ratio,CION 10-Q Q3 2026 schedule footnote v
+leverage_target_high,1.35,x,CION Q3 2026 call
+slfp_notes,125000,usd_k,CION 10-Q Q3 2026 Note 7
+slfp_pref_liquidation,11938,usd_k,CION 10-Q Q3 2026 Note 7 (preferred liquidation preference)
+slfp_common_fv,47523,usd_k,CION 10-Q Q3 2026 schedule
+slfp_loans_sold_par,180300,usd_k,CION 8-K 29 Sep 2026
+slfp_loans_sold_price,180000,usd_k,CION 8-K 29 Sep 2026
+cion_mseh_stake,0.15,ratio,FERC EC25-59 Longview Section 203 application (Feb 2025): approximately 15 percent of Mountain State Energy Holdings
+longview_mw,710,MW,AEP 10-Q Q3 2026; FERC EC26-153 application
+asset_coverage_min,1.50,x,1940 Act Section 61 (150% for BDCs that elected it)
+slfp_sale_paid_in_jv_equity,47750,usd_k,CION 10-Q Q3 2026 cash flow statement (investments sold to SLFP in exchange for common SLFP LLC Interests)
+fee_income_q1_2026,2874,usd_k,CION 10-Q Q1 2026 statement of operations (fee income)
+fee_income_q2_2026,2910,usd_k,CION 10-Q Q2 2026 statement of operations (fee income)
+longview_dividend_q1_2026,2991,usd_k,CION 10-Q Q1 2026 affiliated investments table
+longview_dividend_q2_2026,2244,usd_k,CION 10-Q Q2 2026 affiliated investments table
+longview_dividend_q3_2026,14209,usd_k,CION 10-Q Q3 2026 affiliated investments table
+undistributed_ordinary_income_2025_12_31,1856,usd_k,CION 10-K 2025 income tax note (components of accumulated earnings on a tax basis)
+capital_loss_carryforward_2025_12_31,66847,usd_k,CION 10-K 2025 income tax note (long-term capital loss carryforwards)
+distributions_9m_2026,44841,usd_k,CION 10-Q Q3 2026 sources of distributions table ($0.90 a share)
+nii_9m_2026,39361,usd_k,CION 10-Q Q3 2026 statement of operations (NII after taxes)
+nii_per_share_9m_2026,0.79,usd,CION 10-Q Q3 2026 statement of operations (net investment income per share, nine months)
+advisory_no_reimbursement_quote,1,text,"CION 10-K 2025, investment advisory agreement: ""CIM is not under any obligation to reimburse the Company for any part of the subordinated incentive fee on income CIM received that was based on accrued income that the Company never actually received."""
+q3_mgmt_one_offs_per_share,0.15,usd,"CION Q3 2026 earnings call, 5 Nov 2026 (Reisner): JV formation costs, a reduced deferred fee on a legacy tranche and the elimination of accrued income on the Thrill One term loan together reduced NII by roughly $0.15 a share; the $0.03 debt cost write-off is separate"

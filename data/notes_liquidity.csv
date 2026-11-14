@@ -1,0 +1,6 @@
+ticker,avg_daily_volume_notes_3m,avg_daily_dollar_volume_3m,days_with_no_trades_3m,trading_days,source
+CICB,7095,175585,0,66,Yahoo Finance daily bars to 13 Nov 2026
+CICC,5151,126614,4,66,Yahoo Finance daily bars to 13 Nov 2026
+OXSQH,3391,84102,1,65,Yahoo Finance daily bars to 13 Nov 2026
+GECCH,1649,41253,23,65,Yahoo Finance daily bars to 13 Nov 2026
+GECCI,3074,77346,10,66,Yahoo Finance daily bars to 13 Nov 2026

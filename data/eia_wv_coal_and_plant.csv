@@ -1,0 +1,5 @@
+item,value,unit,source
+wv_bituminous_delivered_cost_2025,2.866,usd_per_mmbtu,EIA-923 2025 final Page 5: WV bituminous receipts with reported cost (Fort Martin; Harrison; Amos; Mitchell; Mountaineer; Mt Storm) weighted by MMBtu
+wv_bituminous_delivered_cost_2026_jan_aug,2.665,usd_per_mmbtu,EIA-923 2026 monthly Page 5 through August; same method
+longview_in_service,2011-12,year_month,EIA-860M September 2026 (Operating sheet; plant 56671; net summer capacity 710 MW; no planned retirement listed)
+new_cp_vom,5.09,usd_per_mwh,Monitoring Analytics 2025 SOM Section 7 Table 7-3 (CP variable O&M)

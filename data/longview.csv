@@ -1,0 +1,6 @@
+period_end,fair_value_k,cost_k,dividend_income_ytd_k,source
+2024-12-31,52166,12917,,CION 10-K 2025 affiliated table
+2025-12-31,105657,12917,4298,CION 10-K 2025 affiliated table (FY2025 dividends)
+2026-03-31,106525,12917,2991,CION 10-Q Q1 2026 affiliated table
+2026-06-30,108798,12917,5235,CION 10-Q Q2 2026 affiliated table
+2026-09-30,99241,12917,19444,CION 10-Q Q3 2026 affiliated table

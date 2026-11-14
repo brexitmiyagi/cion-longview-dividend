@@ -1,0 +1,21 @@
+bdc,management,income_fee_capped_by_total_return,fee_on_pik_deferred_until_cash,detail,source_10k
+ARCC,external,no,no,no cap or lookback found in the 10-K,https://www.sec.gov/Archives/edgar/data/1287750/000128775026000006/arcc-20251231.htm
+OBDC,external,no,no,no cap or lookback found,https://www.sec.gov/Archives/edgar/data/1655888/000165588826000010/obdc-20251231.htm
+BXSL,external,yes,no,"Incentive Fee Cap: 17.5% of trailing twelve quarter pre-incentive NII less Net Capital Loss (realized or unrealized), less fees paid",https://www.sec.gov/Archives/edgar/data/1736035/000173603526000004/bxsl-20251231.htm
+FSK,external,no,no,no cap or lookback found,https://www.sec.gov/Archives/edgar/data/1422183/000162828026011734/fsk-20251231.htm
+MAIN,internal,n/a,n/a,"internally managed, no adviser incentive fee",https://www.sec.gov/Archives/edgar/data/1396440/000139644026000016/main-20251231.htm
+TSLX,external,no,no,no cap or lookback found,https://www.sec.gov/Archives/edgar/data/1508655/000119312526048664/tslx-20251231.htm
+NMFC,external,no,no,no cap or lookback found,https://www.sec.gov/Archives/edgar/data/1496099/000149609926000008/nmfc-20251231.htm
+MFIC,external,yes,no,"cap on trailing twelve quarter Cumulative Pre-Incentive Fee Net Return, net of Net Capital Loss (realized or unrealized) since April 2018",https://www.sec.gov/Archives/edgar/data/1278752/000119312526076499/mfic-20251231.htm
+BBDC,external,yes,no,"cap on trailing twelve quarter Cumulative Pre-Incentive Fee Net Return, net of Net Capital Loss (realized or unrealized)",https://www.sec.gov/Archives/edgar/data/1379785/000137978526000009/bbdc-20251231.htm
+SLRC,external,no,no,no cap on the income fee found (cumulative test applies to the capital gains fee only),https://www.sec.gov/Archives/edgar/data/1418076/000119312526066979/ck0001418076-20251231.htm
+CGBD,external,no,no,no cap or lookback found,https://www.sec.gov/Archives/edgar/data/1544206/000154420626000013/csl-20251231.htm
+MSDL,external,yes,no,Incentive Fee Cap from Q2 2024 on trailing twelve quarter Cumulative Pre-Incentive Fee Net Return; the 10-K does not spell out whether net capital loss includes unrealized,https://www.sec.gov/Archives/edgar/data/1782524/000119312526076632/msdl-20251231.htm
+CCAP,external,no,no,no cap or lookback found,https://www.sec.gov/Archives/edgar/data/1633336/000119312526071922/ccap-20251231.htm
+TRIN,internal,n/a,n/a,"internally managed, no adviser incentive fee",https://www.sec.gov/Archives/edgar/data/1786108/000119312526068600/trin-20251231.htm
+TPVG,external,yes,no,total return requirement: income fee only to the extent 20% of cumulative net increase in net assets from operations since March 2014 exceeds fees paid,https://www.sec.gov/Archives/edgar/data/1580345/000158034526000008/tpvg-20251231.htm
+OFS,external,no,no,no cap or lookback found,https://www.sec.gov/Archives/edgar/data/1487918/000148791826000021/ofs-20251231.htm
+WHF,external,yes,yes,cap over a 12-quarter look-back including realized and unrealized gains and losses; fee attributable to PIK and OID paid only if and when received in cash,https://www.sec.gov/Archives/edgar/data/1552198/000110465926024735/whf-20251231x10k.htm
+CION,external,no,no,quarterly hurdle of 1.625% of net assets only,https://www.sec.gov/Archives/edgar/data/1534254/000153425426000003/cion-20251231.htm
+BCSF,external,yes,no,cap on trailing twelve quarter Cumulative Net Return less Net Capital Loss (realized or unrealized),https://www.sec.gov/Archives/edgar/data/1655050/000119312526077703/bcsf-20251231.htm
+NCDL,external,yes,no,"cap on trailing twelve quarter Cumulative Pre-Incentive Fee Net Return less Net Capital Loss (realized or unrealized), from its IPO",https://www.sec.gov/Archives/edgar/data/1737924/000173792426000014/ncdlc-20251231.htm

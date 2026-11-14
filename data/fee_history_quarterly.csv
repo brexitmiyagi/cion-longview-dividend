@@ -1,0 +1,16 @@
+quarter_end,nii_before_tax_k,incentive_fee_k,net_realized_unrealized_k,source
+2023-03-31,29863,6335,-60903,"SEC XBRL company facts for CION: NetInvestmentIncome, IncentiveFeeExpense, InvestmentCompanyRealizedAndUnrealizedGainLossOnInvestmentAndForeignCurrency; Q2 and Q4 from cumulative less prior"
+2023-06-30,23534,4965,4478,"SEC XBRL company facts for CION: NetInvestmentIncome, IncentiveFeeExpense, InvestmentCompanyRealizedAndUnrealizedGainLossOnInvestmentAndForeignCurrency; Q2 and Q4 from cumulative less prior"
+2023-09-30,29753,6362,17483,"SEC XBRL company facts for CION: NetInvestmentIncome, IncentiveFeeExpense, InvestmentCompanyRealizedAndUnrealizedGainLossOnInvestmentAndForeignCurrency; Q2 and Q4 from cumulative less prior"
+2023-12-31,21818,4615,29234,"SEC XBRL company facts for CION: NetInvestmentIncome, IncentiveFeeExpense, InvestmentCompanyRealizedAndUnrealizedGainLossOnInvestmentAndForeignCurrency; Q2 and Q4 from cumulative less prior"
+2024-03-31,32598,6914,-26148,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2024-06-30,22967,4871,-585,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2024-09-30,21597,4586,-21997,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2024-12-31,18805,3963,-13228,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2025-03-31,19252,4084,-61957,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2025-06-30,16932,3589,10394,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2025-09-30,38472,8181,-2689,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2025-12-31,18299,3882,-59419,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2026-03-31,12953,2728,-35895,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2026-06-30,14174,3006,16810,same; 2025-2026 also in data/credit_losses_by_quarter.csv
+2026-09-30,12237,2615,-15877,same; 2025-2026 also in data/credit_losses_by_quarter.csv
