@@ -152,14 +152,24 @@ print(f"CION today: {cion['pnav']:.2f}x NAV against {a1+b1*cion['roe']:.2f}x on 
 def value(m_line, nav_ps, keep=None):
     return (m_line + (KEEP if keep is None else keep) * resid) * nav_ps
 tg = {}; detail = {}; VAL = {}
+# The line can pay a worse case a higher multiple: in the bear case NAV falls faster than NII, so
+# NII/NAV rises. No market pays more for a BDC that just lost a third of its book, so the bear
+# multiple is capped at the base case's, and the bull multiple floored at it.
+_rb = [x for x in res['base'] if x['q'] == 'Q3 2027'][0]
+M_BASE = a1 + b1 * _rb['nii'] * 4 / _rb['na']
 for case in CASES:
     r = [x for x in res[case] if x['q'] == 'Q3 2027'][0]
     roe = r['nii'] * 4 / r['na']
-    m = a1 + b1 * roe
+    m_raw = a1 + b1 * roe
+    m = min(m_raw, M_BASE) if case == 'bear' else max(m_raw, M_BASE) if case == 'bull' else m_raw
+    if m != m_raw:
+        print(f"  {case}: the line alone would give {m_raw:.2f}x on NII/NAV of {roe:.1%}; held at the base case's {M_BASE:.2f}x")
     tg[case] = m * r['nav_ps']
     VAL[case] = value(m, r['nav_ps'])
     detail[case] = (r['nav_ps'], roe, m)
     print(f"  {case}: NAV ${r['nav_ps']:.2f}; NII/NAV {roe:.1%}; on the line {m:.2f}x = ${tg[case]:.2f}; with {KEEP:.0%} of today's gap {m+KEEP*resid:.2f}x = ${VAL[case]:.2f}")
+rbear = [x for x in res['bear'] if x['q'] == 'Q3 2027'][0]
+print(f"  bear at today's {cion['pnav']:.2f}x NAV instead: ${cion['pnav']*rbear['nav_ps']:.2f}")
 r = res['base'][3]
 nav_adj = r['na'] - restate
 roe_b = r['nii'] * 4 / r['na']; m_b = a1 + b1 * roe_b
