@@ -35,3 +35,13 @@ print(f"catch-up band on 30 Sep net assets: {lo:,.0f}k to {hi:,.0f}k of pre-ince
 for q in ('Q4 2026', 'Q1 2027'):
     p = pre + cv[q]
     print(f"  {q} without Longview, on the futures curve: pre-incentive {p:,.0f}k, fee {incentive_fee(p, na, I):,.0f}k, NII {p - incentive_fee(p, na, I):,.0f}k = {(p - incentive_fee(p, na, I))/sh*100:.1f} cents")
+
+# How big a Longview dividend would lift Q4's headline NII to 25 cents, given the fee above.
+for lab, add in (('flat rates', 0.0), ('futures curve', cv['Q4 2026'])):
+    x = 0.0
+    while True:
+        p = pre + add + x
+        if (p - incentive_fee(p, na, I)) / sh >= 0.25:
+            break
+        x += 10
+    print(f"Longview dividend that lifts Q4 2026 headline NII to 25 cents ({lab}): about {x:,.0f}k")

@@ -1,7 +1,9 @@
 # The Q3 one-offs I add back, counted two ways, and what each does to 2027 and the target.
 # Management's count: "roughly $0.15 per share" of items plus the $0.03 debt write-off, with the
 # Thrill One income reversal backed out as a residual (longview_dividend.py). My narrower count
-# leaves that reversal in the run-rate. Both rows use my base-case fee income.
+# leaves that reversal in the run-rate. The call can also be read with the write-off inside the
+# $0.15, which makes the residual about 3 cents smaller; that's the middle row. All rows use my
+# base-case fee income.
 import io, os, runpy, contextlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 with contextlib.redirect_stdout(io.StringIO()):
@@ -15,6 +17,9 @@ def show(lab, c):
     roe = r['nii'] * 4 / r['na']; t = value(a1 + b1 * roe, r['na'] / r['sh'])
     print(f"  {lab}: Q4 2026 ${b[0]['nii_ps']:.2f}, 2027 ${sum(x['nii_ps'] for x in b[1:]):.2f}, target ${t:.2f} ({t/px-1:+.0%})")
 print(f"Thrill One reversal by residual: {LD['thrill']:,.0f}k = ${LD['thrill']/(M['I']['shares_outstanding_2026_09_30']/1000):.3f} a share")
-show("management's count (base case)", core0)
+w = M['I']['writeoff_inside_015_weight']; wo = M['I']['q3_debt_cost_writeoff']
+show("$0.15 read as excluding the write-off", core0 + w * wo)
+show("midpoint of the two readings (base case)", core0)
+show("$0.15 read as including the write-off", core0 - (1 - w) * wo)
 show("my narrower count", core0 - LD['thrill'])
 G['core'] = core0

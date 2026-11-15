@@ -41,8 +41,12 @@ print(f"Q3 NII without Longview, one-offs added back: {adj:,.0f}k = ${adj/sh:.3f
 # an income reversal on a loan that went bad, which is a credit cost. My NAV model already charges
 # credit losses every quarter, so leaving it in the run-rate as well would count it twice. I now
 # use management's count.
-thrill = I['q3_mgmt_one_offs_per_share'] * sh - I['q3_legacy_fee_reversal'] - (I['q3_professional_fees'] - I['q3_2025_professional_fees'])
+# The call can be read two ways: the $0.15 either excludes the $0.03 write-off (the CEO gave it its
+# own sentence) or includes it ("together, all these items"). Until IR answers I take the midpoint,
+# set by writeoff_inside_015_weight in inputs.csv.
+w_in = I['writeoff_inside_015_weight']
+thrill = I['q3_mgmt_one_offs_per_share'] * sh - I['q3_legacy_fee_reversal'] - (I['q3_professional_fees'] - I['q3_2025_professional_fees']) - w_in * I['q3_debt_cost_writeoff']
 adj_m = adj + thrill
-print(f"management's count: $0.15 of items plus the write-off; the Thrill One reversal by residual is about {thrill:,.0f}k")
+print(f"management's count: $0.15 of items, with {w_in:.0%} weight on the write-off being inside it; the Thrill One reversal by residual is about {thrill:,.0f}k")
 print(f"Q3 NII without Longview on management's count: {adj_m:,.0f}k = ${adj_m/sh:.3f}/share (hurdle {hurdle:,.0f}k)")
 print(f"PIK share of Q3 investment income: {I['q3_pik_income']/I['q3_total_investment_income']:.1%}")
