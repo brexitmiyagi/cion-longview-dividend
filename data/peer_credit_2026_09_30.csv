@@ -1,0 +1,10 @@
+ticker,nonaccrual_fair_value_pct,asset_coverage_pct,source
+CION,1.6,172,https://www.sec.gov/Archives/edgar/data/1534254/000153425426000013/cion-20260930.htm
+TCPC,3.4,241.0,https://www.sec.gov/Archives/edgar/data/1370755/000119312526448640/tcpc-20260930.htm
+PSBD,0.01,161,https://www.sec.gov/Archives/edgar/data/1794776/000119312526446165/psbd-20260930.htm
+BCSF,2.2,179.8,https://www.sec.gov/Archives/edgar/data/1655050/000119312526453699/bcsf-20260930.htm
+CGBD,1.1,179.7,https://www.sec.gov/Archives/edgar/data/1544206/000154420626000068/csl-20260930.htm
+OFS,9.3,164,https://www.sec.gov/Archives/edgar/data/1487918/000148791826000091/ofs-20260930.htm
+HRZN,2.9,189,https://www.sec.gov/Archives/edgar/data/1487428/000143774926035289/hrzn20260930_10q.htm
+NCDL,1.49,181.16,https://www.sec.gov/Archives/edgar/data/1737924/000173792426000089/ncdlc-20260930.htm
+RAND,15.3,1131,https://www.sec.gov/Archives/edgar/data/81955/000119312526446291/rand-20260930.htm
