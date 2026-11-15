@@ -13,27 +13,27 @@ quarterly SOFR on the curve, shift from the 10-Q's 3.88%, and what it adds to NI
   Q3 2027: 4.74%  +86bp  +1,203k
   Q4 2027: 4.79%  +91bp  +1,269k
 bear:
-  Q4 2026: NII flat $0.244, on the curve $0.246; NAV/share $12.58
-  Q1 2027: NII flat $0.234, on the curve $0.245; NAV/share $10.81
-  Q2 2027: NII flat $0.192, on the curve $0.209; NAV/share $10.21
-  Q3 2027: NII flat $0.187, on the curve $0.207; NAV/share $9.59
-  Q4 2027: NII flat $0.178, on the curve $0.199; NAV/share $8.97
-  2027 NII: flat $0.79, on the curve $0.86
+  Q4 2026: NII flat $0.231, on the curve $0.234; NAV/share $12.57
+  Q1 2027: NII flat $0.222, on the curve $0.233; NAV/share $10.79
+  Q2 2027: NII flat $0.180, on the curve $0.196; NAV/share $10.17
+  Q3 2027: NII flat $0.174, on the curve $0.195; NAV/share $9.54
+  Q4 2027: NII flat $0.165, on the curve $0.186; NAV/share $8.91
+  2027 NII: flat $0.74, on the curve $0.81
 base:
-  Q4 2026: NII flat $0.244, on the curve $0.246; NAV/share $12.95
-  Q1 2027: NII flat $0.241, on the curve $0.251; NAV/share $12.36
-  Q2 2027: NII flat $0.219, on the curve $0.237; NAV/share $12.39
-  Q3 2027: NII flat $0.229, on the curve $0.251; NAV/share $12.45
-  Q4 2027: NII flat $0.225, on the curve $0.248; NAV/share $12.24
-  2027 NII: flat $0.91, on the curve $0.99
+  Q4 2026: NII flat $0.231, on the curve $0.234; NAV/share $12.94
+  Q1 2027: NII flat $0.228, on the curve $0.239; NAV/share $12.33
+  Q2 2027: NII flat $0.206, on the curve $0.223; NAV/share $12.35
+  Q3 2027: NII flat $0.215, on the curve $0.237; NAV/share $12.38
+  Q4 2027: NII flat $0.212, on the curve $0.235; NAV/share $12.15
+  2027 NII: flat $0.86, on the curve $0.93
 bull:
-  Q4 2026: NII flat $0.244, on the curve $0.246; NAV/share $13.05
-  Q1 2027: NII flat $0.242, on the curve $0.253; NAV/share $14.04
-  Q2 2027: NII flat $0.252, on the curve $0.270; NAV/share $14.79
-  Q3 2027: NII flat $0.285, on the curve $0.310; NAV/share $15.75
-  Q4 2027: NII flat $0.283, on the curve $0.309; NAV/share $15.69
-  2027 NII: flat $1.06, on the curve $1.14
-base on the curve, coverage after the sale: 0.95x to 1.00x
+  Q4 2026: NII flat $0.231, on the curve $0.234; NAV/share $13.04
+  Q1 2027: NII flat $0.230, on the curve $0.240; NAV/share $14.02
+  Q2 2027: NII flat $0.241, on the curve $0.256; NAV/share $14.75
+  Q3 2027: NII flat $0.269, on the curve $0.294; NAV/share $15.69
+  Q4 2027: NII flat $0.268, on the curve $0.294; NAV/share $15.62
+  2027 NII: flat $1.01, on the curve $1.08
+base on the curve, coverage after the sale: 0.89x to 0.95x
 fed funds futures, 13 Nov 2026 (effective fed funds 3.88% on 12 Nov): Dec 2026 4.08%, Mar 2027 4.42%, Jun 2027 4.67%, Sep 2027 4.73%, Dec 2027 4.75%
   implied rise by Dec 2027: 87bp; SOFR futures: 89bp
 Treasury bills: 3 months 4.32%, 6 months 4.42%, 1 year 4.65%, against SOFR 3.90%

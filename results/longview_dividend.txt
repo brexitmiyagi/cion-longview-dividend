@@ -8,6 +8,6 @@ pre-incentive NII 14,942k; hurdle 10,851k; fee recomputed 2,617k vs reported 2,6
 Q3 NII without Longview: 733k = $0.015/share (below the hurdle, so no incentive fee)
 one-offs management named: debt cost write-off 1,487k + legacy fee reversal 2,894k + extra legal fees 998k = 5,379k
 Q3 NII without Longview, one-offs added back: 6,112k = $0.124/share (hurdle 10,851k, so still no incentive fee)
-management's count: $0.15 of items plus the write-off; the Thrill One reversal by residual is about 3,488k
-Q3 NII without Longview on management's count: 9,600k = $0.195/share (hurdle 10,851k)
+management's count: $0.15 of items, with 50% weight on the write-off being inside it; the Thrill One reversal by residual is about 2,745k
+Q3 NII without Longview on management's count: 8,857k = $0.180/share (hurdle 10,851k)
 PIK share of Q3 investment income: 23.6%

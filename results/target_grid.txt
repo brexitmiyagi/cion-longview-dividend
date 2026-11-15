@@ -1,0 +1,7 @@
+Longview sale price, % of mark | 79% of the gap kept | 93% of the gap kept | 100% of the gap kept
+41% (my bear) | $5.42 (-11%) | $5.10 (-16%) | $4.95 (-19%)
+55% (other funds' 30 Jun mark) | $5.56 (-9%) | $5.23 (-14%) | $5.07 (-17%)
+80% (my base) | $6.04 (-1%) | $5.68 (-7%) | $5.51 (-10%)
+100% (CION's mark) | $6.51 (+7%) | $6.12 (+1%) | $5.93 (-3%)
+price $6.09; Sell below $5.18, Buy above $7.00; grid runs $4.95 to $6.51
+cells that would be a Sell on price: 3 of 12; a Buy: 0

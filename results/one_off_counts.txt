@@ -1,3 +1,5 @@
-Thrill One reversal by residual: 3,488k = $0.071 a share
-  management's count (base case): Q4 2026 $0.25, 2027 $0.99, target $5.91 (-3%)
+Thrill One reversal by residual: 2,745k = $0.056 a share
+  $0.15 read as excluding the write-off: Q4 2026 $0.25, 2027 $0.99, target $5.91 (-3%)
+  midpoint of the two readings (base case): Q4 2026 $0.23, 2027 $0.93, target $5.68 (-7%)
+  $0.15 read as including the write-off: Q4 2026 $0.22, 2027 $0.88, target $5.45 (-10%)
   my narrower count: Q4 2026 $0.21, 2027 $0.82, target $5.13 (-16%)

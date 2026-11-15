@@ -1,9 +1,11 @@
     1.5 cents           Q3 2026 NII without Longview's dividend
    12.4 cents  (+10.9)  add back the one-offs management named: the debt write-off, the reversed fee and the extra legal costs
-   19.5 cents  (+7.1)  add back the income reversed on the reorganized loan (management's rounded count)
-   22.5 cents  (+3.0)  roll forward to today's balance sheet: debt repaid, loans moved to the joint venture, new loans
-   24.2 cents  (+1.7)  fee income at Q3's lending pace and the 2023-2025 fee rate
-   21.4 cents  (-2.8)  less the adviser's income incentive fee
+   18.0 cents  (+5.6)  add back the income reversed on the reorganized loan (management's rounded count)
+   20.9 cents  (+2.9)  roll forward to today's balance sheet: debt repaid, loans moved to the joint venture, new loans
+   22.7 cents  (+1.8)  fee income at Q3's lending pace and the 2023-2025 fee rate
+   21.4 cents  (-1.3)  less the adviser's income incentive fee
 catch-up band on 30 Sep net assets: 10,554k to 12,794k of pre-incentive NII a quarter
-  Q4 2026 without Longview, on the futures curve: pre-incentive 12,072k, fee 1,518k, NII 10,554k = 21.4 cents
-  Q1 2027 without Longview, on the futures curve: pre-incentive 12,559k, fee 2,005k, NII 10,554k = 21.4 cents
+  Q4 2026 without Longview, on the futures curve: pre-incentive 11,328k, fee 774k, NII 10,554k = 21.4 cents
+  Q1 2027 without Longview, on the futures curve: pre-incentive 11,816k, fee 1,262k, NII 10,554k = 21.4 cents
+Longview dividend that lifts Q4 2026 headline NII to 25 cents (flat rates): about 3,730k
+Longview dividend that lifts Q4 2026 headline NII to 25 cents (futures curve): about 3,590k

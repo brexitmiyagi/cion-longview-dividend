@@ -2,23 +2,23 @@ credit losses ex-Longview a quarter: 2025 -41,790k, 2026 -9,515k, seven-quarter 
   by quarter ex-Longview: H1 2025 -69,552k (Q1 alone between -79,946k and -61,957k), Q3 2025 -36,239k, Q4 2025 -61,371k, Q1 2026 -36,763k, Q2 2026 14,537k, Q3 2026 -6,320k
   quarters at the bear pace (-27,958k) or worse: Q1 2025 and Q3 2025, Q4 2025, Q1 2026; the other three (Q2 2025, Q2 2026, Q3 2026) at the base pace or better
 bear: credit losses -27,958k a quarter, Longview at 41% of mark
-  Q4 2026: NII $0.246  distribution $0.30  credit losses $-0.57  NAV/share $12.58  shares 49.2m
-  Q1 2027: NII $0.245  distribution $0.25  credit losses $-0.57  NAV/share $10.81  shares 49.2m
-  Q2 2027: NII $0.209  distribution $0.25  credit losses $-0.57  NAV/share $10.21  shares 49.2m
-  Q3 2027: NII $0.207  distribution $0.25  credit losses $-0.57  NAV/share $9.59  shares 49.2m
-  Q4 2027: NII $0.199  distribution $0.25  credit losses $-0.57  NAV/share $8.97  shares 49.2m
+  Q4 2026: NII $0.234  distribution $0.30  credit losses $-0.57  NAV/share $12.57  shares 49.2m
+  Q1 2027: NII $0.233  distribution $0.25  credit losses $-0.57  NAV/share $10.79  shares 49.2m
+  Q2 2027: NII $0.196  distribution $0.25  credit losses $-0.57  NAV/share $10.17  shares 49.2m
+  Q3 2027: NII $0.195  distribution $0.25  credit losses $-0.57  NAV/share $9.54  shares 49.2m
+  Q4 2027: NII $0.186  distribution $0.25  credit losses $-0.57  NAV/share $8.91  shares 49.2m
 base: credit losses -9,515k a quarter, Longview at 80% of mark
-  Q4 2026: NII $0.246  distribution $0.30  credit losses $-0.19  NAV/share $12.95  shares 49.2m
-  Q1 2027: NII $0.251  distribution $0.25  credit losses $-0.19  NAV/share $12.36  shares 49.2m
-  Q2 2027: NII $0.237  distribution $0.25  credit losses $-0.20  NAV/share $12.39  shares 47.3m
-  Q3 2027: NII $0.251  distribution $0.25  credit losses $-0.21  NAV/share $12.45  shares 45.4m
-  Q4 2027: NII $0.248  distribution $0.25  credit losses $-0.21  NAV/share $12.24  shares 45.4m
+  Q4 2026: NII $0.234  distribution $0.30  credit losses $-0.19  NAV/share $12.94  shares 49.2m
+  Q1 2027: NII $0.239  distribution $0.25  credit losses $-0.19  NAV/share $12.33  shares 49.2m
+  Q2 2027: NII $0.223  distribution $0.25  credit losses $-0.20  NAV/share $12.35  shares 47.4m
+  Q3 2027: NII $0.237  distribution $0.25  credit losses $-0.21  NAV/share $12.38  shares 45.5m
+  Q4 2027: NII $0.235  distribution $0.25  credit losses $-0.21  NAV/share $12.15  shares 45.5m
 bull: credit losses -4,758k a quarter, Longview at 154% of mark
-  Q4 2026: NII $0.246  distribution $0.30  credit losses $-0.10  NAV/share $13.05  shares 49.2m
-  Q1 2027: NII $0.253  distribution $0.25  credit losses $-0.10  NAV/share $14.04  shares 49.2m
-  Q2 2027: NII $0.270  distribution $0.25  credit losses $-0.11  NAV/share $14.79  shares 44.5m
-  Q3 2027: NII $0.310  distribution $0.25  credit losses $-0.12  NAV/share $15.75  shares 39.9m
-  Q4 2027: NII $0.309  distribution $0.25  credit losses $-0.12  NAV/share $15.69  shares 39.9m
+  Q4 2026: NII $0.234  distribution $0.30  credit losses $-0.10  NAV/share $13.04  shares 49.2m
+  Q1 2027: NII $0.240  distribution $0.25  credit losses $-0.10  NAV/share $14.02  shares 49.2m
+  Q2 2027: NII $0.256  distribution $0.25  credit losses $-0.11  NAV/share $14.75  shares 44.5m
+  Q3 2027: NII $0.294  distribution $0.25  credit losses $-0.12  NAV/share $15.69  shares 39.9m
+  Q4 2027: NII $0.294  distribution $0.25  credit losses $-0.12  NAV/share $15.62  shares 39.9m
 
 peer line, P/NAV on NII/NAV, and how much it depends on which peers:
   without nobody (18 peers), on roe: 0.21 5.53, R-squared 0.49
@@ -36,34 +36,34 @@ NAV restated to other lenders' marks on the PIK bucket (alternative only): -33,2
 12-month target: the market will be looking at the 30 Sep 2027 NAV (10-Q out early November 2027),
 valued on Q3 2027 NII annualised, the same reported basis the peer line uses.
 CION today: 0.46x NAV against 0.67x on the line, a gap of -0.21x; share of such gaps still there a year later 0.93 (80% range 0.79 to 1.00)
-  bear: the line alone would give 0.69x on NII/NAV of 8.6%; held at the base case's 0.67x
-  bear: NAV $9.59; NII/NAV 8.6%; on the line 0.67x = $6.39; with 93% of today's gap 0.47x = $4.55
-  base: NAV $12.45; NII/NAV 8.1%; on the line 0.67x = $8.29; with 93% of today's gap 0.47x = $5.91
-  bull: the line alone would give 0.66x on NII/NAV of 7.9%; held at the base case's 0.67x
-  bull: NAV $15.75; NII/NAV 7.9%; on the line 0.67x = $10.49; with 93% of today's gap 0.47x = $7.48
-  bear at today's 0.46x NAV instead: $4.43
-  how loose the line is: 80% prediction interval for the base case 0.47x to 0.86x = $5.84 to $10.74
-  base range from the 80% range of the persistence: $5.73 to $6.27
+  bear: the line alone would give 0.67x on NII/NAV of 8.2%; held at the base case's 0.65x
+  bear: NAV $9.54; NII/NAV 8.2%; on the line 0.65x = $6.21; with 93% of today's gap 0.46x = $4.38
+  base: NAV $12.38; NII/NAV 7.7%; on the line 0.65x = $8.05; with 93% of today's gap 0.46x = $5.68
+  bull: the line alone would give 0.64x on NII/NAV of 7.5%; held at the base case's 0.65x
+  bull: NAV $15.69; NII/NAV 7.5%; on the line 0.65x = $10.20; with 93% of today's gap 0.46x = $7.20
+  bear at today's 0.46x NAV instead: $4.40
+  how loose the line is: 80% prediction interval for the base case 0.45x to 0.85x = $5.57 to $10.52
+  base range from the 80% range of the persistence: $5.51 to $6.04
   base on other choices:
-    half on the line, half on today's gap: $7.01 (my v20 draft also haircut PIK and got $6.18)
-    the line alone: $8.29
-    PIK haircut to 79% on top of the carried gap (counts the market's PIK view twice): $5.08
-    all 18 peers in the line, same persistence: $5.89
-TARGET: $5.91 (-3.0% vs $6.09); with $0.93 of distributions a 12-month total return of +12.3%
-  on price: Buy above $7.00, Sell below $5.18; on total return the base case is +12.3%, also under the +15% Buy line
+    half on the line, half on today's gap: $6.78 (my v20 draft also haircut PIK and got $6.18)
+    the line alone: $8.05
+    PIK haircut to 79% on top of the carried gap (counts the market's PIK view twice): $4.85
+    all 18 peers in the line, same persistence: $5.58
+TARGET: $5.68 (-6.7% vs $6.09); with $0.93 of distributions a 12-month total return of +8.6%
+  on price: Buy above $7.00, Sell below $5.18; on total return the base case is +8.6%, also under the +15% Buy line
 RATING: HOLD (the 15% rule, on price and on total return, no override)
 
 reconciliation: valuation.py's base writes NAV down 248,217k. Through Sep 2027 this model takes 38,061k of credit losses,
   19,848k on Longview and no restatement, 57,910k in all; the other 190,307k is
-  my bucket view, which values what's left at full rather than at a market multiple of about 0.67x
+  my bucket view, which values what's left at full rather than at a market multiple of about 0.65x
 
 estimates, base case vs Seeking Alpha consensus (two analysts):
-  Q4 2026 NII: mine $0.25, consensus $0.27
-  Q1 2027 NII: mine $0.25, consensus $0.28
-  Q2 2027 NII: mine $0.24, consensus $0.28
-  Q3 2027 NII: mine $0.25, consensus $0.29
-  Q4 2027 NII: mine $0.25, consensus $0.29
-  FY 2026 NII: mine $1.04, consensus $1.06 (about $1.04 three months ago and $1.13 one month ago)
-  FY 2027 NII: mine $0.99, consensus $1.13 (about $1.10 three months ago and $1.15 one month ago)
-  NAV 31 Dec 2027: mine $12.24 (bear $8.97, bull $15.69) vs $13.20 on 30 Sep 2026
-  distribution coverage after the sale (base): 0.95x to 1.00x
+  Q4 2026 NII: mine $0.23, consensus $0.27
+  Q1 2027 NII: mine $0.24, consensus $0.28
+  Q2 2027 NII: mine $0.22, consensus $0.28
+  Q3 2027 NII: mine $0.24, consensus $0.29
+  Q4 2027 NII: mine $0.23, consensus $0.29
+  FY 2026 NII: mine $1.02, consensus $1.06 (about $1.04 three months ago and $1.13 one month ago)
+  FY 2027 NII: mine $0.93, consensus $1.13 (about $1.10 three months ago and $1.15 one month ago)
+  NAV 31 Dec 2027: mine $12.15 (bear $8.91, bull $15.62) vs $13.20 on 30 Sep 2026
+  distribution coverage after the sale (base): 0.89x to 0.95x

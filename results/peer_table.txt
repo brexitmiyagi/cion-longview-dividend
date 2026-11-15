@@ -1,0 +1,12 @@
+peers by the rule: OFS ($49m, 0.50x), RAND ($29m, 0.55x), HRZN ($242m, 0.67x), BCSF ($718m, 0.67x), NCDL ($582m, 0.69x), CGBD ($760m, 0.71x), TCPC ($345m, 0.73x), PSBD ($296m, 0.73x)
+ticker | price/NAV | NII/distributions (9m) | PIK % of income (9m) | non-accruals at FV | asset coverage | debt/equity (approx.)
+CION | 0.46x | 0.88x | 24.6% | 1.6% | 172% | 1.39x
+OFS | 0.50x | 0.61x | 7.9% | 9.3% | 164% | 1.56x
+RAND | 0.55x | 0.73x | 11.6% | 15.3% | 1131% | 0.10x
+HRZN | 0.67x | 0.83x | 5.0% | 2.9% | 189% | 1.12x
+BCSF | 0.67x | 1.05x | 15.2% | 2.2% | 180% | 1.25x
+NCDL | 0.69x | 1.03x | 6.1% | 1.5% | 181% | 1.23x
+CGBD | 0.71x | 0.99x | 10.1% | 1.1% | 180% | 1.25x
+TCPC | 0.73x | 1.17x | 8.2% | 3.4% | 241% | 0.71x
+PSBD | 0.73x | 0.99x | 1.7% | <0.01% | 161% | 1.64x
+CION nine-month PIK income 36,307k against NII 39,364k: 92% of NII, 24.6% of total investment income
