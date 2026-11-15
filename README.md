@@ -1,6 +1,6 @@
 # cion-longview-dividend
 
-Data and code behind my Seeking Alpha piece on CION Investment Corporation (CION), "CION Investment: The 8.6% Notes Win On Risk, The Stock On Return" (November 2026).
+Data and code behind my Seeking Alpha piece on CION Investment Corporation (CION), "CION Investment: Own The 8.6% Notes, Not The 16% Yield" (November 2026).
 
 The short version. Other SEC-registered funds own the same Longview units CION does and report their marks every quarter. CION bought 812,802 units in Q2 2024 for $12.00 each and marked them at $32.31 on June 30, 2024, the day an Eaton Vance-run portfolio marked the same units at $12.25 and a Virtus Seix fund at $11.88. On June 30, 2026 CION was at $72.74 and Virtus at $40.00. I also pulled net investment income, PIK income and distributions for every BDC that tags them in its SEC filings. Of the 37 that have filed nine-month results for 2025 and 2026, CION has the least NII left once PIK is taken out, 0.07x its distribution. In Q3 2026 a West Virginia coal plant, Longview Power, paid CION a $14.2 million dividend. CION paid its own shareholders $14.8 million. Take the plant out and Q3 net investment income was about $0.7 million. AEP agreed in July to buy the plant. This repo rebuilds that, checks CION's loan marks against other lenders and against what CION realized when it exited, models NII and NAV quarter by quarter through 2027, and values the stock and the listed notes.
 
